@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    border: 0;
+}
+.heading{
+    background-color: #000000;
+    padding: 10px 20px;
+    margin : inherit;
+}
+.heading video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #c0c0c0;
+  mix-blend-mode: overlay;
+}
+.safe-routes-logo {
+    float: left;
+    position: absolute;
+    width: 80px;
+    height: 70px
+}
+.heading-text {
+    text-align: center;
+    padding: 1px 1px 1px 1px;
+    color: white;
+    font-style: normal;
+    font-size: 5em;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+.formHeading {
+    text-align: center;
+    padding: 1px 1px 1px 1px;
+    color: white;
+    font-style: oblique;
+    font-size: 1.25em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.showPathButton {
+  display: inline-flex;
+  font-size: 20px;
+  background: rgb(121, 121, 121);
+  opacity: 0.8;
+  
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  padding: 1px 1px 1px 1px;
+  margin-top: 1px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 5px;
+
+  letter-spacing: 2px;
+  filter: invert(1);
+  transform: scale(1);
+  transition: 0.5s;
+}
+.showPathButton:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 3px 11px #000000;
+    margin-left: 100px;
+
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+.formRoute {
+    background-color: #fdfdfd;
+    padding: 10px;
+}
+#src, #dst {
+    width: 100%;
+    border: 2px solid #000000;
+    padding: 10px 20px;
+}
+#map {
+    height: 600px;
+	padding: 20px 10px;
+    margin-right: 25px;
+	margin-bottom:10px;
+    margin-top: 10px;
+    margin-left: 25px;
+
+
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  margin-right: 20px;
+  margin-left: 40px;
+
+/*  border-bottom: 1px dotted black;  If you want dots under the hoverable text */
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  top: 100%;
+  left: 50%;
+  margin-left: -48%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 100;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.leaflet-bar {
+    border: 1px solid rgb(255, 255, 255) !important;
+}
+.emphasizeText {
+	animation-name: emphasizeTexts;
+	animation-duration: 1s;
+	transition-delay: 1s
+}
+@keyframes emphasizeTexts {
+	0% {
+		transform: scale(1)
+	}
+	
+	50% {
+		transform: scale(1.1);
+		transition: .5s
+	}
+	
+	100% {
+		transform: scale(1);
+		transition: .5s
+	}
+}

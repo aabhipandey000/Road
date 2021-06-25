@@ -1,0 +1,37 @@
+- We can use mapQuest for getting paths too. Its free open source js 
+
+DOCUMENTATION
+-  https://developer.mapquest.com/documentation/
+
+MY ACCOUNT AT MAPQUEST
+- https://developer.mapquest.com/user/me/apps
+
+* How to get/add my api key
+
+
+- https://developer.mapquest.com/documentation/directions-api/route-control-points/
+- https://developer.mapquest.com/documentation/common/forming-locations/
+- https://developer.mapquest.com/documentation/directions-api/route/get/
+EXAMPLE
+- https://developer.mapquest.com/documentation/leaflet-plugins/routing/
+
+- Marking locations.
+- Getting Route
+- Route Control Points
+
+____________________________________________________________
+Libraries for routing in leaflet
+- https://leafletjs.com/plugins.html#routing
+
+
+________________________________________________________
+Efficiency Perfomrance can be measured using 2 things
+ - time 
+ - danger score
+here, we can calculate the time and danger score of a normal shown path on google for the same source and destinations and then do the same activity for our program.
+
+
+____________________________________________________________________
+https://shancarter.github.io/mr-data-converter/
+https://jsonformatter.org/
+

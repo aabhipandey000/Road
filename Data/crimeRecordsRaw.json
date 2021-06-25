@@ -1,0 +1,137 @@
+[
+   {
+      "latitude": "28.611753",
+      "longitude": "77.038982",
+      "radius": "0.02",
+      "crimeTag": "attack",
+      "intensity": "1",
+      "place": "Front of clinic in NSIT because of aggressive dogs",
+      "time": "9:00:00PM"
+   },
+   {
+      "latitude": "28.60752",
+      "longitude": "77.036602",
+      "radius": "0.01",
+      "crimeTag": "theft",
+      "intensity": "1",
+      "place": "Crossway in staff quarters, NSIT",
+      "time": "12:00:00AM"
+   },
+   {
+      "latitude": "28.612876",
+      "longitude": "77.039192",
+      "radius": "0.03",
+      "crimeTag": "attack",
+      "intensity": "3",
+      "place": "Where Mayukh was attacked in NSIT",
+      "time": "1:00:00PM"
+   },
+   {
+      "latitude": "28.612072693437813",
+      "longitude": "77.0362937450409",
+      "radius": "0.1",
+      "crimeTag": "attack",
+      "intensity": "2",
+      "place": "mccain",
+      "time": "1:01:00PM"
+   },
+   {
+      "latitude": "28.613653445573668",
+      "longitude": "77.03677654266357",
+      "radius": "0.1",
+      "crimeTag": "murder",
+      "intensity": "2",
+      "place": "wkjdnwq",
+      "time": "1:03:00PM"
+   },
+   {
+      "latitude": "28.650524208715236",
+      "longitude": "77.1601152420044",
+      "radius": "5",
+      "crimeTag": "vehicleAccident",
+      "intensity": "4",
+      "place": "xyz",
+      "time": "10:35:00PM"
+   },
+   {
+      "latitude": "28.605438717488255",
+      "longitude": "77.07364082336426",
+      "radius": "0.1",
+      "crimeTag": "murder",
+      "intensity": "3",
+      "place": "pandav nagar",
+      "time": "2:41:00AM"
+   },
+   {
+      "latitude": "28.605438717488255",
+      "longitude": "77.07364082336426",
+      "radius": "0.1",
+      "crimeTag": "murder",
+      "intensity": "3",
+      "place": "pandav nagar",
+      "time": "2:41:00AM"
+   },
+   {
+      "latitude": "28.605438717488255",
+      "longitude": "77.07364082336426",
+      "radius": "0.1",
+      "crimeTag": "murder",
+      "intensity": "3",
+      "place": "pandav nagar",
+      "time": "2:41:00AM"
+   },
+   {
+      "latitude": "28.605438717488255",
+      "longitude": "77.07364082336426",
+      "radius": "0.1",
+      "crimeTag": "murder",
+      "intensity": "3",
+      "place": "pandav nagar",
+      "time": "2:41:00AM"
+   },
+   {
+      "latitude": "28.605438717488255",
+      "longitude": "77.07364082336426",
+      "radius": "0.1",
+      "crimeTag": "murder",
+      "intensity": "3",
+      "place": "pandav nagar",
+      "time": "2:41:00AM"
+   },
+   {
+      "latitude": "28.607632333010006",
+      "longitude": "77.05965042114258",
+      "radius": "0.1",
+      "crimeTag": "rape",
+      "intensity": "4",
+      "place": "pandav nagar",
+      "time": "2:49:00AM"
+   },
+   {
+      "latitude": "28.607632333010006",
+      "longitude": "77.05965042114258",
+      "radius": "0.1",
+      "crimeTag": "rape",
+      "intensity": "4",
+      "place": "pandav nagar",
+      "time": "2:49:00AM"
+   },
+   {
+      "latitude": "28.562980734782514",
+      "longitude": "77.05570220947266",
+      "radius": "0.1",
+      "crimeTag": "eveTeasing",
+      "intensity": "5",
+      "place": "mandawli",
+      "time": "2:51:00AM"
+   },
+   {
+      "latitude": "28.50047689471879",
+      "longitude": "77.02754974365234",
+      "radius": "0.1",
+      "crimeTag": "eveTeasing",
+      "intensity": "4",
+      "place": "pandav nagar",
+      "time": "2:51:00AM"
+   }
+]

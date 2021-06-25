@@ -1,0 +1,185 @@
+.showcase
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+}
+.showcase.active
+{
+  right: 300px;
+}
+
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #5a5a5a;
+  mix-blend-mode: overlay;
+}
+.text
+{
+  position: relative;
+  z-index: 5;
+}
+
+.text h2
+{
+  font-size: 5em;
+  font-weight: 800;
+  padding: 10px 10px 10px 10px;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h3
+{
+  font-size: 6em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 2em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 20px;
+  background: rgb(121, 121, 121);
+  opacity: 0.8;
+  padding: 1px 4px 4px 4px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 1000;
+  
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 50px;
+  margin-bottom: 5px;
+
+
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+.social
+{
+  position: relative;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  
+  display: inline-flex;
+  font-size: 20px;
+  background: rgb(121, 121, 121);
+  opacity: 0.8;
+  
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  padding: 1px 1px 1px 1px;
+  margin-top: 1px;
+  margin-left: 5px;
+  margin-right: 150px;
+  margin-bottom: 5px;
+
+  letter-spacing: 2px;
+  filter: invert(1);
+  transform: scale(2);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(3) translateY(-15px);
+}
+.image{
+    display: ruby-base;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.heading {
+    background-color: #3c87aa;
+    padding: 10px 20px;
+    margin : inherit;
+}
+.safe-routes-logo {
+    float: right;
+    position: top;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+.heading-text{
+    text-align: center;
+    color: #1293aa46;
+}
+.left {
+    float: right;
+}
+.clearfix {
+    float: none;
+}
+.optionsDiv {
+    width: 100%;
+    /* background-color: #6b6b1a; */
+    background-color: #1fdae03b;
+}
+.anc {
+    width: 100%;
+}
+.button {
+    transition: box-shadow .3s;
+    width: 50%;
+    margin: 100px 25%;
+    border: 2px solid rgba(23, 134, 207, 0.575);
+    background-color: #2988ad;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+.button:hover {
+    box-shadow: 0px 3px 11px #000000;
+    cursor: pointer;
+}
