@@ -103,9 +103,7 @@ app.post('/handleFormSubmit', (req, res) => {
 				if(err) throw err;
 				
 				console.log("Done writing processed data.");
-
 				return res.send("Success! Your post has been saved.");
-
 			});
 		});
 	});

@@ -1,7 +1,7 @@
 //remember last position
 var rememberLat = document.getElementById('latitude').value;
 var rememberLong = document.getElementById('longitude').value;
-if( !rememberLat || !rememberLong ) { rememberLat = 28.61220235677631; rememberLong = 77.0336651802063;}
+if( !rememberLat || !rememberLong ) { rememberLat = 28.631494357545137; rememberLong = 77.11642742156982;}
 
 //delhi coordinates
 var map = L.map('map',{

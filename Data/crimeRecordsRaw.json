@@ -54,84 +54,21 @@
       "time": "10:35:00PM"
    },
    {
-      "latitude": "28.605438717488255",
-      "longitude": "77.07364082336426",
-      "radius": "0.1",
+      "latitude": "28.63768",
+      "longitude": "77.09913",
+      "radius": "0.5",
+      "crimeTag": "kidnapping",
+      "intensity": "3",
+      "place": "xyz",
+      "time": "4:40:00PM"
+   },
+   {
+      "latitude": "28.64545870721374",
+      "longitude": "77.11569786071777",
+      "radius": "0.5",
       "crimeTag": "murder",
       "intensity": "3",
-      "place": "pandav nagar",
-      "time": "2:41:00AM"
-   },
-   {
-      "latitude": "28.605438717488255",
-      "longitude": "77.07364082336426",
-      "radius": "0.1",
-      "crimeTag": "murder",
-      "intensity": "3",
-      "place": "pandav nagar",
-      "time": "2:41:00AM"
-   },
-   {
-      "latitude": "28.605438717488255",
-      "longitude": "77.07364082336426",
-      "radius": "0.1",
-      "crimeTag": "murder",
-      "intensity": "3",
-      "place": "pandav nagar",
-      "time": "2:41:00AM"
-   },
-   {
-      "latitude": "28.605438717488255",
-      "longitude": "77.07364082336426",
-      "radius": "0.1",
-      "crimeTag": "murder",
-      "intensity": "3",
-      "place": "pandav nagar",
-      "time": "2:41:00AM"
-   },
-   {
-      "latitude": "28.605438717488255",
-      "longitude": "77.07364082336426",
-      "radius": "0.1",
-      "crimeTag": "murder",
-      "intensity": "3",
-      "place": "pandav nagar",
-      "time": "2:41:00AM"
-   },
-   {
-      "latitude": "28.607632333010006",
-      "longitude": "77.05965042114258",
-      "radius": "0.1",
-      "crimeTag": "rape",
-      "intensity": "4",
-      "place": "pandav nagar",
-      "time": "2:49:00AM"
-   },
-   {
-      "latitude": "28.607632333010006",
-      "longitude": "77.05965042114258",
-      "radius": "0.1",
-      "crimeTag": "rape",
-      "intensity": "4",
-      "place": "pandav nagar",
-      "time": "2:49:00AM"
-   },
-   {
-      "latitude": "28.562980734782514",
-      "longitude": "77.05570220947266",
-      "radius": "0.1",
-      "crimeTag": "eveTeasing",
-      "intensity": "5",
-      "place": "mandawli",
-      "time": "2:51:00AM"
-   },
-   {
-      "latitude": "28.50047689471879",
-      "longitude": "77.02754974365234",
-      "radius": "0.1",
-      "crimeTag": "eveTeasing",
-      "intensity": "4",
-      "place": "pandav nagar",
-      "time": "2:51:00AM"
+      "place": "subhash nagar metro station near",
+      "time": "2:39:00PM"
    }
 ]
