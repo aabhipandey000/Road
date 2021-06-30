@@ -80,4 +80,14 @@
       "place": "Gagan theatre",
       "time": "3:30:00PM"
    }
+   {
+      "latitude": "28.5237",
+      "longitude": "77.0837",
+      "radius": "0.25",
+      "crimeTag": "rape",
+      "intensity": "2",
+      "place": "front main gate",
+      "time": "11:39:00AM"
+   }
+   
 ]
