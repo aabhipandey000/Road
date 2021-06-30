@@ -15,15 +15,15 @@ function getData(){
 // set weights for crimes.
 function getWeights() {
     var myWeights = {
-    	"murder": 15,
+    	"abduction": 10,
     	"rape": 15,
-    	"eveTeasing":6,
-    	"theft": 5,
-    	"vehicleAccident": 4,
-    	"kidnapping": 8,
+    	"eveTeasing":9,
+    	"stalking": 9,
+    	"streetHarassment": 11,
+    	"assaultOnWomen": 11,
     	"humanTrafficking": 10,
-    	"drugTrafficking": 7,
-    	"attack": 6
+    	"drugTrafficking": 8,
+    	"acidAttack": 15
     };
 
     return myWeights;

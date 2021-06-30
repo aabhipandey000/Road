@@ -70,5 +70,14 @@
       "intensity": "3",
       "place": "subhash nagar metro station near",
       "time": "2:39:00PM"
+   },
+   {
+      "latitude": "28.6953",
+      "longitude": "77.315",
+      "radius": "0.2",
+      "crimeTag": "kidnapping",
+      "intensity": "3",
+      "place": "Gagan theatre",
+      "time": "3:30:00PM"
    }
 ]
