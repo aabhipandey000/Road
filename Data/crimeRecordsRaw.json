@@ -79,7 +79,7 @@
       "intensity": "3",
       "place": "Gagan theatre",
       "time": "3:30:00PM"
-   }
+   },
    {
       "latitude": "28.5237",
       "longitude": "77.0837",
@@ -88,6 +88,149 @@
       "intensity": "2",
       "place": "front main gate",
       "time": "11:39:00AM"
+   },
+   {
+      "latitude": "28.7015",
+      "longitude": "77.2917",
+      "radius": "0.2",
+      "crimeTag": "abduction",
+      "intensity": "2",
+      "place": "Loni road crossing",
+      "time": "8:27:00PM"
+   },
+   {
+      "latitude": "28.6985",
+      "longitude": "77.3056",
+      "radius": "0.2",
+      "crimeTag": "eveTeasing",
+      "intensity": "4",
+      "place": "DTC Nand Nagri Depot",
+      "time": "5:31:00PM"
+   },
+   {
+      "latitude": "28.5642",
+      "longitude": "77.1802",
+      "radius": "0.3",
+      "crimeTag": "stalking",
+      "intensity": "3",
+      "place": "R.K. Puram Sector 1",
+      "time": "8:34:00PM"
+   },
+   {
+      "latitude": "28.5996",
+      "longitude": "77.0732",
+      "radius": "0.3",
+      "crimeTag": "assaultOnWomen",
+      "intensity": "3",
+      "place": "Sector-1 Bypass",
+      "time": "10:36:00PM"
+   },
+   {
+      "latitude": "\t28.4374",
+      "longitude": "\t77.0347",
+      "radius": "0.2",
+      "crimeTag": "streetHarassment",
+      "intensity": "4",
+      "place": "Bus Stop",
+      "time": "12:40:00PM"
+   },
+   {
+      "latitude": "\t28.5798",
+      "longitude": "\t77.0215",
+      "radius": "0.2",
+      "crimeTag": "eveTeasing",
+      "intensity": "4",
+      "place": "Goyla Dairy",
+      "time": "5:45:00PM"
+   },
+   {
+      "latitude": "\t28.7135",
+      "longitude": "\t77.178",
+      "radius": "0.2",
+      "crimeTag": "rape",
+      "intensity": "2",
+      "place": "Kewal Park",
+      "time": "9:20:00PM"
+   },
+   {
+      "latitude": "\t28.6547",
+      "longitude": "\t77.2643",
+      "radius": "0.2",
+      "crimeTag": "stalking",
+      "intensity": "3",
+      "place": "Shamshan Ghat",
+      "time": "9:24:00AM"
+   },
+   {
+      "latitude": "\t28.5701",
+      "longitude": "\t77.1859",
+      "radius": "0.3",
+      "crimeTag": "streetHarassment",
+      "intensity": "3",
+      "place": "Hyatt Hotel",
+      "time": "9:47:00PM"
+   },
+   {
+      "latitude": "\t28.5054",
+      "longitude": "77.2778",
+      "radius": "0.3",
+      "crimeTag": "abduction",
+      "intensity": "2",
+      "place": "Okhla More",
+      "time": "9:30:00PM"
+   },
+   {
+      "latitude": "\t28.6481",
+      "longitude": "77.2534",
+      "radius": "0.2",
+      "crimeTag": "abduction",
+      "intensity": "2",
+      "place": "Ring Road",
+      "time": "12:34:00PM"
+   },
+   {
+      "latitude": "\t28.5398",
+      "longitude": "77.2788",
+      "radius": "0.2",
+      "crimeTag": "streetHarassment",
+      "intensity": "2",
+      "place": "Okhla Estate Marg",
+      "time": "5:40:00PM"
+   },
+   {
+      "latitude": "\t28.6292",
+      "longitude": "\t77.2753",
+      "radius": "0.2",
+      "crimeTag": "drugTrafficking",
+      "intensity": "2",
+      "place": "Vikas Marg",
+      "time": "9:45:00PM"
+   },
+   {
+      "latitude": "\t28.6257",
+      "longitude": "\t77.2027",
+      "radius": "0.2",
+      "crimeTag": "eveTeasing",
+      "intensity": "2",
+      "place": "\tDr. Ram Manohar Lohia Hospital",
+      "time": "3:50:00PM"
+   },
+   {
+      "latitude": "28.6728",
+      "longitude": "\t77.128",
+      "radius": "0.2",
+      "crimeTag": "stalking",
+      "intensity": "3",
+      "place": "Government school",
+      "time": "2:40:00PM"
+   },
+   {
+      "latitude": "28.6485",
+      "longitude": "77.293",
+      "radius": "0.2",
+      "crimeTag": "abduction",
+      "intensity": "2",
+      "place": "\tJagat Puri",
+      "time": "2:58:00PM"
    }
-   
 ]
