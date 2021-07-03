@@ -18,7 +18,7 @@ function getWeights() {
     	"abduction": 10,
     	"rape": 15,
     	"eveTeasing":9,
-    	"stalking": 9,
+		"stalking": 9,
     	"streetHarassment": 11,
     	"assaultOnWomen": 11,
     	"humanTrafficking": 10,
