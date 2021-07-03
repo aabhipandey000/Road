@@ -22,7 +22,7 @@ function getWeights() {
     	"streetHarassment": 11,
     	"assaultOnWomen": 11,
     	"humanTrafficking": 10,
-    	"drugTrafficking": 8,
+    	"theft": 8,
     	"acidAttack": 15
     };
 
