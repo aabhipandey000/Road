@@ -9,63 +9,171 @@
       "time": "9:00:00PM"
    },
    {
-      "latitude": "28.60752",
-      "longitude": "77.036602",
-      "radius": "0.01",
-      "crimeTag": "theft",
-      "intensity": "1",
-      "place": "Crossway in staff quarters, NSIT",
-      "time": "12:00:00AM"
-   },
-   {
-      "latitude": "28.612876",
-      "longitude": "77.039192",
-      "radius": "0.03",
-      "crimeTag": "attack",
-      "intensity": "3",
-      "place": "Where Mayukh was attacked in NSIT",
-      "time": "1:00:00PM"
-   },
-   {
-      "latitude": "28.612072693437813",
-      "longitude": "77.0362937450409",
-      "radius": "0.1",
-      "crimeTag": "attack",
+      "latitude": "28.607800045799372",
+      "longitude": "77.21984010991633",
+      "radius": "0.6",
+      "crimeTag": "rape",
       "intensity": "2",
-      "place": "mccain",
-      "time": "1:01:00PM"
+      "place": "Akbar Road ",
+      "time": "10:44:00PM"
    },
    {
-      "latitude": "28.613653445573668",
-      "longitude": "77.03677654266357",
-      "radius": "0.1",
+      "latitude": "28.55172502973663",
+      "longitude": "77.18230506739687",
+      "radius": "0.3",
       "crimeTag": "murder",
-      "intensity": "2",
-      "place": "wkjdnwq",
-      "time": "1:03:00PM"
+      "intensity": "1",
+      "place": "aruna asaf ali marg",
+      "time": "10:50:00PM"
    },
    {
-      "latitude": "28.650524208715236",
-      "longitude": "77.1601152420044",
-      "radius": "5",
+      "latitude": "28.689420043346203",
+      "longitude": "77.4063450831018",
+      "radius": "0.3",
+      "crimeTag": "eveTeasing",
+      "intensity": "2",
+      "place": "ashram chowk",
+      "time": "9:03:00AM"
+   },
+   {
+      "latitude": "28.62528505205423",
+      "longitude": "77.2404551074097",
+      "radius": "0.3",
+      "crimeTag": "vehicleAccident",
+      "intensity": "3",
+      "place": "bahadur shah zafar marg",
+      "time": "11:47:00AM"
+   },
+   {
+      "latitude": "28.630000000000052",
+      "longitude": "77.22407000000004",
+      "radius": "0.1",
+      "crimeTag": "kidnapping",
+      "intensity": "2",
+      "place": "barakhamba road",
+      "time": "11:47:00AM"
+   },
+   {
+      "latitude": "28.44751000000008",
+      "longitude": "77.02049000000005",
+      "radius": "0.1",
       "crimeTag": "vehicleAccident",
       "intensity": "4",
-      "place": "xyz",
-      "time": "10:35:00PM"
+      "place": "delhi gurgaon expressway",
+      "time": "11:56:00AM"
    },
    {
-      "latitude": "28.63768",
-      "longitude": "77.09913",
-      "radius": "0.5",
-      "crimeTag": "kidnapping",
-      "intensity": "3",
-      "place": "xyz",
-      "time": "4:40:00PM"
+      "latitude": "28.577670037549765",
+      "longitude": "77.26590005087942",
+      "radius": "0.2",
+      "crimeTag": "eveTeasing",
+      "intensity": "2",
+      "place": "dnd flyway",
+      "time": "2:02:00AM"
    },
    {
-      "latitude": "28.64545870721374",
-      "longitude": "77.11569786071777",
-      "radius": "0.5",
+      "latitude": "28.596920042111037",
+      "longitude": "77.20943506677145",
+      "radius": "0.3",
+      "crimeTag": "humanTrafficking",
+      "intensity": "2",
+      "place": "dr apj abdul kalam road",
+      "time": "11:06:00AM"
+   },
+   {
+      "latitude": "28.889720036596856",
+      "longitude": "77.22672005986178",
+      "radius": "0.3",
+      "crimeTag": "drugTrafficking",
+      "intensity": "2",
+      "place": "eastern peripheral expressway",
+      "time": "6:09:00PM"
+   },
+   {
+      "latitude": "28.62697004509483",
+      "longitude": "77.39338506823097",
+      "radius": "0.2",
+      "crimeTag": "theft",
+      "intensity": "2",
+      "place": "faridabad-noida-ghaziabad expressway",
+      "time": "4:13:00PM"
+   },
+   {
+      "latitude": "28.667780043868248",
+      "longitude": "77.2235600823646",
+      "radius": "0.4",
+      "crimeTag": "attack",
+      "intensity": "2",
+      "place": "grand trunk road",
+      "time": "2:49:00PM"
+   },
+   {
+      "latitude": "28.63766000000004",
+      "longitude": "77.13106000000005",
+      "radius": "0.2",
+      "crimeTag": "rape",
+      "intensity": "2",
+      "place": "iit flyover",
+      "time": "10:15:00AM"
+   },
+   {
+      "latitude": "28.669630034672856",
+      "longitude": "77.23211511375015",
+      "radius": "0.4",
+      "crimeTag": "theft",
+      "intensity": "1",
+      "place": "inner ring road",
+      "time": "9:01:00PM"
+   },
+   {
+      "latitude": "28.630525040733872",
+      "longitude": "77.21957008690555",
+      "radius": "0.3",
+      "crimeTag": "vehicleAccident",
+      "intensity": "2",
+      "place": "janpath road",
+      "time": "10:01:00AM"
+   },
+   {
+      "latitude": "28.587510000000066",
+      "longitude": "77.22775000000007",
+      "radius": "0.3",
+      "crimeTag": "drugTrafficking",
+      "intensity": "2",
+      "place": "lodhi road",
+      "time": "2:11:00PM"
+   },
+   {
+      "latitude": "28.597380000000044",
+      "longitude": "77.21052000000003",
+      "radius": "0.4",
+      "crimeTag": "vehicleAccident",
+      "intensity": "2",
+      "place": "lok kalyan marg",
+      "time": "12:02:00PM"
+   },
+   {
+      "latitude": "28.604870000000062",
+      "longitude": "77.24038000000007",
+      "radius": "0.1",
+      "crimeTag": "theft",
+      "intensity": "2",
+      "place": "mathura road",
+      "time": "2:15:00PM"
+   },
+   {
+      "latitude": "28.621740051834728",
+      "longitude": "77.08899508094834",
+      "radius": "0.2",
+      "crimeTag": "theft",
+      "intensity": "2",
+      "place": "outer ring road",
+      "time": "4:06:00PM"
+   },
+   {
+      "latitude": "28.603770026752613",
+      "longitude": "77.2231450943384",
+      "radius": "0.1",
       "crimeTag": "murder",
       "intensity": "3",
       "place": "subhash nagar metro station near",
@@ -79,15 +187,78 @@
       "intensity": "3",
       "place": "Gagan theatre",
       "time": "3:30:00PM"
-   }
-   {
-      "latitude": "28.5237",
-      "longitude": "77.0837",
-      "radius": "0.25",
-      "crimeTag": "rape",
-      "intensity": "2",
-      "place": "front main gate",
-      "time": "11:39:00AM"
-   }
+   },
    
+   {
+      "latitude": "28.610375050273902",
+      "longitude": "77.21560506951789",
+      "radius": "0.1",
+      "crimeTag": "eveTeasing",
+      "intensity": "1",
+      "place": "maulana azad road",
+      "time": "2:44:00PM"
+   },
+   {
+      "latitude": "28.6953",
+      "longitude": "\t77.315",
+      "radius": "0.1",
+      "crimeTag": "theft",
+      "intensity": "2",
+      "place": "\tGagan Cinema",
+      "time": "11:31:00AM"
+   },
+   {
+      "latitude": "28.7015",
+      "longitude": "77.2917\t",
+      "radius": "0.1",
+      "crimeTag": "kidnapping",
+      "intensity": "2",
+      "place": "Loni Road Crossing",
+      "time": "8:35:00AM"
+   },
+   {
+      "latitude": "28.592685043622126",
+      "longitude": "77.2125900989457",
+      "radius": "0.1",
+      "crimeTag": "kidnapping",
+      "intensity": "2",
+      "place": "tughlaq road",
+      "time": "9:16:00PM"
+   },
+   {
+      "latitude": "28.60373004507447",
+      "longitude": "77.21218508538425",
+      "radius": "0.1",
+      "crimeTag": "vehicleAccident",
+      "intensity": "1",
+      "place": "tees january marg",
+      "time": "9:34:00AM"
+   },
+   {
+      "latitude": "28.592870595485103",
+      "longitude": "77.22264289855957",
+      "radius": "0.1",
+      "crimeTag": "eveTeasing",
+      "intensity": "1",
+      "place": "Lodhi Garden",
+      "time": "8:30:00PM"
+   },
+   {
+      "latitude": "28.59626003010024",
+      "longitude": "77.19896506387693",
+      "radius": "0.2",
+      "crimeTag": "drugTrafficking",
+      "intensity": "1",
+      "place": "mustafa kemal ataturk marg",
+      "time": "7:29:00PM"
+   },
+   {
+      "latitude": "28.59147002389257",
+      "longitude": "77.2096301136583",
+      "radius": "0.1",
+      "crimeTag": "humanTrafficking",
+      "intensity": "1",
+      "place": "safdarjung road",
+      "time": "9:23:00PM"
+   }
 ]
