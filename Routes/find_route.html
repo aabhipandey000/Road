@@ -222,6 +222,8 @@ map.on('click', function (e) {
 				.openOn(map);
 			popupOpen = true;
 		}
+		
+		
 		else
 		{
 			map.closePopup();
@@ -300,18 +302,34 @@ function showCrimeZones()
 	for (var i = 0, len = controlPointsData.length; i < len; i++) 
 	{
 		var x = controlPointsData[i];
+		console.log(x+" waheguru");
 
 		//check if current point is in path
 		if(distanceBetweenPoints(midPoint.lat,midPoint.lng,x.lat,x.lng) < pathRadius)
 		{
-			//console.log(x);
+			//console.log(x +"Hellobaji");
 			//convert radius from mile to metres and draw the circle
-			circleOnCrimeZones = L.circle([x.lat, x.lng], (x.radius * 1609.34) ,{
-							color: 'red',
+			circleOnCrimeZones = L.circle([x.lat, x.lng], (x.radius * 1609.34),
+						{
+							color: 'blue',
 							weight: 1,
 							fill: true,
-							fillOpacity: 0.4
-						}).addTo(map);
+							fillOpacity: 0.4,
+							
+							
+						}
+						 ).addTo(map).on("click", circleClick);
+						// more L.circle's...
+
+						function circleClick(e) {
+    					var clickedCircle = e.target;
+
+  						// do something, like:
+
+  						clickedCircle.bindPopup("lang :" + e.latlng).openPopup();
+						  console.log(clickedCircle + "Apne ko milega");
+					}
+						
 		}
 	}
 }
