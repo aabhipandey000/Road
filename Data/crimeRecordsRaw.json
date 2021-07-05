@@ -349,5 +349,257 @@
       "intensity": "2",
       "place": "\tJagat Puri",
       "time": "2:58:00PM"
+   },
+   {
+      "latitude": "28.646240203889143",
+      "longitude": "28.659896850585938",
+      "radius": "0.2",
+      "crimeTag": "stalking",
+      "intensity": "4",
+      "place": "Rajghat",
+      "time": "4:58:00PM"
+   },
+   {
+      "latitude": "28.6443",
+      "longitude": "77.2162",
+      "radius": "0.2",
+      "crimeTag": "humanTrafficking",
+      "intensity": "4",
+      "place": "Desh Bandhu Gupta Road",
+      "time": "10:58:00PM"
+   },
+   {
+      "latitude": "28.6148",
+      "longitude": "77.0824",
+      "radius": "0.2",
+      "crimeTag": "eveTeasing",
+      "intensity": "3",
+      "place": "Motor Driving Training School\t",
+      "time": "7:58:00PM"
+   },
+   {
+      "latitude": "28.7128",
+      "longitude": "77.1708",
+      "radius": "0.2",
+      "crimeTag": "streetHarassment",
+      "intensity": "3",
+      "place": "Azadpur Mandi",
+      "time": "7:58:00PM"
+   },
+   {
+      "latitude": "28.6646",
+      "longitude": "77.2149",
+      "radius": "0.2",
+      "crimeTag": "humanTrafficking",
+      "intensity": "3",
+      "place": "Tis Hazari",
+      "time": "9:58:00PM"
+   },
+   {
+      "latitude": "28.7225",
+      "longitude": "77.1447",
+      "radius": "0.2",
+      "crimeTag": "eveTeasing",
+      "intensity": "4",
+      "place": "Haiderpur",
+      "time": "9:58:00PM"
+   },
+   {
+      "latitude": "28.5125",
+      "longitude": "77.111",
+      "radius": "0.2",
+      "crimeTag": "abduction",
+      "intensity": "5",
+      "place": "Rajokri",
+      "time": "9:58:00PM"
+   },
+   {
+      "latitude": "28.7604",
+      "longitude": "77.1491\t",
+      "radius": "0.2",
+      "crimeTag": "assaultOnWomen",
+      "intensity": "3",
+      "place": "Swaroop Nagar",
+      "time": "1:58:00PM"
+   },
+   {
+      "latitude": "28.6962",
+      "longitude": "77.2577\t",
+      "radius": "0.2",
+      "crimeTag": "eveTeasing",
+      "intensity": "4",
+      "place": "5th Pustha Road\t",
+      "time": "1:58:00PM"
+   },
+   {
+      "latitude": "28.5014",
+      "longitude": "77.2903",
+      "radius": "0.2",
+      "crimeTag": "rape",
+      "intensity": "5",
+      "place": "Suraj Kund Crossing",
+      "time": "6:58:00PM"
+   },
+   {
+      "latitude": "28.7014",
+      "longitude": "77.2871",
+      "radius": "0.2",
+      "crimeTag": "streetHarassment",
+      "intensity": "4",
+      "place": "Wazirabad Road",
+      "time": "6:58:00PM"
+   },
+   {
+      "latitude": "28.564",
+      "longitude": "77.2342",
+      "radius": "0.2",
+      "crimeTag": "humanTrafficking",
+      "intensity": "3",
+      "place": "Moolchand",
+      "time": "9:58:00PM"
+   },
+   {
+      "latitude": "28.6459",
+      "longitude": "77.3147",
+      "radius": "0.2",
+      "crimeTag": "stalking",
+      "intensity": "4",
+      "place": "Anand Vihar ISBT Terminal",
+      "time": "10:58:00PM"
+   },
+   {
+      "latitude": "28.664",
+      "longitude": "77.2712",
+      "radius": "0.2",
+      "crimeTag": "rape",
+      "intensity": "5",
+      "place": "Seelampur",
+      "time": "10:58:00PM"
+   },
+   {
+      "latitude": "28.7218",
+      "longitude": "77.2169",
+      "radius": "0.2",
+      "crimeTag": "drugTrafficking",
+      "intensity": "3",
+      "place": "Outer Ring Road",
+      "time": "10:58:00PM"
+   },
+   {
+      "latitude": "28.7421",
+      "longitude": "77.1032",
+      "radius": "0.2",
+      "crimeTag": "drugTrafficking",
+      "intensity": "4",
+      "place": "Shahbad Dairy",
+      "time": "12:58:00AM"
+   },
+   {
+      "latitude": "28.7122",
+      "longitude": "77.2572",
+      "radius": "0.2",
+      "crimeTag": "eveTeasing",
+      "intensity": "3",
+      "place": "Pushta Road",
+      "time": "12:58:00AM"
+   },
+   {
+      "latitude": "28.49",
+      "longitude": "77.3046",
+      "radius": "0.2",
+      "crimeTag": "abduction",
+      "intensity": "4",
+      "place": "Badarpur Toll Booth",
+      "time": "6:58:00AM"
+   },
+   {
+      "latitude": "28.6346",
+      "longitude": "77.3154",
+      "radius": "0.2",
+      "crimeTag": "stalking",
+      "intensity": "4",
+      "place": "Bharat Petroleum",
+      "time": "6:58:00AM"
+   },
+   {
+      "latitude": "28.6128",
+      "longitude": "77.2346",
+      "radius": "0.2",
+      "crimeTag": "assaultOnWomen",
+      "intensity": "4",
+      "place": "C - Hexagon",
+      "time": "6:58:00AM"
+   },
+   {
+      "latitude": "28.6071",
+      "longitude": "77.1147",
+      "radius": "0.2",
+      "crimeTag": "eveTeasing",
+      "intensity": "4",
+      "place": "\tNangal Village",
+      "time": "3:58:00PM"
+   },
+   {
+      "latitude": "28.5605",
+      "longitude": "77.1699",
+      "radius": "0.2",
+      "crimeTag": "rape",
+      "intensity": "4",
+      "place": "Palam Flyover",
+      "time": "3:58:00PM"
+   },
+   {
+      "latitude": "28.54",
+      "longitude": "77.2826",
+      "radius": "0.2",
+      "crimeTag": "stalking",
+      "intensity": "4",
+      "place": "Apollo Hospital",
+      "time": "5:58:00PM"
+   },
+   {
+      "latitude": "28.6176",
+      "longitude": "77.2405",
+      "radius": "0.2",
+      "crimeTag": "abduction",
+      "intensity": "4",
+      "place": "Pragati Maidan Gate Number 5",
+      "time": "5:58:00PM"
+   },
+   {
+      "latitude": "28.585",
+      "longitude": "77.1262",
+      "radius": "0.2",
+      "crimeTag": "abduction",
+      "intensity": "4",
+      "place": "Thimayya Marg",
+      "time": "9:58:00PM"
+   },
+   {
+      "latitude": "28.6717",
+      "longitude": "77.2777",
+      "radius": "0.2",
+      "crimeTag": "assaultOnWomen",
+      "intensity": "4",
+      "place": "Welcome",
+      "time": "9:58:00PM"
+   },
+   {
+      "latitude": "28.6919",
+      "longitude": "77.1534",
+      "radius": "0.2",
+      "crimeTag": "eveTeasing",
+      "intensity": "4",
+      "place": "Wazirpur Depot",
+      "time": "9:58:00PM"
+   },
+   {
+      "latitude": "28.6024",
+      "longitude": "77.0705",
+      "radius": "0.2",
+      "crimeTag": "humanTrafficking",
+      "intensity": "4",
+      "place": "Power House Dwarka",
+      "time": "9:58:00PM"
    }
 ]
