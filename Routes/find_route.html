@@ -11,7 +11,7 @@
         <!--  =leaflet libraries -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
-        
+        <script src="scripts/leaflet.label.js"></script>
         <!--  mapquest libraries -->
         <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=CWJAfJI3g4A97a1iL829ttj4PqwPPbws"></script>
         <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-routing.js?key=CWJAfJI3g4A97a1iL829ttj4PqwPPbws"></script>
@@ -298,6 +298,7 @@ function showCrimeZones()
 	//half dustance of the route
 	const pathRadius = distanceBetweenPoints(src.lat,src.lng,dst.lat,dst.lng)/2 + 2;
 	//console.log("path raidus ",pathRadius);
+	
 
 	for (var i = 0, len = controlPointsData.length; i < len; i++) 
 	{
@@ -307,29 +308,83 @@ function showCrimeZones()
 		//check if current point is in path
 		if(distanceBetweenPoints(midPoint.lat,midPoint.lng,x.lat,x.lng) < pathRadius)
 		{
-			//console.log(x +"Hellobaji");
-			//convert radius from mile to metres and draw the circle
-			circleOnCrimeZones = L.circle([x.lat, x.lng], (x.radius * 1609.34),
-						{
-							color: 'blue',
-							weight: 1,
-							fill: true,
-							fillOpacity: 0.4,
-							
-							
-						}
-						 ).addTo(map).on("click", circleClick);
-						// more L.circle's...
+			const generatePulsatingMarker = function (radius, color,labelText) {
+  			const cssStyle = `
+			  
+    		width: ${radius}px;
+    		height: ${radius}px;
+    		box-shadow: 0 0 0 ${color};
+  `
+  			return L.divIcon({
+    			html: `<span style="${cssStyle}" class="pulse"/>`,
+				text : labelText,
+      			className: 'text-below-marker',
+    			
+  			})
+}
 
-						function circleClick(e) {
-    					var clickedCircle = e.target;
+		function createLabel(layer, text)
+		{
+ 			removeLabel(layer);
+    		var icon = createStaticLabelIcon(text);
+ 		 	var testspan = document.createElement("span");
+  			document.body.appendChild(testspan); 
 
-  						// do something, like:
+  			testspan.className = "textwidth";
+  			testspan.style.fontSize = "10px";
+  			testspan.innerHTML = text;
+  			var width = testspan.clientWidth +11;
+  			icon.options.iconAnchor = [width  / 2, -4]; //That the label is centered
 
-  						clickedCircle.bindPopup("lang :" + e.latlng).openPopup();
-						  console.log(clickedCircle + "Apne ko milega");
-					}
-						
+ 			 var label = L.marker(layer.getLatLng(),{icon: icon}).addTo(map);
+  			layer.appendedLabel = label;
+
+  			document.body.removeChild(testspan); 
+		}
+		function removeLabel(layer)
+		{
+ 		if(layer.appendedLabel)
+		{
+        map.removeLayer(layer.appendedLabel); //Remove label that connected with marker, else the label will not removed
+  		}
+		}
+		function createStaticLabelIcon(labelText) 
+		{
+    		return L.divIcon({
+        	className: "leaflet-marker-label",
+        	html: '<span class="leaflet-marker-iconlabel" style="background: #fff; color: #000;";>'+labelText+'</span>',
+        	text : labelText,
+    	});
+}
+//(x.radius * 1609.34)
+			
+			const pulsatingIcon = generatePulsatingMarker((x.radius * 250 ), 'red');
+			
+			circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
+			
+			var coords = L.latLng(0, 0);
+			var marker = L.marker(coords).addTo(map);
+
+			var textMarker = L.marker(coords, {
+  			icon: L.divIcon({
+      		html: 'lala land',
+      		className: 'text-below-marker',
+    		})
+			}).addTo(map);
+			function onMapClick(e) 
+			{
+				createLabel(marker,"Test Text");
+				console.log(createLabel)
+    			var lt = String(e.latlng.lat),
+  				lg = String(e.latlng.lng);
+  				var popup = L.popup()
+    			.setLatLng(e.latlng)
+    			.setContent(lt + " " + lg)
+    			.openOn(map);
+    // 'click' the new marker to show the ID when marker created
+			}
+
+			
 		}
 	}
 }
@@ -338,7 +393,7 @@ function showCrimeZones()
 function routeIt() {
 	//find narrative for route on success
 	dir = MQ.routing.directions()
-		.on('success', function(data) {
+			.on('success', function(data) {
 			console.log("reached directions");
 			var legs = data.route.legs,
 				html = '',
