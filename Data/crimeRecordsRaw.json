@@ -117,6 +117,7 @@
       "time": "10:15:00AM"
    },
    {
+<<<<<<< Updated upstream
       "latitude": "28.669630034672856",
       "longitude": "77.23211511375015",
       "radius": "0.4",
@@ -169,6 +170,15 @@
       "intensity": "2",
       "place": "outer ring road",
       "time": "4:06:00PM"
+=======
+      "latitude": "28.63768",
+      "longitude": "77.09913",
+      "radius": "0.5",
+      "crimeTag": "kidnapping",
+      "intensity": "3",
+      "place": "xyz",
+      "time": "4:40:00PM"
+>>>>>>> Stashed changes
    },
    {
       "latitude": "28.603770026752613",
@@ -207,6 +217,7 @@
       "time": "11:39:00AM"
    },
    {
+<<<<<<< Updated upstream
       "latitude": "28.7015",
       "longitude": "77.2917",
       "radius": "0.2",
@@ -601,5 +612,230 @@
       "intensity": "4",
       "place": "Power House Dwarka",
       "time": "9:58:00PM"
+=======
+      "latitude": "28.60186505066317",
+      "longitude": "77.1939600618528",
+      "radius": "0.1",
+      "crimeTag": "stalking",
+      "intensity": "4",
+      "place": "major district road",
+      "time": "10:15:00AM"
+   },
+   {
+      "latitude": "25.645980000000066",
+      "longitude": "83.55977000000007",
+      "radius": "0.2",
+      "crimeTag": "stalking",
+      "intensity": "4",
+      "place": "major district road",
+      "time": "4:20:00PM"
+   },
+   {
+      "latitude": "28.634880000000067",
+      "longitude": "77.21915000000007",
+      "radius": "0.15",
+      "crimeTag": "abduction",
+      "intensity": "2",
+      "place": "H-block",
+      "time": "8:30:00PM"
+   },
+   {
+      "latitude": "28.634880000000067",
+      "longitude": "77.21915000000007",
+      "radius": "0.15",
+      "crimeTag": "abduction",
+      "intensity": "2",
+      "place": "H-block",
+      "time": "8:30:00PM"
+   },
+   {
+      "latitude": "28.600455046911",
+      "longitude": "77.20449506640645",
+      "radius": "0.2",
+      "crimeTag": "stalking",
+      "intensity": "1",
+      "place": "delhi gymkhana",
+      "time": "5:20:00PM"
+   },
+   {
+      "latitude": "28.600455046911",
+      "longitude": "77.20449506640645",
+      "radius": "0.2",
+      "crimeTag": "stalking",
+      "intensity": "1",
+      "place": "delhi gymkhana",
+      "time": "5:20:00PM"
+   },
+   {
+      "latitude": "28.591320000000053",
+      "longitude": "77.19593000000003",
+      "radius": "0.25",
+      "crimeTag": "assaultOnWomen",
+      "intensity": "4",
+      "place": "sports complex front gate",
+      "time": "5:20:00PM"
+   },
+   {
+      "latitude": "28.66398004519938",
+      "longitude": "77.21697509159193",
+      "radius": "0.25",
+      "crimeTag": "streetHarassment",
+      "intensity": "4",
+      "place": "civil lines",
+      "time": "11:00:00PM"
+   },
+   {
+      "latitude": "28.64262000000008",
+      "longitude": "77.36730000000006",
+      "radius": "0.3",
+      "crimeTag": "streetHarassment",
+      "intensity": "3",
+      "place": "jayanti park",
+      "time": "8:30:00PM"
+   },
+   {
+      "latitude": "28.641590033025288",
+      "longitude": "77.10765005420316",
+      "radius": "0.25",
+      "crimeTag": "drugTrafficking",
+      "intensity": "3",
+      "place": "shivaji marg",
+      "time": "8:45:00PM"
+   },
+   {
+      "latitude": "28.701720000000023",
+      "longitude": "77.16694000000007",
+      "radius": "0.25",
+      "crimeTag": "acidAttack",
+      "intensity": "3",
+      "place": "industrial area",
+      "time": "11:15:00PM"
+   },
+   {
+      "latitude": "28.654040050997416",
+      "longitude": "77.08873511622136",
+      "radius": "0.25",
+      "crimeTag": "assaultOnWomen",
+      "intensity": "4",
+      "place": "west ",
+      "time": "7:15:00PM"
+   },
+   {
+      "latitude": "28.652881660759693",
+      "longitude": "77.08917617797852",
+      "radius": "0.3",
+      "crimeTag": "eveTeasing",
+      "intensity": "4",
+      "place": "outer ring road",
+      "time": "8:15:00PM"
+   },
+   {
+      "latitude": "28.653000377847864",
+      "longitude": "77.08792090415955",
+      "radius": "0.25",
+      "crimeTag": "streetHarassment",
+      "intensity": "3",
+      "place": "outer ring road",
+      "time": "9:10:00PM"
+   },
+   {
+      "latitude": "28.640967342351708",
+      "longitude": "77.17706680297852",
+      "radius": "0.1",
+      "crimeTag": "humanTrafficking",
+      "intensity": "2",
+      "place": "major district road",
+      "time": "12:00:00PM"
+   },
+   {
+      "latitude": "28.596620053796386",
+      "longitude": "77.16473010236615",
+      "radius": "0.1",
+      "crimeTag": "eveTeasing",
+      "intensity": "3",
+      "place": "dhaula kuan",
+      "time": "5:20:00PM"
+   },
+   {
+      "latitude": "28.554897539548946",
+      "longitude": "77.21880197525024",
+      "radius": "0.1",
+      "crimeTag": "stalking",
+      "intensity": "3",
+      "place": "front gate",
+      "time": "3:30:00PM"
+   },
+   {
+      "latitude": "28.615766938183636",
+      "longitude": "77.20961272716522",
+      "radius": "0.15",
+      "crimeTag": "streetHarassment",
+      "intensity": "2",
+      "place": "round about",
+      "time": "8:35:00PM"
+   },
+   {
+      "latitude": "28.605830138708903",
+      "longitude": "77.10896015167235",
+      "radius": "0.3",
+      "crimeTag": "abduction",
+      "intensity": "3",
+      "place": "NANGAL RAYA",
+      "time": "10:41:00PM"
+   },
+   {
+      "latitude": "28.641885034107553",
+      "longitude": "77.1749250950175",
+      "radius": "0.25",
+      "crimeTag": "theft",
+      "intensity": "4",
+      "place": "round about",
+      "time": "7:39:00PM"
+   },
+   {
+      "latitude": "28.581870041592914",
+      "longitude": "77.18284507150895",
+      "radius": "0.27",
+      "crimeTag": "theft",
+      "intensity": "4",
+      "place": "Market area",
+      "time": "8:45:00PM"
+   },
+   {
+      "latitude": "28.541155030737237",
+      "longitude": "77.2321600826607",
+      "radius": "0.27",
+      "crimeTag": "acidAttack",
+      "intensity": "2",
+      "place": "inner ring road",
+      "time": "11:55:00PM"
+   },
+   {
+      "latitude": "28.58868577305681",
+      "longitude": "77.24005579948425",
+      "radius": "0.3",
+      "crimeTag": "streetHarassment",
+      "intensity": "4",
+      "place": "major district road",
+      "time": "10:31:00PM"
+   },
+   {
+      "latitude": "28.551050035073914",
+      "longitude": "77.18301006927294",
+      "radius": "0.05",
+      "crimeTag": "theft",
+      "intensity": "2",
+      "place": "institutional area",
+      "time": "6:54:00PM"
+   },
+   {
+      "latitude": "28.511455035075294",
+      "longitude": "77.183055080093",
+      "radius": "0.1",
+      "crimeTag": "stalking",
+      "intensity": "3",
+      "place": "near picnic hut ground",
+      "time": "10:05:00PM"
+>>>>>>> Stashed changes
    }
 ]
