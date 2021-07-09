@@ -12,6 +12,18 @@ function getData(){
 		});
 }
 
+// function getDataRaw(){
+// 	//url of json data file 
+// 	const url = 'crimeRecordsRaw.json';
+	
+// 	//make an api call to the file (get request) using fetch
+// 	return fetch(url)
+// 		.then((resp) => resp.json()) // Transform the data into json
+// 		.then(function(data) {
+// 			return data;
+// 		});
+// }
+
 // set weights for crimes.
 function getWeights() {
     var myWeights = {
@@ -95,9 +107,11 @@ module.exports = {
 				"lat": data.latitude,
 				"lng": data.longitude,
 				"weight": calculateWeight(data.crimeTag, data.intensity, data.time),
-				"radius": (data.radius) * 0.621371  // Mutilplying 0.621371 for miles
+				"radius": (data.radius) * 0.621371,  // Mutilplying 0.621371 for miles
+				"crimeTag": data.crimeTag,
+				"intensity": data.intensity 
 			}
-		return controlPoint;
+		return controlPoint; 
 	}
 };
 
