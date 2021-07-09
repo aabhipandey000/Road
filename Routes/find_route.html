@@ -60,7 +60,7 @@
 					</div>
 					
                     <input type="button" class="showPathButton" value="Show safest route" onclick="routeIt();"/>
-					<div id='map'></div>
+					<div class='custom-popup' id='map'></div>
 					<div id='route-narrative'></div>
 				</form>
             </div>
@@ -303,12 +303,19 @@ function showCrimeZones()
 	for (var i = 0, len = controlPointsData.length; i < len; i++) 
 	{
 		var x = controlPointsData[i];
+		var w = controlPointsData[i].weight;
 		console.log(x+" waheguru");
 
 		//check if current point is in path
 		if(distanceBetweenPoints(midPoint.lat,midPoint.lng,x.lat,x.lng) < pathRadius)
 		{
-			const generatePulsatingMarker = function (radius, color,labelText) 
+			
+			
+		
+//(x.radius * 1609.34)
+			if(w<0)
+			{
+				const generatePulsatingMarker = function (radius, color,labelText) 
 			{
   			const cssStyle = `
 			  
@@ -324,31 +331,68 @@ function showCrimeZones()
     			
   				})
 			}
-			
-		
-//(x.radius * 1609.34)
-			
-			const pulsatingIcon = generatePulsatingMarker((x.radius * 250 ), 'red');
-			
-			circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
-			
-			
-			function onMapClick(e) 
-			{
-
-			for (var i = 0, len = controlPointsData.length; i < len; i++) 
-			{
-				var x = controlPointsData[i];
-				console.log(x+" waheguru");
-				if(String(x.lat) == e.latlng.lat)
+				const pulsatingIcon = generatePulsatingMarker((x.radius * 250 ), 'red');
+				circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
+				function onMapClick(e) 
 				{
-					var currentradius = x.radius;
-				}
+
+				for (var i = 0, len = controlPointsData.length; i < len; i++) 
+				{
+					var x = controlPointsData[i];
+					console.log(x+" waheguru");
+					if(String(x.lat) == e.latlng.lat)
+					{
+						var currentradius = x.radius;
+					}
 		//check if current point is in path
 		
+				}
+    			var lt = String(e.latlng.lat),
+  				lg = String(e.latlng.lng);
+  				
+				L.CustomPopup = L.Popup.extend({
+  // You changes here
+				})
+    			.setLatLng(e.latlng)
+    			.setContent(lt + " " + lg + "Radius" + currentradius)
+    			.openOn(map);
+    // 'click' the new marker to show the ID when marker created
+				}
 			}
-				
-				
+			else
+			{
+				const generatePulsatingMarker = function (radius, color,labelText) 
+			{
+  			const cssStyle = `
+			  
+    		width: ${radius}px;
+    		height: ${radius}px;
+    		box-shadow: 0 0 0 ${color};
+  `
+  			return L.divIcon(
+				  {
+    			html: `<span style="${cssStyle}" class="pulse_2"/>`,
+				text : labelText,
+      			
+    			
+  				})
+			}
+				const pulsatingIcon = generatePulsatingMarker((x.radius * 250 ), 'blue');
+				circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
+				function onMapClick(e) 
+				{
+
+				for (var i = 0, len = controlPointsData.length; i < len; i++) 
+				{
+					var x = controlPointsData[i];
+					console.log(x+" waheguru");
+					if(String(x.lat) == e.latlng.lat)
+					{
+						var currentradius = x.radius;
+					}
+		//check if current point is in path
+		
+				}
     			var lt = String(e.latlng.lat),
   				lg = String(e.latlng.lng);
   				var popup = L.popup()
@@ -356,7 +400,9 @@ function showCrimeZones()
     			.setContent(lt + " " + lg + "Radius" + currentradius)
     			.openOn(map);
     // 'click' the new marker to show the ID when marker created
+				}
 			}
+			
 
 			
 		}
