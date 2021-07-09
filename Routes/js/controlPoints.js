@@ -35,7 +35,14 @@ function getWeights() {
     	"assaultOnWomen": 11,
     	"humanTrafficking": 10,
     	"theft": 8,
-    	"acidAttack": 15
+    	"acidAttack": 15,
+		"hospital":10,
+		"metro":15,
+		"wellLit":15,
+		"shop":15,
+		"Dispensary":15,
+		"WellPopulated":15
+
     };
 
     return myWeights;

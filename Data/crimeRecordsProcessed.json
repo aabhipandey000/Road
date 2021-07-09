@@ -1,569 +1,1453 @@
 [
-   {
-      "lat": "28.611753",
-      "lng": "77.038982",
-      "weight": 6,
-      "radius": 0.01242742
-   },
-   {
-      "lat": "28.607800045799372",
-      "lng": "77.21984010991633",
-      "weight": 21.599999999999998,
-      "radius": 0.3728226
-   },
-   {
-      "lat": "28.55172502973663",
-      "lng": "77.18230506739687",
-      "weight": 18,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "28.689420043346203",
-      "lng": "77.4063450831018",
-      "weight": 7.199999999999999,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "28.62528505205423",
-      "lng": "77.2404551074097",
-      "weight": 6,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "28.630000000000052",
-      "lng": "77.22407000000004",
-      "weight": 9.6,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.44751000000008",
-      "lng": "77.02049000000005",
-      "weight": 7.2,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.577670037549765",
-      "lng": "77.26590005087942",
-      "weight": 7.199999999999999,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.596920042111037",
-      "lng": "77.20943506677145",
-      "weight": 12,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "28.889720036596856",
-      "lng": "77.22672005986178",
-      "weight": 8.4,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "28.62697004509483",
-      "lng": "77.39338506823097",
-      "weight": 6,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.667780043868248",
-      "lng": "77.2235600823646",
-      "weight": 7.199999999999999,
-      "radius": 0.2485484
-   },
-   {
-      "lat": "28.63766000000004",
-      "lng": "77.13106000000005",
-      "weight": 18,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.669630034672856",
-      "lng": "77.23211511375015",
-      "weight": 6,
-      "radius": 0.2485484
-   },
-   {
-      "lat": "28.630525040733872",
-      "lng": "77.21957008690555",
-      "weight": 4.8,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "28.587510000000066",
-      "lng": "77.22775000000007",
-      "weight": 8.4,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "28.597380000000044",
-      "lng": "77.21052000000003",
-      "weight": 5.76,
-      "radius": 0.2485484
-   },
-   {
-      "lat": "28.604870000000062",
-      "lng": "77.24038000000007",
-      "weight": 6,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.64545870721374",
-      "lng": "77.11569786071777",
-      "weight": 27,
-      "radius": 0.3106855
-   },
-   {
-      "lat": "28.6953",
-      "lng": "77.315",
-      "weight": 12,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.621740051834728",
-      "lng": "77.08899508094834",
-      "weight": 6,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.603770026752613",
-      "lng": "77.2231450943384",
-      "weight": 15,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.610375050273902",
-      "lng": "77.21560506951789",
-      "weight": 6,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.6953",
-      "lng": "\t77.315",
-      "weight": 6,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.7015",
-      "lng": "77.2917\t",
-      "weight": 9.6,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.592685043622126",
-      "lng": "77.2125900989457",
-      "weight": 11.52,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.60373004507447",
-      "lng": "77.21218508538425",
-      "weight": 4,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.592870595485103",
-      "lng": "77.22264289855957",
-      "weight": 7.199999999999999,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.59626003010024",
-      "lng": "77.19896506387693",
-      "weight": 7,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.59147002389257",
-      "lng": "77.2096301136583",
-      "weight": 12,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.7015",
-      "lng": "77.2917",
-      "weight": 14.399999999999999,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6985",
-      "lng": "77.3056",
-      "weight": 16.2,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.5642",
-      "lng": "77.1802",
-      "weight": 16.2,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "28.5996",
-      "lng": "\t77.0732",
-      "weight": 19.8,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "\t28.4374",
-      "lng": "\t77.0347",
-      "weight": 19.8,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "\t28.5798",
-      "lng": "\t77.0215",
-      "weight": 16.2,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "\t28.7135",
-      "lng": "\t77.178",
-      "weight": 21.599999999999998,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "\t28.6547",
-      "lng": "\t77.2643",
-      "weight": 13.5,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "\t28.5701",
-      "lng": "\t77.1859",
-      "weight": 19.8,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "\t28.5054",
-      "lng": "77.2778",
-      "weight": 14.399999999999999,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "\t28.6481",
-      "lng": "77.2534",
-      "weight": 14.399999999999999,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "\t28.5398",
-      "lng": "77.2788",
-      "weight": 13.2,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "\t28.6292",
-      "lng": "\t77.2753",
-      "weight": 11.52,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "\t28.6257",
-      "lng": "\t77.2027",
-      "weight": 10.799999999999999,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6728",
-      "lng": "\t77.128",
-      "weight": 13.5,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6485",
-      "lng": "77.293",
-      "weight": 12,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.646240203889143",
-      "lng": "28.659896850585938",
-      "weight": 16.2,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6443",
-      "lng": "77.2162",
-      "weight": 21.599999999999998,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6148",
-      "lng": "77.0824",
-      "weight": 16.2,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.7128",
-      "lng": "77.1708",
-      "weight": 19.8,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6646",
-      "lng": "77.2149",
-      "weight": 18,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.7225",
-      "lng": "77.1447",
-      "weight": 19.439999999999998,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.5125",
-      "lng": "77.111",
-      "weight": 24,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.7604",
-      "lng": "77.1491\t",
-      "weight": 16.5,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6962",
-      "lng": "77.2577\t",
-      "weight": 16.2,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.5014",
-      "lng": "77.2903",
-      "weight": 30,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.7014",
-      "lng": "77.2871",
-      "weight": 19.8,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.564",
-      "lng": "77.2342",
-      "weight": 18,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6459",
-      "lng": "77.3147",
-      "weight": 19.439999999999998,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.664",
-      "lng": "77.2712",
-      "weight": 36,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.7218",
-      "lng": "77.2169",
-      "weight": 14.399999999999999,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.7421",
-      "lng": "77.1032",
-      "weight": 14.4,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.7122",
-      "lng": "77.2572",
-      "weight": 13.5,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.49",
-      "lng": "77.3046",
-      "weight": 18,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6346",
-      "lng": "77.3154",
-      "weight": 16.2,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6128",
-      "lng": "77.2346",
-      "weight": 19.8,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6071",
-      "lng": "77.1147",
-      "weight": 16.2,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.5605",
-      "lng": "77.1699",
-      "weight": 27,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.54",
-      "lng": "77.2826",
-      "weight": 16.2,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6176",
-      "lng": "77.2405",
-      "weight": 18,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.585",
-      "lng": "77.1262",
-      "weight": 21.599999999999998,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6717",
-      "lng": "77.2777",
-      "weight": 23.76,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6919",
-      "lng": "77.1534",
-      "weight": 9.439999999999998,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.6024",
-      "lng": "77.0705",
-      "weight": 10,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.689552372729946",
-      "lng": "77.15492248535156",
-      "weight": 10,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.60186505066317",
-      "lng": "77.1939600618528",
-      "weight": 16.2,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "25.645980000000066",
-      "lng": "83.55977000000007",
-      "weight": 19.439999999999998,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.634880000000067",
-      "lng": "77.21915000000007",
-      "weight": 12,
-      "radius": 0.09320565
-   },
-   {
-      "lat": "28.634880000000067",
-      "lng": "77.21915000000007",
-      "weight": 12,
-      "radius": 0.09320565
-   },
-   {
-      "lat": "28.600455046911",
-      "lng": "77.20449506640645",
-      "weight": 10.799999999999999,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.600455046911",
-      "lng": "77.20449506640645",
-      "weight": 10.799999999999999,
-      "radius": 0.1242742
-   },
-   {
-      "lat": "28.591320000000053",
-      "lng": "77.19593000000003",
-      "weight": 23.76,
-      "radius": 0.15534275
-   },
-   {
-      "lat": "28.66398004519938",
-      "lng": "77.21697509159193",
-      "weight": 19.8,
-      "radius": 0.15534275
-   },
-   {
-      "lat": "28.64262000000008",
-      "lng": "77.36730000000006",
-      "weight": 16.5,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "28.641590033025288",
-      "lng": "77.10765005420316",
-      "weight": 12,
-      "radius": 0.15534275
-   },
-   {
-      "lat": "28.701720000000023",
-      "lng": "77.16694000000007",
-      "weight": 22.5,
-      "radius": 0.15534275
-   },
-   {
-      "lat": "28.654040050997416",
-      "lng": "77.08873511622136",
-      "weight": 23.76,
-      "radius": 0.15534275
-   },
-   {
-      "lat": "28.652881660759693",
-      "lng": "77.08917617797852",
-      "weight": 19.439999999999998,
-      "radius": 0.1864113
-   },
-   {
-      "lat": "28.653000377847864",
-      "lng": "77.08792090415955",
-      "weight": 16.5,
-      "radius": 0.15534275
-   },
-   {
-      "lat": "28.640967342351708",
-      "lng": "77.17706680297852",
-      "weight": 12,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.596620053796386",
-      "lng": "77.16473010236615",
-      "weight": 16.2,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.554897539548946",
-      "lng": "77.21880197525024",
-      "weight": -12.2,
-      "radius": 0.0621371
-   },
-   {
-      "lat": "28.615766938183636",
-      "lng": "77.20961272716522",
-      "weight": -12,
-      "radius": 0.09320565
-   },
-   
-   {
-      "lat": "28.641885034107553",
-      "lng": "77.1749250950175",
-      "weight": -14,
-      "radius": 0.15534275
-   }
-   
+  {
+    "lat": "28.611753",
+    "lng": "77.038982",
+    "weight": 6,
+    "radius": 0.01242742,
+    "crimeTag": "attack",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.607800045799372",
+    "lng": "77.21984010991633",
+    "weight": 21.599999999999998,
+    "radius": 0.3728226,
+    "crimeTag": "rape",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.55172502973663",
+    "lng": "77.18230506739687",
+    "weight": 18,
+    "radius": 0.1864113,
+    "crimeTag": "murder",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.689420043346203",
+    "lng": "77.4063450831018",
+    "weight": 7.199999999999999,
+    "radius": 0.1864113,
+    "crimeTag": "eveTeasing",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.62528505205423",
+    "lng": "77.2404551074097",
+    "weight": 6,
+    "radius": 0.1864113,
+    "crimeTag": "assaultOnWomen",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.630000000000052",
+    "lng": "77.22407000000004",
+    "weight": 9.6,
+    "radius": 0.0621371,
+    "crimeTag": "kidnapping",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.44751000000008",
+    "lng": "77.02049000000005",
+    "weight": 7.2,
+    "radius": 0.0621371,
+    "crimeTag": "streetHarassment",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.577670037549765",
+    "lng": "77.26590005087942",
+    "weight": 7.199999999999999,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.596920042111037",
+    "lng": "77.20943506677145",
+    "weight": 12,
+    "radius": 0.1864113,
+    "crimeTag": "humanTrafficking",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.889720036596856",
+    "lng": "77.22672005986178",
+    "weight": 8.4,
+    "radius": 0.1864113,
+    "crimeTag": "acidAttack",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.62697004509483",
+    "lng": "77.39338506823097",
+    "weight": 6,
+    "radius": 0.1242742,
+    "crimeTag": "theft",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.667780043868248",
+    "lng": "77.2235600823646",
+    "weight": 7.199999999999999,
+    "radius": 0.2485484,
+    "crimeTag": "rape",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.63766000000004",
+    "lng": "77.13106000000005",
+    "weight": 18,
+    "radius": 0.1242742,
+    "crimeTag": "rape",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.669630034672856",
+    "lng": "77.23211511375015",
+    "weight": 6,
+    "radius": 0.2485484,
+    "crimeTag": "theft",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.630525040733872",
+    "lng": "77.21957008690555",
+    "weight": 4.8,
+    "radius": 0.1864113,
+    "crimeTag": "stalking",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.587510000000066",
+    "lng": "77.22775000000007",
+    "weight": 8.4,
+    "radius": 0.1864113,
+    "crimeTag": "abduction",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.597380000000044",
+    "lng": "77.21052000000003",
+    "weight": 5.76,
+    "radius": 0.2485484,
+    "crimeTag": "theft/robbery",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.604870000000062",
+    "lng": "77.24038000000007",
+    "weight": 6,
+    "radius": 0.0621371,
+    "crimeTag": "theft/robbery",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.64545870721374",
+    "lng": "77.11569786071777",
+    "weight": 27,
+    "radius": 0.3106855,
+    "crimeTag": "stalking",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.6953",
+    "lng": "77.315",
+    "weight": 12,
+    "radius": 0.1242742,
+    "crimeTag": "abduction",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.621740051834728",
+    "lng": "77.08899508094834",
+    "weight": 6,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.603770026752613",
+    "lng": "77.2231450943384",
+    "weight": 15,
+    "radius": 0.0621371,
+    "crimeTag": "streetHarassment",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.610375050273902",
+    "lng": "77.21560506951789",
+    "weight": 6,
+    "radius": 0.0621371,
+    "crimeTag": "eveTeasing",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.6953",
+    "lng": "77.315",
+    "weight": 6,
+    "radius": 0.0621371,
+    "crimeTag": "theft",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.7015",
+    "lng": "77.2917",
+    "weight": 9.6,
+    "radius": 0.0621371,
+    "crimeTag": "abduction",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.592685043622126",
+    "lng": "77.2125900989457",
+    "weight": 11.52,
+    "radius": 0.0621371,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.60373004507447",
+    "lng": "77.21218508538425",
+    "weight": 4,
+    "radius": 0.0621371,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.592870595485103",
+    "lng": "77.22264289855957",
+    "weight": 7.199999999999999,
+    "radius": 0.0621371,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.59626003010024",
+    "lng": "77.19896506387693",
+    "weight": 7,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.59147002389257",
+    "lng": "77.2096301136583",
+    "weight": 12,
+    "radius": 0.0621371,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.7015",
+    "lng": "77.2917",
+    "weight": 14.399999999999999,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.6985",
+    "lng": "77.3056",
+    "weight": 16.2,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.5642",
+    "lng": "77.1802",
+    "weight": 16.2,
+    "radius": 0.1864113,
+    "crimeTag": "stalking",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.5996",
+    "lng": "77.0732",
+    "weight": 19.8,
+    "radius": 0.1864113,
+    "crimeTag": "assaultOnWomen",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.4374",
+    "lng": "77.0347",
+    "weight": 19.8,
+    "radius": 0.1242742,
+    "crimeTag": "streetHarassment",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.5798",
+    "lng": "77.0215",
+    "weight": 16.2,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.7135",
+    "lng": "77.178",
+    "weight": 21.599999999999998,
+    "radius": 0.1242742,
+    "crimeTag": "rape",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.6547",
+    "lng": "77.2643",
+    "weight": 13.5,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.5701",
+    "lng": "77.1859",
+    "weight": 19.8,
+    "radius": 0.1864113,
+    "crimeTag": "streetHarassment",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.5054",
+    "lng": "77.2778",
+    "weight": 14.399999999999999,
+    "radius": 0.1864113,
+    "crimeTag": "abduction",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.6481",
+    "lng": "77.2534",
+    "weight": 14.399999999999999,
+    "radius": 0.1242742,
+    "crimeTag": "abduction",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.5398",
+    "lng": "77.2788",
+    "weight": 13.2,
+    "radius": 0.1242742,
+    "crimeTag": "streetHarassment",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.6292",
+    "lng": "77.2753",
+    "weight": 11.52,
+    "radius": 0.1242742,
+    "crimeTag": "humanTrafficking",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.6257",
+    "lng": "77.2027",
+    "weight": 10.799999999999999,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.6728",
+    "lng": "77.128",
+    "weight": 13.5,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.6485",
+    "lng": "77.293",
+    "weight": 12,
+    "radius": 0.1242742,
+    "crimeTag": "abduction",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.646240203889143",
+    "lng": "28.659896850585938",
+    "weight": 16.2,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6443",
+    "lng": "77.2162",
+    "weight": 21.599999999999998,
+    "radius": 0.1242742,
+    "crimeTag": "humanTrafficking",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6148",
+    "lng": "77.0824",
+    "weight": 16.2,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.7128",
+    "lng": "77.1708",
+    "weight": 19.8,
+    "radius": 0.1242742,
+    "crimeTag": "streetHarassment",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.6646",
+    "lng": "77.2149",
+    "weight": 18,
+    "radius": 0.1242742,
+    "crimeTag": "humanTrafficking",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.7225",
+    "lng": "77.1447",
+    "weight": 19.439999999999998,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.5125",
+    "lng": "77.111",
+    "weight": 24,
+    "radius": 0.1242742,
+    "crimeTag": "abduction",
+    "intensity": "5"
+  },
+  {
+    "lat": "28.7604",
+    "lng": "77.1491",
+    "weight": 16.5,
+    "radius": 0.1242742,
+    "crimeTag": "assaultOnWomen",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.6962",
+    "lng": "77.2577",
+    "weight": 16.2,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.5014",
+    "lng": "77.2903",
+    "weight": 30,
+    "radius": 0.1242742,
+    "crimeTag": "rape",
+    "intensity": "5"
+  },
+  {
+    "lat": "28.7014",
+    "lng": "77.2871",
+    "weight": 19.8,
+    "radius": 0.1242742,
+    "crimeTag": "streetHarassment",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.564",
+    "lng": "77.2342",
+    "weight": 18,
+    "radius": 0.1242742,
+    "crimeTag": "humanTrafficking",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.6459",
+    "lng": "77.3147",
+    "weight": 19.439999999999998,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.664",
+    "lng": "77.2712",
+    "weight": 10.4,
+    "radius": 0.1242742,
+    "crimeTag": "rape",
+    "intensity": "5"
+  },
+  {
+    "lat": "28.7218",
+    "lng": "77.2169",
+    "weight": 10.399999999999999,
+    "radius": 0.1242742,
+    "crimeTag": "humanTrafficking",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.7421",
+    "lng": "77.1032",
+    "weight": 8.4,
+    "radius": 0.1242742,
+    "crimeTag": "abduction",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.7122",
+    "lng": "77.2572",
+    "weight": 3.5,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.49",
+    "lng": "77.3046",
+    "weight": 4.4,
+    "radius": 0.1242742,
+    "crimeTag": "abduction",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6346",
+    "lng": "77.3154",
+    "weight": 2.2,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6128",
+    "lng": "77.2346",
+    "weight": 10.8,
+    "radius": 0.1242742,
+    "crimeTag": "assaultOnWomen",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6071",
+    "lng": "77.1147",
+    "weight": 10.2,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.5605",
+    "lng": "77.1699",
+    "weight": 7.4,
+    "radius": 0.1242742,
+    "crimeTag": "rape",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.54",
+    "lng": "77.2826",
+    "weight": 10.2,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6176",
+    "lng": "77.2405",
+    "weight": 10.1,
+    "radius": 0.1242742,
+    "crimeTag": "abduction",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.585",
+    "lng": "77.1262",
+    "weight": 2.599999999999998,
+    "radius": 0.1242742,
+    "crimeTag": "abduction",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6717",
+    "lng": "77.2777",
+    "weight": 3.76,
+    "radius": 0.1242742,
+    "crimeTag": "assaultOnWomen",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6919",
+    "lng": "77.1534",
+    "weight": 9.439999999999998,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6024",
+    "lng": "77.0705",
+    "weight": 10,
+    "radius": 0.1242742,
+    "crimeTag": "humanTrafficking",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.689552372729946",
+    "lng": "77.15492248535156",
+    "weight": 10,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.60186505066317",
+    "lng": "77.1939600618528",
+    "weight": 6.2,
+    "radius": 0.0621371,
+    "crimeTag": "stalking",
+    "intensity": "4"
+  },
+  {
+    "lat": "25.645980000000066",
+    "lng": "83.55977000000007",
+    "weight": 9.439999999999998,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.634880000000067",
+    "lng": "77.21915000000007",
+    "weight": 12.5,
+    "radius": 0.09320565,
+    "crimeTag": "abduction",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.634880000000067",
+    "lng": "77.21915000000007",
+    "weight": 12.8,
+    "radius": 0.09320565,
+    "crimeTag": "abduction",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.600455046911",
+    "lng": "77.20449506640645",
+    "weight": 10.799999999999999,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.600455046911",
+    "lng": "77.20449506640645",
+    "weight": 10.799999999999999,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.591320000000053",
+    "lng": "77.19593000000003",
+    "weight": 3.76,
+    "radius": 0.15534275,
+    "crimeTag": "assaultOnWomen",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.66398004519938",
+    "lng": "77.21697509159193",
+    "weight": 9.8,
+    "radius": 0.15534275,
+    "crimeTag": "streetHarassment",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.64262000000008",
+    "lng": "77.36730000000006",
+    "weight": 6.5,
+    "radius": 0.1864113,
+    "crimeTag": "streetHarassment",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.641590033025288",
+    "lng": "77.10765005420316",
+    "weight": 2.8,
+    "radius": 0.15534275,
+    "crimeTag": "abduction",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.701720000000023",
+    "lng": "77.16694000000007",
+    "weight": 2.5,
+    "radius": 0.15534275,
+    "crimeTag": "acidAttack",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.654040050997416",
+    "lng": "77.08873511622136",
+    "weight": 3.76,
+    "radius": 0.15534275,
+    "crimeTag": "assaultOnWomen",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.652881660759693",
+    "lng": "77.08917617797852",
+    "weight": 1.439999999999998,
+    "radius": 0.1864113,
+    "crimeTag": "eveTeasing",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.653000377847864",
+    "lng": "77.08792090415955",
+    "weight": 1.5,
+    "radius": 0.15534275,
+    "crimeTag": "streetHarassment",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.640967342351708",
+    "lng": "77.17706680297852",
+    "weight": 10.6,
+    "radius": 0.0621371,
+    "crimeTag": "humanTrafficking",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.596620053796386",
+    "lng": "77.16473010236615",
+    "weight": 1.2,
+    "radius": 0.0621371,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.554897539548946",
+    "lng": "77.21880197525024",
+    "weight": -12.2,
+    "radius": 0.0621371,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.615766938183636",
+    "lng": "77.20961272716522",
+    "weight": -12.4,
+    "radius": 0.09320565,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
 
+  {
+    "lat": "28.641885034107553",
+    "lng": "77.1749250950175",
+    "weight": -14.5,
+    "radius": 0.15534275,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+
+  {
+    "lat": "28.592946220641156",
+    "lng": "77.06368446350098",
+    "weight": -2.4,
+    "radius": 0.2242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.695615682754877",
+    "lng": "77.15286254882812",
+    "weight": -3.3,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.6680562043989",
+    "lng": "77.2774887084961",
+    "weight": -3.4,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.579003152080872",
+    "lng": "77.1229076385498",
+    "weight": -2.5,
+    "radius": 0.1722742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.622936390865902",
+    "lng": "77.24255561828613",
+    "weight": -3.4,
+    "radius": 0.3242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.540857534348667",
+    "lng": "77.28375434875488",
+    "weight": -2.4,
+    "radius": 0.1142742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.556615008593305",
+    "lng": "77.17517852783203",
+    "weight": -2.4,
+    "radius": 0.2242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.61659103810356",
+    "lng": "77.10805892944336",
+    "weight": -1.4,
+    "radius": 0.1242742,
+    "crimeTag": "wellLit",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.60905616954856",
+    "lng": "77.24092483520508",
+    "weight": -1.5,
+    "radius": 0.1242742,
+    "crimeTag": "shop",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.630755127433563",
+    "lng": "77.31061935424805",
+    "weight": -1.5,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.474694264302155",
+    "lng": "77.30134963989258",
+    "weight": -1.5,
+    "radius": 0.3242742,
+    "crimeTag": "wellLit",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.713277747372057",
+    "lng": "77.26341247558594",
+    "weight": -2.6,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.74281960169326",
+    "lng": "77.10123538970947",
+    "weight": -3.6,
+    "radius": 0.1242742,
+    "crimeTag": "shop",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.721444929285617",
+    "lng": "77.21466064453125",
+    "weight": -2.4,
+    "radius": 0.1242742,
+    "crimeTag": "shop",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.664374234299316",
+    "lng": "77.2699785232544",
+    "weight": -2.5,
+    "radius": 0.1242742,
+    "crimeTag": "shop",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.646297874346835",
+    "lng": "77.3157262802124",
+    "weight": -2.6,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.564425723158845",
+    "lng": "77.23320007324219",
+    "weight": -3.6,
+    "radius": 0.1242742,
+    "crimeTag": "wellLit",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.702286800245677",
+    "lng": "77.2833251953125",
+    "weight": -2.6,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.502480066225502",
+    "lng": "77.28594303131104",
+    "weight": -2.4,
+    "radius": 0.1242742,
+    "crimeTag": "wellLit",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.758960602131214",
+    "lng": "77.14942932128906",
+    "weight": -3.5,
+    "radius": 0.1242742,
+    "crimeTag": "wellLit",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.512285212220586",
+    "lng": "77.11003303527832",
+    "weight": -2.7,
+    "radius": 0.1242742,
+    "crimeTag": "wellLit",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.726789007194945",
+    "lng": "77.14277744293213",
+    "weight": -3.5,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.71610057822557",
+    "lng": "77.17050075531006",
+    "weight": -1.6,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.66588045694242",
+    "lng": "77.21414566040039",
+    "weight": -2.4,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.615108830889145",
+    "lng": "77.08488464355469",
+    "weight": -1.6,
+    "radius": 0.1242742,
+    "crimeTag": "wellLit",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.643209517873146",
+    "lng": "77.21933841705322",
+    "weight": -1.6,
+    "radius": 0.1242742,
+    "crimeTag": "wellLit",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.646486185824617",
+    "lng": "77.2922945022583",
+    "weight": -2.4,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.625543878277032",
+    "lng": "77.20024108886719",
+    "weight": -2.5,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.629800477022158",
+    "lng": "77.27753162384033",
+    "weight": -3.5,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.542968720299697",
+    "lng": "77.27560043334961",
+    "weight": -3.5,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.647796118185838",
+    "lng": "77.2514820098877",
+    "weight": -1.5,
+    "radius": 0.1242742,
+    "crimeTag": "wellLit",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.569430353790718",
+    "lng": "77.18822479248047",
+    "weight": -3.4,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.656759241473647",
+    "lng": "77.26530075073242",
+    "weight": -5.4,
+    "radius": 0.1242742,
+    "crimeTag": "WellPopulated",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.71285549237311",
+    "lng": "77.18101501464844",
+    "weight": -5.4,
+    "radius": 0.1242742,
+    "crimeTag": "WellPopulated",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.71285549237311",
+    "lng": "77.18101501464844",
+    "weight": -5.4,
+    "radius": 0.1242742,
+    "crimeTag": "WellPopulated",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.439244471200396",
+    "lng": "77.03604698181152",
+    "weight": -5.4,
+    "radius": 0.1242742,
+    "crimeTag": "WellPopulated",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.597920057058765",
+    "lng": "77.07158088684082",
+    "weight": -3.3,
+    "radius": 0.1242742,
+    "crimeTag": "wellLit",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.568525792376676",
+    "lng": "77.18238830566406",
+    "weight": -5.5,
+    "radius": 0.1242742,
+    "crimeTag": "WellPopulated",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.7021656393218",
+    "lng": "77.2829818725586",
+    "weight": -2.5,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+
+  {
+    "lat": "28.632137386786265",
+    "lng": "77.11398124694824",
+    "weight": -1.5,
+    "radius": 0.01542742,
+    "crimeTag": "wellLit",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.632298519372803",
+    "lng": "77.12616920471191",
+    "weight": -1.6,
+    "radius": 0.3728226,
+    "crimeTag": "wellLit",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.631256612964442",
+    "lng": "77.13868975639342",
+    "weight": -2.5,
+    "radius": 0.1864113,
+    "crimeTag": "shop",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.689420043346203",
+    "lng": "77.4063450831018",
+    "weight": -2.6,
+    "radius": 0.1864113,
+    "crimeTag": "Dispensary",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.512813155761826",
+    "lng": "77.18650817871094",
+    "weight": -5.5,
+    "radius": 0.1864113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.610217339796435",
+    "lng": "77.04129338264465",
+    "weight": -1.4,
+    "radius": 0.2164113,
+    "crimeTag": "WellLit",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.61360187915421",
+    "lng": "77.04437255859375",
+    "weight": -3.5,
+    "radius": 0.1364113,
+    "crimeTag": "Dispensary",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.60957067698603",
+    "lng": "77.21178531646729",
+    "weight": -3.6,
+    "radius": 0.1264113,
+    "crimeTag": "metro",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.550026513007957",
+    "lng": "77.18543529510498",
+    "weight": -3.5,
+    "radius": 0.2164113,
+    "crimeTag": "metro",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.68632528748537",
+    "lng": "77.41687774658203",
+    "weight": -3.6,
+    "radius": 0.1964113,
+    "crimeTag": "Dispensary",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.628105392009893",
+    "lng": "77.24573135375975",
+    "weight": -5.6,
+    "radius": 0.1864113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.623321337777405",
+    "lng": "77.24268436431885",
+    "weight": -3.6,
+    "radius": 0.1164113,
+    "crimeTag": "metro",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.576867367624395",
+    "lng": "77.26605176925659",
+    "weight": -3.6,
+    "radius": 0.2364113,
+    "crimeTag": "Dispensary",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.59729186414368",
+    "lng": "77.21116304397583",
+    "weight": -3,
+    "radius": 0.3164113,
+    "crimeTag": "metro",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.599401918065837",
+    "lng": "77.2058629989624",
+    "weight": -5,
+    "radius": 0.2264113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.66855394881984",
+    "lng": "77.22813606262207",
+    "weight": -5,
+    "radius": 0.2164113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.662039546423436",
+    "lng": "77.21989631652832",
+    "weight": -3,
+    "radius": 0.2464113,
+    "crimeTag": "Dispensary",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.646486185824617",
+    "lng": "77.12668418884276",
+    "weight": -5,
+    "radius": 0.1864113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.639179452569124",
+    "lng": "77.11956024169922",
+    "weight": -3,
+    "radius": 0.1964113,
+    "crimeTag": "Dispensary",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.63281389389411",
+    "lng": "77.21955299377441",
+    "weight": -5,
+    "radius": 0.2864113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.629762808763736",
+    "lng": "77.2249174118042",
+    "weight": -1,
+    "radius": 0.2564113,
+    "crimeTag": "WellLit",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.58798039207978",
+    "lng": "77.2335433959961",
+    "weight": -3,
+    "radius": 0.2464113,
+    "crimeTag": "metro",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.59020368034519",
+    "lng": "77.22079753875732",
+    "weight": -2,
+    "radius": 0.1364113,
+    "crimeTag": "shop",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.599435476058844",
+    "lng": "77.20594882965086",
+    "weight": -5,
+    "radius": 0.1564113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.59736310270424",
+    "lng": "77.21118450164795",
+    "weight": -3,
+    "radius": 0.2364113,
+    "crimeTag": "metro",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.60964602797812",
+    "lng": "77.23427295684814",
+    "weight": -5,
+    "radius": 0.2364113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.64189128925099",
+    "lng": "77.10651397705078",
+    "weight": -2,
+    "radius": 0.1764113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.647051118229403",
+    "lng": "77.11960315704346",
+    "weight": -2,
+    "radius": 0.2364113,
+    "crimeTag": "shop",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.69392989664682",
+    "lng": "77.31709957122801",
+    "weight": -3,
+    "radius": 0.1464113,
+    "crimeTag": "Dispensary",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.622082321654165",
+    "lng": "77.0967936515808",
+    "weight": -5,
+    "radius": 0.1564113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.620571349662875",
+    "lng": "77.08981990814209",
+    "weight": -3,
+    "radius": 0.1364113,
+    "crimeTag": "Dispensary",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.602148339411823",
+    "lng": "77.22920894622803",
+    "weight": -3,
+    "radius": 0.1164113,
+    "crimeTag": "metro",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.60945765039653",
+    "lng": "77.23423004150389",
+    "weight": -1,
+    "radius": 0.1864113,
+    "crimeTag": "WellLit",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.609344623685402",
+    "lng": "77.21182823181152",
+    "weight": -3,
+    "radius": 0.1464113,
+    "crimeTag": "metro",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.693892251427318",
+    "lng": "77.31701374053955",
+    "weight": -3,
+    "radius": 0.2664113,
+    "crimeTag": "Dispensary",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.687530014865505",
+    "lng": "77.31109142303467",
+    "weight": -2,
+    "radius": 0.2864113,
+    "crimeTag": "shop",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.7024373689653",
+    "lng": "77.28328227996826",
+    "weight": -3,
+    "radius": 0.1564113,
+    "crimeTag": "Dispensary",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.609419974839675",
+    "lng": "77.21178531646729",
+    "weight": -3,
+    "radius": 0.1264113,
+    "crimeTag": "metro",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.590316727644964",
+    "lng": "77.22092628479004",
+    "weight": -2,
+    "radius": 0.1864113,
+    "crimeTag": "shop",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.597769338201264",
+    "lng": "77.18101501464844",
+    "weight": -1,
+    "radius": 0.1874113,
+    "crimeTag": "WellLit",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.597325422810457",
+    "lng": "77.21114158630371",
+    "weight": -3,
+    "radius": 0.1464113,
+    "crimeTag": "metro",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.60026853508201",
+    "lng": "77.21665620803833",
+    "weight": -1,
+    "radius": 0.1264113,
+    "crimeTag": "WellLit",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.699957074596096",
+    "lng": "77.29362487792969",
+    "weight": -5,
+    "radius": 0.1864113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.69762317978257",
+    "lng": "77.30579137802124",
+    "weight": -2,
+    "radius": 0.1264113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.565862120082507",
+    "lng": "77.17663764953613",
+    "weight": -3,
+    "radius": 0.1864113,
+    "crimeTag": "Dispensary",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.56333678106099",
+    "lng": "77.17919111251831",
+    "weight": -1,
+    "radius": 0.1864113,
+    "crimeTag": "WellLit",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.599175842886275",
+    "lng": "77.06971406936646",
+    "weight": -5,
+    "radius": 0.1864113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.592431043024938",
+    "lng": "77.0695424079895",
+    "weight": -5,
+    "radius": 0.1864113,
+    "crimeTag": "WellPopulated",
+    "intensity": "2"
+  }
 ]

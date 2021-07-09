@@ -152,31 +152,6 @@ body {
 		transition: .5s
 	}
 }
-.pulse {
-  display: block;;
-  font-size: 200px;
-  
-  opacity: 0.8;
-  border-radius: 50px;
-  cursor: pointer;
-  animation: pulse 2s infinite;
-  background: rgb(150, 36, 1);
-  color: rgb(150, 36, 1);
-  
-  transform: scale(1);
-  transition: 0.5s;
-  
-  
-}
-
-.pulse:hover
-{
-  transform: scale(1.5);
-  border-radius: 10px;
-  background: rgb(78, 32, 2);
-  color: rgb(78, 32, 2);
-    cursor: pointer;
-}
 .pulse_2 {
   display: block;;
   font-size: 200px;
@@ -185,62 +160,42 @@ body {
   border-radius: 50px;
   cursor: pointer;
   animation: pulse 2s infinite;
-  background: rgb(38, 0, 255);
-  color: rgb(38, 0, 255);
+  background: rgb(204, 127, 27);
+  color: rgb(204, 127, 27);
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.pulse_2:hover
+{
+  transform: scale(1.2);
+  border-radius: 20px;
+  background: rgb(129, 81, 18);
+  color: rgb(129, 81, 18);
+  cursor: pointer;
+}
+.pulse {
+  display: block;;
+  font-size: 200px;
+  opacity: 0.8;
+  border-radius: 50px;
+  cursor: pointer;
+  animation: pulse 2s infinite;
   
+  background: rgb(0, 195, 255);
+  color: rgb(6, 247, 235);
   transform: scale(1);
   transition: 0.5s;
   
   
 }
-.Direction_css{
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  width: 1500px;
-  padding-right: 30px;
 
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-.Direction_css span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-.Direction_css :hover  {
-  padding-right: 500px;
-}
-
-.Direction_css :hover span:after {
-  opacity: 1;
-  right: 0;
-} 
-@keyframes Direction_css {
-  0% {
-    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
-    box-shadow: 0 0 0 0;
-  }
-  70% {
-    -moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-  }
-  100% {
-    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
-}
-.pulse_2:hover
+.pulse:hover
 {
-  transform: scale(1.5);
-  border-radius: 10px;
-  background: rgb(0, 195, 255);
-  color: rgb(6, 247, 235);
+  transform: scale(1.2);
+  border-radius: 20px;
+  background: rgb(19, 89, 180);
+  color: rgb(19, 89, 180);
     cursor: pointer;
 }
 
@@ -292,8 +247,8 @@ white-space: nowrap;
   opacity: 0.8;
   border-radius: 50px;
   cursor: pointer;
-  animation: pulse 2s infinite;
-  background: rgb(38, 0, 255);
+  animation: custom-popup 1s normal forwards ease-in-out;
+  background: rgb(23, 192, 192);
   color: rgb(255, 255, 255);
   
   transform: scale(1);
@@ -310,12 +265,13 @@ white-space: nowrap;
   display: block;;
   font-size: 20px;
   
-  opacity: 0.8;
+  opacity: 0.1;
   border-radius: 50px;
   cursor: pointer;
-  animation: pulse 2s infinite;
-  background: rgb(38, 0, 255);
-  color: rgb(255, 255, 255);
+  animation: custom-popup 1s normal forwards ease-in-out;
+  
+  background: rgb(23, 192, 192);
+  color: rgb(0, 0, 0);
   
   transform: scale(1);
   transition: 0.5s;
@@ -334,11 +290,18 @@ white-space: nowrap;
   0% {
     transform: scale(0);
   }
-  70% {
-    transform: scale(3.5);
-  }
+  
   100% {
-    transform: scale(4.5);
+    transform: scale(0.9);
+  }
+}
+@keyframes custom-popup_2{
+  0% {
+    transform: scale(0);
+  }
+  
+  100% {
+    transform: scale(1);
   }
 }
   

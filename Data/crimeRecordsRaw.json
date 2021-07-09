@@ -39,7 +39,7 @@
       "latitude": "28.62528505205423",
       "longitude": "77.2404551074097",
       "radius": "0.3",
-      "crimeTag": "vehicleAccident",
+      "crimeTag": "assaultOnWomen",
       "intensity": "3",
       "place": "bahadur shah zafar marg",
       "time": "11:47:00AM"
@@ -57,7 +57,7 @@
       "latitude": "28.44751000000008",
       "longitude": "77.02049000000005",
       "radius": "0.1",
-      "crimeTag": "vehicleAccident",
+      "crimeTag": "streetHarassment",
       "intensity": "4",
       "place": "delhi gurgaon expressway",
       "time": "11:56:00AM"
@@ -84,7 +84,7 @@
       "latitude": "28.889720036596856",
       "longitude": "77.22672005986178",
       "radius": "0.3",
-      "crimeTag": "drugTrafficking",
+      "crimeTag": "acidAttack",
       "intensity": "2",
       "place": "eastern peripheral expressway",
       "time": "6:09:00PM"
@@ -102,7 +102,7 @@
       "latitude": "28.667780043868248",
       "longitude": "77.2235600823646",
       "radius": "0.4",
-      "crimeTag": "attack",
+      "crimeTag": "rape",
       "intensity": "2",
       "place": "grand trunk road",
       "time": "2:49:00PM"
@@ -129,7 +129,7 @@
       "latitude": "28.630525040733872",
       "longitude": "77.21957008690555",
       "radius": "0.3",
-      "crimeTag": "vehicleAccident",
+      "crimeTag": "stalking",
       "intensity": "2",
       "place": "janpath road",
       "time": "10:01:00AM"
@@ -138,7 +138,7 @@
       "latitude": "28.587510000000066",
       "longitude": "77.22775000000007",
       "radius": "0.3",
-      "crimeTag": "drugTrafficking",
+      "crimeTag": "abduction",
       "intensity": "2",
       "place": "lodhi road",
       "time": "2:11:00PM"
@@ -147,7 +147,7 @@
       "latitude": "28.597380000000044",
       "longitude": "77.21052000000003",
       "radius": "0.4",
-      "crimeTag": "vehicleAccident",
+      "crimeTag": "theft/robbery",
       "intensity": "2",
       "place": "lok kalyan marg",
       "time": "12:02:00PM"
@@ -156,7 +156,7 @@
       "latitude": "28.604870000000062",
       "longitude": "77.24038000000007",
       "radius": "0.1",
-      "crimeTag": "theft",
+      "crimeTag": "theft/robbery",
       "intensity": "2",
       "place": "mathura road",
       "time": "2:15:00PM"
@@ -165,7 +165,7 @@
       "latitude": "28.621740051834728",
       "longitude": "77.08899508094834",
       "radius": "0.2",
-      "crimeTag": "theft",
+      "crimeTag": "stalking",
       "intensity": "2",
       "place": "outer ring road",
       "time": "4:06:00PM"
@@ -174,7 +174,7 @@
       "latitude": "28.63768",
       "longitude": "77.09913",
       "radius": "0.5",
-      "crimeTag": "kidnapping",
+      "crimeTag": "abduction",
       "intensity": "3",
       "place": "xyz",
       "time": "4:40:00PM"
@@ -327,7 +327,7 @@
       "latitude": "\t28.6292",
       "longitude": "\t77.2753",
       "radius": "0.2",
-      "crimeTag": "drugTrafficking",
+      "crimeTag": "humanTrafficking",
       "intensity": "2",
       "place": "Vikas Marg",
       "time": "9:45:00PM"
@@ -489,7 +489,7 @@
       "latitude": "28.7218",
       "longitude": "77.2169",
       "radius": "0.2",
-      "crimeTag": "drugTrafficking",
+      "crimeTag": "humanTrafficking",
       "intensity": "3",
       "place": "Outer Ring Road",
       "time": "10:58:00PM"
@@ -498,7 +498,7 @@
       "latitude": "28.7421",
       "longitude": "77.1032",
       "radius": "0.2",
-      "crimeTag": "drugTrafficking",
+      "crimeTag": "abduction",
       "intensity": "4",
       "place": "Shahbad Dairy",
       "time": "12:58:00AM"
@@ -696,7 +696,7 @@
       "latitude": "28.641590033025288",
       "longitude": "77.10765005420316",
       "radius": "0.25",
-      "crimeTag": "drugTrafficking",
+      "crimeTag": "abduction",
       "intensity": "3",
       "place": "shivaji marg",
       "time": "8:45:00PM"
