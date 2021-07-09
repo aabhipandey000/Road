@@ -193,7 +193,48 @@ body {
   
   
 }
+.Direction_css{
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  width: 1500px;
+  padding-right: 30px;
 
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.Direction_css span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.Direction_css :hover  {
+  padding-right: 500px;
+}
+
+.Direction_css :hover span:after {
+  opacity: 1;
+  right: 0;
+} 
+@keyframes Direction_css {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0 0;
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
 .pulse_2:hover
 {
   transform: scale(1.5);
@@ -246,7 +287,7 @@ white-space: nowrap;
 
 .custom-popup .leaflet-popup-content-wrapper {
   display: block;;
-  font-size: 20px;
+  font-size: 15px;
   
   opacity: 0.8;
   border-radius: 50px;
@@ -291,16 +332,13 @@ white-space: nowrap;
 
 @keyframes custom-popup{
   0% {
-    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
-    box-shadow: 0 0 0 0;
+    transform: scale(0);
   }
   70% {
-    -moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    transform: scale(3.5);
   }
   100% {
-    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    transform: scale(4.5);
   }
 }
   

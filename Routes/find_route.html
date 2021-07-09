@@ -61,7 +61,7 @@
 					
                     <input type="button" class="showPathButton" value="Show safest route" onclick="routeIt();"/>
 					<div class='custom-popup' id='map'></div>
-					<div id='route-narrative'></div>
+					<div class='Direction_css' id='route-narrative'></div>
 				</form>
             </div>
 			
@@ -373,17 +373,14 @@ function showCrimeZones()
 				  {
     			html: `<span style="${cssStyle}" class="pulse_2"/>`,
 				text : labelText,
-      			
-    			
   				})
 			}
-				const pulsatingIcon = generatePulsatingMarker((x.radius * 250 ), 'blue');
-				circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick ,"mouseout" , onMapOut );
+				const pulsatingIcon = generatePulsatingMarker((x.radius * 200 ), 'blue');
+				circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
 				circleOnCrimeZones.on("mouseout" , onMapOut );
 
 				function onMapClick(e) 
 				{
-
 				for (var i = 0, len = controlPointsData.length; i < len; i++) 
 				{
 					var x = controlPointsData[i];
@@ -392,8 +389,7 @@ function showCrimeZones()
 					{
 						var currentradius = x.radius;
 					}
-		//check if current point is in path
-		
+	//check if current point is in path
 				}
     			var lt = String(e.latlng.lat),
   				lg = String(e.latlng.lng);
@@ -401,20 +397,14 @@ function showCrimeZones()
     			.setLatLng(e.latlng)
     			.setContent(lt + " " + lg + "Radius" + currentradius)
     			.openOn(map);
-    // 'click' the new marker to show the ID when marker created
+    //'click' the new marker to show the ID when marker created
 				}
 				function onMapOut(e) 
 				{
-
-				
     			map.closePopup();
-  				
-    // 'click' the new marker to show the ID when marker created
+    //'click' the new marker to show the ID when marker created
 				}
-			}
-			
-
-			
+			}	
 		}
 	}
 }
@@ -441,7 +431,7 @@ function routeIt() {
 
 				}
 				var dir = "DIRECTIONS" ;
-				var res = dir.bold().italics().fontsize(4) ;
+				var res = dir ;
 				L.DomUtil.get('route-narrative').innerHTML = '<br>' + res + '<br>' + html;
 			}
 		});
