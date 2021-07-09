@@ -349,5 +349,14 @@
       "intensity": "2",
       "place": "\tJagat Puri",
       "time": "2:58:00PM"
+   },
+   {
+      "latitude": "28.631813027879208",
+      "longitude": "77.11355209350585",
+      "radius": "0.1",
+      "crimeTag": "theft",
+      "intensity": "3",
+      "place": "sports complex front gate",
+      "time": "6:15:00PM"
    }
 ]
