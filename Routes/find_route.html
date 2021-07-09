@@ -373,13 +373,26 @@ function showCrimeZones()
 			}).addTo(map);
 			function onMapClick(e) 
 			{
+
+			for (var i = 0, len = controlPointsData.length; i < len; i++) 
+			{
+				var x = controlPointsData[i];
+				console.log(x+" waheguru");
+				if(String(x.lat) == e.latlng.lat)
+				{
+					var currentradius = x.radius;
+
+				}
+		//check if current point is in path
+		
+			}
 				createLabel(marker,"Test Text");
 				console.log(createLabel)
     			var lt = String(e.latlng.lat),
   				lg = String(e.latlng.lng);
   				var popup = L.popup()
     			.setLatLng(e.latlng)
-    			.setContent(lt + " " + lg)
+    			.setContent(lt + " " + lg + "Radius" + currentradius)
     			.openOn(map);
     // 'click' the new marker to show the ID when marker created
 			}
