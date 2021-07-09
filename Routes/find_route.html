@@ -308,69 +308,31 @@ function showCrimeZones()
 		//check if current point is in path
 		if(distanceBetweenPoints(midPoint.lat,midPoint.lng,x.lat,x.lng) < pathRadius)
 		{
-			const generatePulsatingMarker = function (radius, color,labelText) {
+			const generatePulsatingMarker = function (radius, color,labelText) 
+			{
   			const cssStyle = `
 			  
     		width: ${radius}px;
     		height: ${radius}px;
     		box-shadow: 0 0 0 ${color};
   `
-  			return L.divIcon({
+  			return L.divIcon(
+				  {
     			html: `<span style="${cssStyle}" class="pulse"/>`,
 				text : labelText,
-      			className: 'text-below-marker',
+      			
     			
-  			})
-}
-
-		function createLabel(layer, text)
-		{
- 			removeLabel(layer);
-    		var icon = createStaticLabelIcon(text);
- 		 	var testspan = document.createElement("span");
-  			document.body.appendChild(testspan); 
-
-  			testspan.className = "textwidth";
-  			testspan.style.fontSize = "10px";
-  			testspan.innerHTML = text;
-  			var width = testspan.clientWidth +11;
-  			icon.options.iconAnchor = [width  / 2, -4]; //That the label is centered
-
- 			 var label = L.marker(layer.getLatLng(),{icon: icon}).addTo(map);
-  			layer.appendedLabel = label;
-
-  			document.body.removeChild(testspan); 
-		}
-		function removeLabel(layer)
-		{
- 		if(layer.appendedLabel)
-		{
-        map.removeLayer(layer.appendedLabel); //Remove label that connected with marker, else the label will not removed
-  		}
-		}
-		function createStaticLabelIcon(labelText) 
-		{
-    		return L.divIcon({
-        	className: "leaflet-marker-label",
-        	html: '<span class="leaflet-marker-iconlabel" style="background: #fff; color: #000;";>'+labelText+'</span>',
-        	text : labelText,
-    	});
-}
+  				})
+			}
+			
+		
 //(x.radius * 1609.34)
 			
 			const pulsatingIcon = generatePulsatingMarker((x.radius * 250 ), 'red');
 			
 			circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
 			
-			var coords = L.latLng(0, 0);
-			var marker = L.marker(coords).addTo(map);
-
-			var textMarker = L.marker(coords, {
-  			icon: L.divIcon({
-      		html: 'lala land',
-      		className: 'text-below-marker',
-    		})
-			}).addTo(map);
+			
 			function onMapClick(e) 
 			{
 
@@ -381,13 +343,12 @@ function showCrimeZones()
 				if(String(x.lat) == e.latlng.lat)
 				{
 					var currentradius = x.radius;
-
 				}
 		//check if current point is in path
 		
 			}
-				createLabel(marker,"Test Text");
-				console.log(createLabel)
+				
+				
     			var lt = String(e.latlng.lat),
   				lg = String(e.latlng.lng);
   				var popup = L.popup()
