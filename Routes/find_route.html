@@ -87,6 +87,18 @@ data.then((data) => {
 
 });
 
+
+//crimerecordsraw
+// var controlPointsDataR ;
+// var dataRaw = getDataRaw();
+// dataRaw.then((dataRaw) => {
+// 	console.log("######## Control Points Data Raw ########");
+// 	controlPointsDataR = dataRaw;
+// 	console.log(controlPointsDataR);
+// 	console.log("#####################################");
+
+// });
+
 map = L.map('map', {
 //layers: MQ.mapLayer(),
 	center: [28.631494357545137, 77.11642742156982],
@@ -289,6 +301,8 @@ function distanceBetweenPoints(lat1, lon1, lat2, lon2, unit) {
 	}
 }
 
+
+
 //mark the red crime zones on the map
 function showCrimeZones()
 {
@@ -299,11 +313,16 @@ function showCrimeZones()
 	const pathRadius = distanceBetweenPoints(src.lat,src.lng,dst.lat,dst.lng)/2 + 2;
 	//console.log("path raidus ",pathRadius);
 
+	// for (var i = 0, len = controlPointsDataR.length; i < len; i++) {
+	
+	// 	console.log(y+" waheguru");
+	// }
 	for (var i = 0, len = controlPointsData.length; i < len; i++) 
 	{
+		//var y = controlPointsDataR[i];
 		var x = controlPointsData[i];
 		console.log(x+" waheguru");
-
+		
 		//check if current point is in path
 		if(distanceBetweenPoints(midPoint.lat,midPoint.lng,x.lat,x.lng) < pathRadius)
 		{
@@ -326,7 +345,7 @@ function showCrimeZones()
 
   						// do something, like:
 
-  						clickedCircle.bindPopup("lang :" + e.latlng).openPopup();
+  						clickedCircle.bindPopup("lang :" + x.crimeTag ).openPopup();
 						  console.log(clickedCircle + "Apne ko milega");
 					}
 						
