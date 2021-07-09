@@ -117,7 +117,6 @@
       "time": "10:15:00AM"
    },
    {
-<<<<<<< Updated upstream
       "latitude": "28.669630034672856",
       "longitude": "77.23211511375015",
       "radius": "0.4",
@@ -170,7 +169,8 @@
       "intensity": "2",
       "place": "outer ring road",
       "time": "4:06:00PM"
-=======
+   },
+   {
       "latitude": "28.63768",
       "longitude": "77.09913",
       "radius": "0.5",
@@ -178,7 +178,6 @@
       "intensity": "3",
       "place": "xyz",
       "time": "4:40:00PM"
->>>>>>> Stashed changes
    },
    {
       "latitude": "28.603770026752613",
@@ -217,7 +216,6 @@
       "time": "11:39:00AM"
    },
    {
-<<<<<<< Updated upstream
       "latitude": "28.7015",
       "longitude": "77.2917",
       "radius": "0.2",
@@ -612,7 +610,8 @@
       "intensity": "4",
       "place": "Power House Dwarka",
       "time": "9:58:00PM"
-=======
+   },
+   {
       "latitude": "28.60186505066317",
       "longitude": "77.1939600618528",
       "radius": "0.1",
@@ -836,6 +835,5 @@
       "intensity": "3",
       "place": "near picnic hut ground",
       "time": "10:05:00PM"
->>>>>>> Stashed changes
    }
 ]
