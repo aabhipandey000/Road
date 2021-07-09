@@ -38,10 +38,10 @@ function getWeights() {
     	"acidAttack": 15,
 		"hospital":10,
 		"metro":15,
-		"wellLit":15,
-		"shop":15,
-		"Dispensary":15,
-		"WellPopulated":15
+		"wellLit":12,
+		"shop":14,
+		"Dispensary":17,
+		"WellPopulated":19
 
     };
 
