@@ -243,65 +243,64 @@ width: auto;
 white-space: nowrap; 
 }
 
-.leaflet-popup-content-wrapper {
-  display: block;;
-  font-size: 200px;
-  
-  opacity: 0.8;
-  border-radius: 50px;
-  cursor: pointer;
-  animation: pulse 2s infinite;
-  background: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  
-  transform: scale(1);
-  transition: 0.5s;
-}
 
-.leaflet-popup-content-wrapper .leaflet-popup-content {
-  display: block;;
-  font-size: 200px;
-  
-  opacity: 0.8;
-  border-radius: 50px;
-  cursor: pointer;
-  animation: pulse 2s infinite;
-  background: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  
-  transform: scale(1);
-  transition: 0.5s;
-}
-
-.leaflet-popup-tip-container {
-  display: block;;
-  font-size: 200px;
-  
-  opacity: 0.8;
-  border-radius: 50px;
-  cursor: pointer;
-  animation: pulse 2s infinite;
-  background: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  
-  transform: scale(1);
-  transition: 0.5s;
-}
 .custom-popup .leaflet-popup-content-wrapper {
-  background:#2c3e50;
-  color:#fff;
-  font-size:16px;
-  line-height:24px;
+  display: block;;
+  font-size: 20px;
+  
+  opacity: 0.8;
+  border-radius: 50px;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+  background: rgb(38, 0, 255);
+  color: rgb(255, 255, 255);
+  
+  transform: scale(1);
+  transition: 0.5s;
   }
 .custom-popup .leaflet-popup-content-wrapper a {
-  color:rgba(255,255,255,0.5);
+  color:rgba(0, 0, 0, 1);
   }
 .custom-popup .leaflet-popup-tip-container {
   width:30px;
   height:15px;
   }
 .custom-popup .leaflet-popup-tip {
-  border-left:15px solid transparent;
-  border-right:15px solid transparent;
-  border-top:15px solid #2c3e50;
+  display: block;;
+  font-size: 20px;
+  
+  opacity: 0.8;
+  border-radius: 50px;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+  background: rgb(38, 0, 255);
+  color: rgb(255, 255, 255);
+  
+  transform: scale(1);
+  transition: 0.5s;
   }
+  .custom-popup .leaflet-popup-content-wrapper:hover
+{
+  transform: scale(1.5);
+  border-radius: 10px;
+  background: rgb(0, 195, 255);
+  color: rgb(6, 247, 235);
+    cursor: pointer;
+}
+
+
+@keyframes custom-popup{
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0 0;
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+  

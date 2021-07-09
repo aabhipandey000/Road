@@ -378,7 +378,9 @@ function showCrimeZones()
   				})
 			}
 				const pulsatingIcon = generatePulsatingMarker((x.radius * 250 ), 'blue');
-				circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
+				circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick ,"mouseout" , onMapOut );
+				circleOnCrimeZones.on("mouseout" , onMapOut );
+
 				function onMapClick(e) 
 				{
 
@@ -399,6 +401,14 @@ function showCrimeZones()
     			.setLatLng(e.latlng)
     			.setContent(lt + " " + lg + "Radius" + currentradius)
     			.openOn(map);
+    // 'click' the new marker to show the ID when marker created
+				}
+				function onMapOut(e) 
+				{
+
+				
+    			map.closePopup();
+  				
     // 'click' the new marker to show the ID when marker created
 				}
 			}
