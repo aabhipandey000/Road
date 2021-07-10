@@ -1,0 +1,484 @@
+[
+  {
+    "lat": "28.7122",
+    "lng": "77.2572",
+    "weight": 13.5,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.49",
+    "lng": "77.3046",
+    "weight": 18,
+    "radius": 0.1242742,
+    "crimeTag": "abduction",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6346",
+    "lng": "77.3154",
+    "weight": 16.2,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6128",
+    "lng": "77.2346",
+    "weight": 19.8,
+    "radius": 0.1242742,
+    "crimeTag": "assaultOnWomen",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6071",
+    "lng": "77.1147",
+    "weight": 16.2,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.5605",
+    "lng": "77.1699",
+    "weight": 27,
+    "radius": 0.1242742,
+    "crimeTag": "rape",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.54",
+    "lng": "77.2826",
+    "weight": 16.2,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6176",
+    "lng": "77.2405",
+    "weight": 18,
+    "radius": 0.1242742,
+    "crimeTag": "abduction",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.585",
+    "lng": "77.1262",
+    "weight": 21.599999999999998,
+    "radius": 0.1242742,
+    "crimeTag": "abduction",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6717",
+    "lng": "77.2777",
+    "weight": 23.76,
+    "radius": 0.1242742,
+    "crimeTag": "assaultOnWomen",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6919",
+    "lng": "77.1534",
+    "weight": 9.439999999999998,
+    "radius": 0.1242742,
+    "crimeTag": "eveTeasing",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.6024",
+    "lng": "77.0705",
+    "weight": 10,
+    "radius": 0.1242742,
+    "crimeTag": "humanTrafficking",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.689552372729946",
+    "lng": "77.15492248535156",
+    "weight": 10,
+    "radius": 0.1242742
+  },
+  {
+    "lat": "28.60186505066317",
+    "lng": "77.1939600618528",
+    "weight": 16.2,
+    "radius": 0.0621371,
+    "crimeTag": "stalking",
+    "intensity": "4"
+  },
+  {
+    "lat": "25.645980000000066",
+    "lng": "83.55977000000007",
+    "weight": 19.439999999999998,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.634880000000067",
+    "lng": "77.21915000000007",
+    "weight": 12,
+    "radius": 0.09320565,
+    "crimeTag": "abduction",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.634880000000067",
+    "lng": "77.21915000000007",
+    "weight": 12,
+    "radius": 0.09320565,
+    "crimeTag": "abduction",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.600455046911",
+    "lng": "77.20449506640645",
+    "weight": 10.799999999999999,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.600455046911",
+    "lng": "77.20449506640645",
+    "weight": 10.799999999999999,
+    "radius": 0.1242742,
+    "crimeTag": "stalking",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.591320000000053",
+    "lng": "77.19593000000003",
+    "weight": 23.76,
+    "radius": 0.15534275,
+    "crimeTag": "assaultOnWomen",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.66398004519938",
+    "lng": "77.21697509159193",
+    "weight": 19.8,
+    "radius": 0.15534275,
+    "crimeTag": "streetHarassment",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.64262000000008",
+    "lng": "77.36730000000006",
+    "weight": 16.5,
+    "radius": 0.1864113,
+    "crimeTag": "streetHarassment",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.641590033025288",
+    "lng": "77.10765005420316",
+    "weight": 12,
+    "radius": 0.15534275,
+    "crimeTag": "abduction",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.701720000000023",
+    "lng": "77.16694000000007",
+    "weight": 22.5,
+    "radius": 0.15534275,
+    "crimeTag": "acidAttack",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.654040050997416",
+    "lng": "77.08873511622136",
+    "weight": 23.76,
+    "radius": 0.15534275,
+    "crimeTag": "assaultOnWomen",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.652881660759693",
+    "lng": "77.08917617797852",
+    "weight": 19.439999999999998,
+    "radius": 0.1864113,
+    "crimeTag": "eveTeasing",
+    "intensity": "4"
+  },
+  {
+    "lat": "28.653000377847864",
+    "lng": "77.08792090415955",
+    "weight": 16.5,
+    "radius": 0.15534275,
+    "crimeTag": "streetHarassment",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.640967342351708",
+    "lng": "77.17706680297852",
+    "weight": 12,
+    "radius": 0.0621371,
+    "crimeTag": "humanTrafficking",
+    "intensity": "2"
+  },
+  {
+    "lat": "28.596620053796386",
+    "lng": "77.16473010236615",
+    "weight": 16.2,
+    "radius": 0.0621371,
+    "crimeTag": "eveTeasing",
+    "intensity": "3"
+  },
+  {
+    "lat": "28.554897539548946",
+    "lng": "77.21880197525024",
+    "weight": -12.2,
+    "radius": 0.0621371
+  },
+  {
+    "lat": "28.615766938183636",
+    "lng": "77.20961272716522",
+    "weight": -12,
+    "radius": 0.09320565
+  },
+
+  {
+    "lat": "28.641885034107553",
+    "lng": "77.1749250950175",
+    "weight": -14,
+    "radius": 0.15534275
+  },
+
+  {
+    "lat": "28.592946220641156",
+    "lng": "77.06368446350098",
+    "weight": -2,
+    "radius": 0.2242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.695615682754877",
+    "lng": "77.15286254882812",
+    "weight": -3,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.6680562043989",
+    "lng": "77.2774887084961",
+    "weight": -3,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.579003152080872",
+    "lng": "77.1229076385498",
+    "weight": -2,
+    "radius": 0.1722742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.622936390865902",
+    "lng": "77.24255561828613",
+    "weight": -3,
+    "radius": 0.3242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.540857534348667",
+    "lng": "77.28375434875488",
+    "weight": -2,
+    "radius": 0.1142742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.556615008593305",
+    "lng": "77.17517852783203",
+    "weight": -2,
+    "radius": 0.2242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.61659103810356",
+    "lng": "77.10805892944336",
+    "weight": -1,
+    "radius": 0.1242742,
+    "crimeTag": "wellLight",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.60905616954856",
+    "lng": "77.24092483520508",
+    "weight": -1,
+    "radius": 0.1242742,
+    "crimeTag": "shop",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.630755127433563",
+    "lng": "77.31061935424805",
+    "weight": -1,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.474694264302155",
+    "lng": "77.30134963989258",
+    "weight": -1,
+    "radius": 0.3242742,
+    "crimeTag": "wellLight",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.713277747372057",
+    "lng": "77.26341247558594",
+    "weight": -2,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.74281960169326",
+    "lng": "77.10123538970947",
+    "weight": -3,
+    "radius": 0.1242742,
+    "crimeTag": "shop",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.721444929285617",
+    "lng": "77.21466064453125",
+    "weight": -2,
+    "radius": 0.1242742,
+    "crimeTag": "shop",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.664374234299316",
+    "lng": "77.2699785232544",
+    "weight": -2,
+    "radius": 0.1242742,
+    "crimeTag": "shop",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.646297874346835",
+    "lng": "77.3157262802124",
+    "weight": -20,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.564425723158845",
+    "lng": "77.23320007324219",
+    "weight": -3,
+    "radius": 0.1242742,
+    "crimeTag": "wellLight",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.702286800245677",
+    "lng": "77.2833251953125",
+    "weight": -20,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.502480066225502",
+    "lng": "77.28594303131104",
+    "weight": -2,
+    "radius": 0.1242742,
+    "crimeTag": "wellLight",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.758960602131214",
+    "lng": "77.14942932128906",
+    "weight": -30,
+    "radius": 0.1242742,
+    "crimeTag": "wellLight",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.512285212220586",
+    "lng": "77.11003303527832",
+    "weight": -2,
+    "radius": 0.1242742,
+    "crimeTag": "wellLight",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.726789007194945",
+    "lng": "77.14277744293213",
+    "weight": -30,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.71610057822557",
+    "lng": "77.17050075531006",
+    "weight": -1,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.66588045694242",
+    "lng": "77.21414566040039",
+    "weight": -2,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.615108830889145",
+    "lng": "77.08488464355469",
+    "weight": -1,
+    "radius": 0.1242742,
+    "crimeTag": "wellLight",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.643209517873146",
+    "lng": "77.21933841705322",
+    "weight": -1,
+    "radius": 0.1242742,
+    "crimeTag": "wellLight",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.646486185824617",
+    "lng": "77.2922945022583",
+    "weight": -2,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.625543878277032",
+    "lng": "77.20024108886719",
+    "weight": -2,
+    "radius": 0.1242742,
+    "crimeTag": "hospital",
+    "intensity": "1"
+  },
+  {
+    "lat": "28.629800477022158",
+    "lng": "77.27753162384033",
+    "weight": -3,
+    "radius": 0.1242742,
+    "crimeTag": "metro",
+    "intensity": "1"
+  }
+]

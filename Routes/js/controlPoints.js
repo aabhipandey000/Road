@@ -8,9 +8,23 @@ function getData(){
 	return fetch(url)
 		.then((resp) => resp.json()) // Transform the data into json
 		.then(function(data) {
+			console.log(data + "Control points Crime Records processed data ");
 			return data;
 		});
 }
+function getData_2(){
+	//url of json data file 
+	const url = 'records_Processed.json';
+	
+	//make an api call to the file (get request) using fetch
+	return fetch(url)
+		.then((resp) => resp.json()) // Transform the data into json
+		.then(function(data) {
+			console.log(data + "Control points Crime Records processed data ");
+			return data;
+		});
+}
+
 
 // function getDataRaw(){
 // 	//url of json data file 
@@ -100,19 +114,5 @@ function calculateWeight(tag, intensity, time) {
 	return weight;
 }
 
-module.exports = {
-	getControlPointsData: function(data){
 
-			// Preparing controlPoint record.
-			var controlPoint = {
-				"lat": data.latitude,
-				"lng": data.longitude,
-				"weight": calculateWeight(data.crimeTag, data.intensity, data.time),
-				"radius": (data.radius) * 0.621371,  // Mutilplying 0.621371 for miles
-				"crimeTag": data.crimeTag,
-				"intensity": data.intensity 
-			}
-		return controlPoint; 
-	}
-};
 

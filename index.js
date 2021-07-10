@@ -36,6 +36,13 @@ app.get('/crimeRecordsProcessed.json', (req, res) => {
 	res.sendFile(path.join(__dirname, 'Data', 'crimeRecordsProcessed.json'));
 });
 
+app.get('/records_Processed.json', (req, res) => {
+	console.log("Records_Processed Get");
+	res.sendFile(path.join(__dirname, 'Data', 'records_Processed.json'));
+	console.log("Records_Processed Get over");
+
+});
+
 //display data on web page (for personal use)
 app.get('/raw-data' ,(req, res) => {
 	filePath = path.join(__dirname, 'Data', 'crimeRecordsRaw.json');
@@ -45,6 +52,14 @@ app.get('/processed-data' ,(req, res) => {
 	filePath = path.join(__dirname, 'Data', 'crimeRecordsProcessed.json');
 	res.sendFile(filePath);
 });
+app.get('/records-data' ,(req, res) => {
+	console.log("Records_Processed Get _2");
+
+	filePath = path.join(__dirname, 'Data', 'records_Processed.json');
+	res.sendFile(filePath);
+	console.log("Records_Processed Get_2 Over");
+
+});
 
 //handle form submission
 app.post('/handleFormSubmit', (req, res) => {
@@ -52,6 +67,9 @@ app.post('/handleFormSubmit', (req, res) => {
 	//path of json file
 	rawDataFilePath = path.join(__dirname, 'Data', 'crimeRecordsRaw.json');
 	processedDataFilePath = path.join(__dirname, 'Data', 'crimeRecordsProcessed.json');
+	recordsDataFilePath = path.join(__dirname, 'Data', 'records_Processed.json');
+	console.log("Records_Processed records data file path");
+
 	//convert 24 hr time to 12 hr time
 	function tConvert (time) {
 		  // Check correct time format and split into components
@@ -100,6 +118,20 @@ app.post('/handleFormSubmit', (req, res) => {
 			
 			//write data back to processed data file
 			fs.writeFile(processedDataFilePath, JSON.stringify(processedDataJS, null, 3), err => {
+				if(err) throw err;
+				
+				console.log("Done writing processed data.");
+				return res.send("Success! Your post has been saved.");
+			});
+		});
+
+		fs.readFile(recordsDataFilePath, (err, data) => {
+			if(err) throw err;
+			
+			var recordsDataJS = JSON.parse(data);
+			newDataRecords = controlPointRoutes.getControlPointsData(newData);
+			recordsDataJS.push(newDataProcessed);
+			fs.writeFile(recordsDataFilePath, JSON.stringify(recordsDataJS, null, 3), err => {
 				if(err) throw err;
 				
 				console.log("Done writing processed data.");
