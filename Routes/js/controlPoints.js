@@ -20,7 +20,7 @@ function getData_2(){
 	return fetch(url)
 		.then((resp) => resp.json()) // Transform the data into json
 		.then(function(data) {
-			console.log(data + "Control points Crime Records processed data ");
+			console.log(data + "Control points Safe Records processed data ");
 			return data;
 		});
 }

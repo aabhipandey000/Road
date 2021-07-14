@@ -370,24 +370,26 @@
   					{
   						var currentradius = x.radius;
 						var currentcrimetag = x.crimeTag;
+						var currentweight = x.weight ;
 						var lt = String(e.latlng.lat),
     					lg = String(e.latlng.lng);
     					var popup = L.popup()
       					.setLatLng(e.latlng)
-      					.setContent("Mishappening" + currentcrimetag + '<br>' + "Radius" + currentradius)
+      					.setContent("Mishappening : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
       					.openOn(map);
 
   					}
-					  if(String(y.lat) == e.latlng.lat)
+					  if(String(y.lat) == e.latlng.lat )
   					{
   						
 						var currentradius = y.radius;
 						var currentcrimetag = y.crimeTag;
+						var currentweight = y.weight ;
 						var lt = String(e.latlng.lat),
     					lg = String(e.latlng.lng);
     					var popup = L.popup()
       					.setLatLng(e.latlng)
-      					.setContent("Mishappening" + currentcrimetag + '<br>' + "Radius" + currentradius)
+      					.setContent("Safe : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
       					.openOn(map);
   					}
   	//check if current point is in path
@@ -417,8 +419,8 @@
   				text : labelText,
     				})
   			}
-  				const pulsatingIcon = generatePulsatingMarker((x.radius * 200 ), 'blue');
-				const pulsatingIcon_Records = generatePulsatingMarker((y.radius * 200 ), 'blue');
+  				const pulsatingIcon = generatePulsatingMarker((x.radius * 200 ), 'red');
+				const pulsatingIcon_Records = generatePulsatingMarker((y.radius * 200 ), 'red');
 
   				circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
   				circleOnCrimeZones.on("mouseout" , onMapOut );
@@ -436,25 +438,36 @@
   					{
   						var currentradius = x.radius;
 						var currentcrimetag = x.crimeTag;
+						var currentweight = x.weight ;
 						var lt = String(e.latlng.lat),
     					lg = String(e.latlng.lng);
     					var popup = L.popup()
       					.setLatLng(e.latlng)
-      					.setContent(currentcrimetag)
+      					.setContent("Mishappening : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
       					.openOn(map);
 
   					}
-					  if(String(y.lat) == e.latlng.lat)
+					  if(String(y.lat) == e.latlng.lat )
   					{
   						
 						var currentradius = y.radius;
 						var currentcrimetag = y.crimeTag;
+						var currentweight = y.weight ; 
+						var i = y.intensity ; var n = parseInt(i) ;
 						var lt = String(e.latlng.lat),
     					lg = String(e.latlng.lng);
-    					var popup = L.popup()
+						if( n==10 )
+    					{ var popup = L.popup()
       					.setLatLng(e.latlng)
-      					.setContent(currentcrimetag)
+      					.setContent("Safe : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
+      					.openOn(map); }
+						else
+						{
+							var popup = L.popup()
+      					.setLatLng(e.latlng)
+      					.setContent("Mishappening : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
       					.openOn(map);
+						}
   					}
   	//check if current point is in path
   				}
@@ -477,25 +490,28 @@
   	dir = MQ.routing.directions()
   			.on('success', function(data) {
   			console.log("reached directions");
-  			var legs = data.route.legs,
+  			var legs = data.route.legs,  
   				html = '',
   				maneuvers,
-  				i;
+  				i  , time1 , num ; //= data.route.distance;
 
+		 //   console.log(legs[0].maneuver) ;
   			if (legs && legs.length) {
-  				maneuvers = legs[0].maneuvers;
+				  maneuvers = legs[0].maneuvers;
+		//   console.log( maneuvers.signs) ;
 
   				for (i=0; i < maneuvers.length; i++) {
   					html += '<br>' ;
   					html += (i+1) + '. ';
   					html += maneuvers[i].narrative + '<br>' ;
-
+					num = (maneuvers[i].signs) ;
+					console.log(num)
 
   				}
-
+				//console.log("dis"+ time1 ) ;
   				var dir = "DIRECTIONS" ;
   				var res = dir ;
-  				L.DomUtil.get('route-narrative').innerHTML = '<br>' + res + '<br>' + html;
+  				L.DomUtil.get('route-narrative').innerHTML = '<br>' + res + '<br>' + html + '<br>'; //+ time1;
   			}
   		});
 

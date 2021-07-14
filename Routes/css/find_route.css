@@ -160,8 +160,8 @@ body {
   border-radius: 50px;
   cursor: pointer;
   animation: pulse 2s infinite;
-  background: rgb(204, 127, 27);
-  color: rgb(204, 127, 27);
+  background: rgb(195, 32, 4);
+  color : rgb(195, 32, 4);
   transform: scale(1);
   transition: 0.5s;
 }
@@ -170,8 +170,8 @@ body {
 {
   transform: scale(1.2);
   border-radius: 20px;
-  background: rgb(129, 81, 18);
-  color: rgb(129, 81, 18);
+  background:rgb(235, 19, 3);
+  color: rgb(235, 19, 3);
   cursor: pointer;
 }
 .pulse {

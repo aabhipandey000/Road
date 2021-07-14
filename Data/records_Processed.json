@@ -95,12 +95,7 @@
     "crimeTag": "humanTrafficking",
     "intensity": "4"
   },
-  {
-    "lat": "28.689552372729946",
-    "lng": "77.15492248535156",
-    "weight": 10,
-    "radius": 0.1242742
-  },
+ 
   {
     "lat": "28.60186505066317",
     "lng": "77.1939600618528",
@@ -229,33 +224,14 @@
     "crimeTag": "eveTeasing",
     "intensity": "3"
   },
-  {
-    "lat": "28.554897539548946",
-    "lng": "77.21880197525024",
-    "weight": -12.2,
-    "radius": 0.0621371
-  },
-  {
-    "lat": "28.615766938183636",
-    "lng": "77.20961272716522",
-    "weight": -12,
-    "radius": 0.09320565
-  },
-
-  {
-    "lat": "28.641885034107553",
-    "lng": "77.1749250950175",
-    "weight": -14,
-    "radius": 0.15534275
-  },
-
+ 
   {
     "lat": "28.592946220641156",
     "lng": "77.06368446350098",
     "weight": -2,
     "radius": 0.2242742,
     "crimeTag": "hospital",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.695615682754877",
@@ -263,7 +239,7 @@
     "weight": -3,
     "radius": 0.1242742,
     "crimeTag": "metro",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.6680562043989",
@@ -271,7 +247,7 @@
     "weight": -3,
     "radius": 0.1242742,
     "crimeTag": "metro",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.579003152080872",
@@ -279,7 +255,7 @@
     "weight": -2,
     "radius": 0.1722742,
     "crimeTag": "hospital",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.622936390865902",
@@ -287,7 +263,7 @@
     "weight": -3,
     "radius": 0.3242742,
     "crimeTag": "metro",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.540857534348667",
@@ -295,7 +271,7 @@
     "weight": -2,
     "radius": 0.1142742,
     "crimeTag": "hospital",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.556615008593305",
@@ -303,7 +279,7 @@
     "weight": -2,
     "radius": 0.2242742,
     "crimeTag": "metro",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.61659103810356",
@@ -311,7 +287,7 @@
     "weight": -1,
     "radius": 0.1242742,
     "crimeTag": "wellLight",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.60905616954856",
@@ -319,7 +295,7 @@
     "weight": -1,
     "radius": 0.1242742,
     "crimeTag": "shop",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.630755127433563",
@@ -327,7 +303,7 @@
     "weight": -1,
     "radius": 0.1242742,
     "crimeTag": "metro",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.474694264302155",
@@ -335,7 +311,7 @@
     "weight": -1,
     "radius": 0.3242742,
     "crimeTag": "wellLight",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.713277747372057",
@@ -343,7 +319,7 @@
     "weight": -2,
     "radius": 0.1242742,
     "crimeTag": "hospital",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.74281960169326",
@@ -351,7 +327,7 @@
     "weight": -3,
     "radius": 0.1242742,
     "crimeTag": "shop",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.721444929285617",
@@ -359,7 +335,7 @@
     "weight": -2,
     "radius": 0.1242742,
     "crimeTag": "shop",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.664374234299316",
@@ -367,15 +343,15 @@
     "weight": -2,
     "radius": 0.1242742,
     "crimeTag": "shop",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.646297874346835",
     "lng": "77.3157262802124",
-    "weight": -20,
+    "weight": -2,
     "radius": 0.1242742,
     "crimeTag": "metro",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.564425723158845",
@@ -383,15 +359,15 @@
     "weight": -3,
     "radius": 0.1242742,
     "crimeTag": "wellLight",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.702286800245677",
     "lng": "77.2833251953125",
-    "weight": -20,
+    "weight": -2,
     "radius": 0.1242742,
     "crimeTag": "hospital",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.502480066225502",
@@ -399,15 +375,15 @@
     "weight": -2,
     "radius": 0.1242742,
     "crimeTag": "wellLight",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.758960602131214",
     "lng": "77.14942932128906",
-    "weight": -30,
+    "weight": -3,
     "radius": 0.1242742,
     "crimeTag": "wellLight",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.512285212220586",
@@ -415,15 +391,15 @@
     "weight": -2,
     "radius": 0.1242742,
     "crimeTag": "wellLight",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.726789007194945",
     "lng": "77.14277744293213",
-    "weight": -30,
+    "weight": -3,
     "radius": 0.1242742,
     "crimeTag": "hospital",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.71610057822557",
@@ -431,7 +407,7 @@
     "weight": -1,
     "radius": 0.1242742,
     "crimeTag": "metro",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.66588045694242",
@@ -439,7 +415,7 @@
     "weight": -2,
     "radius": 0.1242742,
     "crimeTag": "hospital",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.615108830889145",
@@ -447,7 +423,7 @@
     "weight": -1,
     "radius": 0.1242742,
     "crimeTag": "wellLight",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.643209517873146",
@@ -455,7 +431,7 @@
     "weight": -1,
     "radius": 0.1242742,
     "crimeTag": "wellLight",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.646486185824617",
@@ -463,7 +439,7 @@
     "weight": -2,
     "radius": 0.1242742,
     "crimeTag": "hospital",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.625543878277032",
@@ -471,7 +447,7 @@
     "weight": -2,
     "radius": 0.1242742,
     "crimeTag": "hospital",
-    "intensity": "1"
+    "intensity": "10"
   },
   {
     "lat": "28.629800477022158",
@@ -479,6 +455,6 @@
     "weight": -3,
     "radius": 0.1242742,
     "crimeTag": "metro",
-    "intensity": "1"
+    "intensity": "10"
   }
 ]
