@@ -453,21 +453,21 @@
 						var currentradius = y.radius;
 						var currentcrimetag = y.crimeTag;
 						var currentweight = y.weight ; 
-						var i = y.intensity ; var n = parseInt(i) ;
+						//var i = y.intensity ; 
+						var n = parseInt(i) ;
 						var lt = String(e.latlng.lat),
     					lg = String(e.latlng.lng);
-						if( n==10 )
-    					{ var popup = L.popup()
+						
+						/* var popup = L.popup()
       					.setLatLng(e.latlng)
-      					.setContent("Safe : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
-      					.openOn(map); }
-						else
-						{
-							var popup = L.popup()
+      					.setContent("Safe Point : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
+      					.openOn(map); } */
+					
+						var popup = L.popup()
       					.setLatLng(e.latlng)
       					.setContent("Mishappening : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
       					.openOn(map);
-						}
+					
   					}
   	//check if current point is in path
   				}
@@ -504,13 +504,13 @@
   					html += '<br>' ;
   					html += (i+1) + '. ';
   					html += maneuvers[i].narrative + '<br>' ;
-					num = (maneuvers[i].signs) ;
-					console.log(num)
+					/* num = (maneuvers[i].signs) ;
+					console.log(num); */
 
   				}
 				//console.log("dis"+ time1 ) ;
   				var dir = "DIRECTIONS" ;
-  				var res = dir ;
+  				var res = dir ; 
   				L.DomUtil.get('route-narrative').innerHTML = '<br>' + res + '<br>' + html + '<br>'; //+ time1;
   			}
   		});
