@@ -37,9 +37,7 @@ app.get('/crimeRecordsProcessed.json', (req, res) => {
 });
 
 app.get('/records_Processed.json', (req, res) => {
-	console.log("Records_Processed Get");
 	res.sendFile(path.join(__dirname, 'Data', 'records_Processed.json'));
-	console.log("Records_Processed Get over");
 
 });
 
@@ -53,11 +51,9 @@ app.get('/processed-data' ,(req, res) => {
 	res.sendFile(filePath);
 });
 app.get('/records-data' ,(req, res) => {
-	console.log("Records_Processed Get _2");
 
 	filePath = path.join(__dirname, 'Data', 'records_Processed.json');
 	res.sendFile(filePath);
-	console.log("Records_Processed Get_2 Over");
 
 });
 
@@ -68,7 +64,6 @@ app.post('/handleFormSubmit', (req, res) => {
 	rawDataFilePath = path.join(__dirname, 'Data', 'crimeRecordsRaw.json');
 	processedDataFilePath = path.join(__dirname, 'Data', 'crimeRecordsProcessed.json');
 	recordsDataFilePath = path.join(__dirname, 'Data', 'records_Processed.json');
-	console.log("Records_Processed records data file path");
 
 	//convert 24 hr time to 12 hr time
 	function tConvert (time) {
@@ -104,7 +99,6 @@ app.post('/handleFormSubmit', (req, res) => {
 		fs.writeFile(rawDataFilePath, JSON.stringify(rawDataJS, null, 3), err => {
 			if(err) throw err;
 
-			console.log("Done writing raw data");
 			//return res.send("Success! Your post has been saved.");
 		});
 		
@@ -120,7 +114,6 @@ app.post('/handleFormSubmit', (req, res) => {
 			fs.writeFile(processedDataFilePath, JSON.stringify(processedDataJS, null, 3), err => {
 				if(err) throw err;
 				
-				console.log("Done writing processed data.");
 				return res.send("Success! Your post has been saved.");
 			});
 		});
@@ -134,7 +127,6 @@ app.post('/handleFormSubmit', (req, res) => {
 			fs.writeFile(recordsDataFilePath, JSON.stringify(recordsDataJS, null, 3), err => {
 				if(err) throw err;
 				
-				console.log("Done writing processed data.");
 				return res.send("Success! Your post has been saved.");
 			});
 		});

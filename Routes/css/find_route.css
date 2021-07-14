@@ -155,7 +155,7 @@ body {
 .pulse_2 {
   display: block;;
   font-size: 200px;
-  
+  align-self: center;
   opacity: 0.8;
   border-radius: 50px;
   cursor: pointer;

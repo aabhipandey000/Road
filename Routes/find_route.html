@@ -326,17 +326,16 @@
   	for (var i = 0, len = controlPointsData.length; i < len; i++)
   	{
   		var x = controlPointsData[i];
-		  var y = records[i];
-  		var w = controlPointsData[i].weight;
-		  var w_2 = records[i].weight;
+		var y = records[i];
   		
+		console.log(x.weight+" Weightbaji_1 " + y.weight + " Weightbaji_2");
+
 
   		//check if current point is in path
-  		if(distanceBetweenPoints(midPoint.lat,midPoint.lng,x.lat,x.lng) < pathRadius || distanceBetweenPoints(midPoint.lat,midPoint.lng,y.lat,y.lng) < pathRadius)
+  		if(distanceBetweenPoints(midPoint.lat,midPoint.lng,y.lat,y.lng) < pathRadius)
   		{
   //(x.radius * 1609.34)
-  			if(w<0 || w_2<0)
-  			{
+  			
   				const generatePulsatingMarker = function (radius, color,labelText)
   			{
     			const cssStyle = `
@@ -351,59 +350,47 @@
   				text : labelText,
     				})
   			}
-  				const pulsatingIcon = generatePulsatingMarker((x.radius * 200 ), 'blue');
+  				
 				const pulsatingIcon_Records = generatePulsatingMarker((y.radius * 200 ), 'blue');
 
-  				circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
-  				circleOnCrimeZones.on("mouseout" , onMapOut );
-				circleOnRecords = L.marker([y.lat, y.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
-  				circleOnRecords.on("mouseout" , onMapOut );
+  				
+				circleOnRecords = L.marker([y.lat, y.lng], {icon: pulsatingIcon_Records}).addTo(map).on("mouseover", onMapClick_y);
+  				circleOnRecords.on("mouseout" , onMapOut_y );
 
-  				function onMapClick(e)
+  				function onMapClick_y(e)
   				{
-  				for (var i = 0, len = controlPointsData.length; i < len; i++)
+
+  				for (var i = 0, len = records.length; i < len; i++)
   				{
-  					var x = controlPointsData[i];
+					
+		  			
+  					
 					var y = records[i]; 
-  					console.log(x+" waheguru");
-  					if(String(x.lat) == e.latlng.lat)
+  					
+					  if(String(y.lat) == e.latlng.lat)
   					{
-  						var currentradius = x.radius;
-						var currentcrimetag = x.crimeTag;
-						var currentweight = x.weight ;
-						var lt = String(e.latlng.lat),
-    					lg = String(e.latlng.lng);
-    					var popup = L.popup()
-      					.setLatLng(e.latlng)
-      					.setContent("Mishappening : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
-      					.openOn(map);
-
-  					}
-					  if(String(y.lat) == e.latlng.lat )
-  					{
-  						
-						var currentradius = y.radius;
+  						var currentradius = y.radius;
 						var currentcrimetag = y.crimeTag;
 						var currentweight = y.weight ;
 						var lt = String(e.latlng.lat),
     					lg = String(e.latlng.lng);
     					var popup = L.popup()
       					.setLatLng(e.latlng)
-      					.setContent("Safe : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
+      					.setContent("SafePoint : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
       					.openOn(map);
+
   					}
-  	//check if current point is in path
+				}
+  
   				}
       			
-      //'click' the new marker to show the ID when marker created
-  				}
-  				function onMapOut(e)
-  				{
+  				
+  			function onMapOut_y(e)
+  			{
       			map.closePopup();
-      //'click' the new marker to show the ID when marker created
-  				}
   			}
-  			else
+  			}
+  			if(distanceBetweenPoints(midPoint.lat,midPoint.lng,x.lat,x.lng) < pathRadius)
   			{
   				const generatePulsatingMarker = function (radius, color,labelText)
   			{
@@ -419,20 +406,16 @@
   				text : labelText,
     				})
   			}
-  				const pulsatingIcon = generatePulsatingMarker((x.radius * 200 ), 'red');
-				const pulsatingIcon_Records = generatePulsatingMarker((y.radius * 200 ), 'red');
-
+  				const pulsatingIcon = generatePulsatingMarker((x.radius * 400 ), 'red');
+				
   				circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
   				circleOnCrimeZones.on("mouseout" , onMapOut );
-				circleOnRecords = L.marker([y.lat, y.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
-  				circleOnRecords.on("mouseout" , onMapOut );
-
+				
   				function onMapClick(e)
   				{
   				for (var i = 0, len = controlPointsData.length; i < len; i++)
   				{
   					var x = controlPointsData[i];
-					var y = records[i]; 
   					console.log(x+" waheguru");
   					if(String(x.lat) == e.latlng.lat)
   					{
@@ -447,28 +430,8 @@
       					.openOn(map);
 
   					}
-					  if(String(y.lat) == e.latlng.lat )
-  					{
-  						
-						var currentradius = y.radius;
-						var currentcrimetag = y.crimeTag;
-						var currentweight = y.weight ; 
-						//var i = y.intensity ; 
-						var n = parseInt(i) ;
-						var lt = String(e.latlng.lat),
-    					lg = String(e.latlng.lng);
-						
-						/* var popup = L.popup()
-      					.setLatLng(e.latlng)
-      					.setContent("Safe Point : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
-      					.openOn(map); } */
-					
-						var popup = L.popup()
-      					.setLatLng(e.latlng)
-      					.setContent("Mishappening : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
-      					.openOn(map);
-					
-  					}
+					  
+				}
   	//check if current point is in path
   				}
       			
@@ -481,8 +444,8 @@
   				}
   			}
   		}
-  	}
-  }
+  	
+  
 
   //function to find route
   function routeIt() {
