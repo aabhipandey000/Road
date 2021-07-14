@@ -93,14 +93,23 @@ body {
 }
 #map {
     height: 600px;
-	padding: 20px 10px;
-    margin-right: 25px;
-	margin-bottom:10px;
+    
+	  margin-bottom:10px;
     margin-top: 10px;
-    margin-left: 25px;
-
-
+    transform: scale(1);
+    
+    
+    align-self: center;
+    
+    border-radius: 50px;
+   
+    
+    
+    transform: scale(1);
+    
 }
+
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -247,12 +256,12 @@ white-space: nowrap;
   opacity: 0.8;
   border-radius: 50px;
   cursor: pointer;
-  animation: custom-popup 1s normal forwards ease-in-out;
+  animation: custom-popup 0.5s normal forwards ease-in-out;
   background: rgb(23, 192, 192);
   color: rgb(255, 255, 255);
   
   transform: scale(1);
-  transition: 0.5s;
+  transition: 0.2s;
   }
 .custom-popup .leaflet-popup-content-wrapper a {
   color:rgba(0, 0, 0, 1);
@@ -268,13 +277,13 @@ white-space: nowrap;
   opacity: 0.1;
   border-radius: 50px;
   cursor: pointer;
-  animation: custom-popup 1s normal forwards ease-in-out;
+  animation: custom-popup 0.5s normal forwards ease-in-out;
   
   background: rgb(23, 192, 192);
   color: rgb(0, 0, 0);
   
   transform: scale(1);
-  transition: 0.5s;
+  transition: 0.2s;
   }
   .custom-popup .leaflet-popup-content-wrapper:hover
 {

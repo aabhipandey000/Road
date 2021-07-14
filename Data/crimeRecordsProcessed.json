@@ -12,7 +12,7 @@
     "lng": "77.21984010991633",
     "weight": 21.599999999999998,
     "radius": 0.3728226,
-    "crimeTag": "rape",
+    "crimeTag": "Rape",
     "intensity": "2"
   },
   {
@@ -20,7 +20,7 @@
     "lng": "77.18230506739687",
     "weight": 18,
     "radius": 0.1864113,
-    "crimeTag": "murder",
+    "crimeTag": "Murder",
     "intensity": "1"
   },
   {
@@ -28,7 +28,7 @@
     "lng": "77.4063450831018",
     "weight": 7.199999999999999,
     "radius": 0.1864113,
-    "crimeTag": "eveTeasing",
+    "crimeTag": "Eve-Teasing",
     "intensity": "2"
   },
   {
@@ -36,7 +36,7 @@
     "lng": "77.2404551074097",
     "weight": 6,
     "radius": 0.1864113,
-    "crimeTag": "assaultOnWomen",
+    "crimeTag": "Assault On Women",
     "intensity": "3"
   },
   {
@@ -44,7 +44,7 @@
     "lng": "77.22407000000004",
     "weight": 9.6,
     "radius": 0.0621371,
-    "crimeTag": "kidnapping",
+    "crimeTag": "Kidnapping",
     "intensity": "2"
   },
   {
@@ -52,7 +52,7 @@
     "lng": "77.02049000000005",
     "weight": 7.2,
     "radius": 0.0621371,
-    "crimeTag": "streetHarassment",
+    "crimeTag": "Street Harassment",
     "intensity": "4"
   },
   {
@@ -60,7 +60,7 @@
     "lng": "77.26590005087942",
     "weight": 7.199999999999999,
     "radius": 0.1242742,
-    "crimeTag": "eveTeasing",
+    "crimeTag": "Eve-Teasing",
     "intensity": "2"
   },
   {
@@ -68,7 +68,7 @@
     "lng": "77.20943506677145",
     "weight": 12,
     "radius": 0.1864113,
-    "crimeTag": "humanTrafficking",
+    "crimeTag": "Human Trafficking",
     "intensity": "2"
   },
   {
@@ -76,7 +76,7 @@
     "lng": "77.22672005986178",
     "weight": 8.4,
     "radius": 0.1864113,
-    "crimeTag": "acidAttack",
+    "crimeTag": "Acid Attack",
     "intensity": "2"
   },
   {
@@ -84,7 +84,7 @@
     "lng": "77.39338506823097",
     "weight": 6,
     "radius": 0.1242742,
-    "crimeTag": "theft",
+    "crimeTag": "Theft",
     "intensity": "2"
   },
   {
@@ -92,7 +92,7 @@
     "lng": "77.2235600823646",
     "weight": 7.199999999999999,
     "radius": 0.2485484,
-    "crimeTag": "rape",
+    "crimeTag": "Rape",
     "intensity": "2"
   },
   {
@@ -100,7 +100,7 @@
     "lng": "77.13106000000005",
     "weight": 18,
     "radius": 0.1242742,
-    "crimeTag": "rape",
+    "crimeTag": "Rape",
     "intensity": "2"
   },
   {
@@ -108,7 +108,7 @@
     "lng": "77.23211511375015",
     "weight": 6,
     "radius": 0.2485484,
-    "crimeTag": "theft",
+    "crimeTag": "Theft",
     "intensity": "1"
   },
   {
@@ -116,7 +116,7 @@
     "lng": "77.21957008690555",
     "weight": 4.8,
     "radius": 0.1864113,
-    "crimeTag": "stalking",
+    "crimeTag": "Stalking",
     "intensity": "2"
   },
   {
@@ -124,7 +124,7 @@
     "lng": "77.22775000000007",
     "weight": 8.4,
     "radius": 0.1864113,
-    "crimeTag": "abduction",
+    "crimeTag": "Abduction",
     "intensity": "2"
   },
   {
@@ -132,7 +132,7 @@
     "lng": "77.21052000000003",
     "weight": 5.76,
     "radius": 0.2485484,
-    "crimeTag": "theft/robbery",
+    "crimeTag": "Theft/Robbery",
     "intensity": "2"
   },
   {
@@ -140,7 +140,7 @@
     "lng": "77.24038000000007",
     "weight": 6,
     "radius": 0.0621371,
-    "crimeTag": "theft/robbery",
+    "crimeTag": "Theft/Robbery",
     "intensity": "2"
   },
   {
@@ -148,7 +148,7 @@
     "lng": "77.11569786071777",
     "weight": 27,
     "radius": 0.3106855,
-    "crimeTag": "stalking",
+    "crimeTag": "Stalking",
     "intensity": "2"
   },
   {
@@ -156,7 +156,7 @@
     "lng": "77.315",
     "weight": 12,
     "radius": 0.1242742,
-    "crimeTag": "abduction",
+    "crimeTag": "Abduction",
     "intensity": "3"
   },
   
@@ -165,7 +165,7 @@
     "lng": "77.2231450943384",
     "weight": 15,
     "radius": 0.0621371,
-    "crimeTag": "streetHarassment",
+    "crimeTag": "Street Harassment",
     "intensity": "3"
   },
   {
@@ -173,23 +173,23 @@
     "lng": "77.21560506951789",
     "weight": 6,
     "radius": 0.0621371,
-    "crimeTag": "eveTeasing",
+    "crimeTag": "Eve-Teasing",
     "intensity": "1"
   },
   {
     "lat": "28.6953",
-    "lng": "\t77.315",
+    "lng": "77.315",
     "weight": 6,
     "radius": 0.0621371,
-    "crimeTag": "theft",
+    "crimeTag": "Theft",
     "intensity": "2"
   },
   {
     "lat": "28.7015",
-    "lng": "77.2917\t",
+    "lng": "77.2917",
     "weight": 9.6,
     "radius": 0.0621371,
-    "crimeTag": "abduction",
+    "crimeTag": "Abduction",
     "intensity": "2"
   },
   
@@ -198,7 +198,7 @@
     "lng": "77.3056",
     "weight": 16.2,
     "radius": 0.1242742,
-    "crimeTag": "eveTeasing",
+    "crimeTag": "Eve-Teasing",
     "intensity": "4"
   },
   {
@@ -206,103 +206,103 @@
     "lng": "77.1802",
     "weight": 16.2,
     "radius": 0.1864113,
-    "crimeTag": "stalking",
+    "crimeTag": "Stalking",
     "intensity": "3"
   },
   {
     "lat": "28.5996",
-    "lng": "\t77.0732",
+    "lng": "77.0732",
     "weight": 19.8,
     "radius": 0.1864113,
-    "crimeTag": "assaultOnWomen",
+    "crimeTag": "Assault On Women",
     "intensity": "3"
   },
   {
-    "lat": "\t28.4374",
-    "lng": "\t77.0347",
+    "lat": "28.4374",
+    "lng": "77.0347",
     "weight": 19.8,
     "radius": 0.1242742,
-    "crimeTag": "streetHarassment",
+    "crimeTag": "Street Harassment",
     "intensity": "4"
   },
   {
-    "lat": "\t28.5798",
-    "lng": "\t77.0215",
+    "lat": "28.5798",
+    "lng": "77.0215",
     "weight": 16.2,
     "radius": 0.1242742,
-    "crimeTag": "eveTeasing",
+    "crimeTag": "Eve-Teasing",
     "intensity": "4"
   },
   {
-    "lat": "\t28.7135",
-    "lng": "\t77.178",
+    "lat": "28.7135",
+    "lng": "77.178",
     "weight": 21.599999999999998,
     "radius": 0.1242742,
-    "crimeTag": "rape",
+    "crimeTag": "Rape",
     "intensity": "2"
   },
   {
-    "lat": "\t28.6547",
-    "lng": "\t77.2643",
+    "lat": "28.6547",
+    "lng": "77.2643",
     "weight": 13.5,
     "radius": 0.1242742,
-    "crimeTag": "stalking",
+    "crimeTag": "Stalking",
     "intensity": "3"
   },
   {
-    "lat": "\t28.5701",
-    "lng": "\t77.1859",
+    "lat": "28.5701",
+    "lng": "77.1859",
     "weight": 19.8,
     "radius": 0.1864113,
-    "crimeTag": "streetHarassment",
+    "crimeTag": "Street Harassment",
     "intensity": "3"
   },
   {
-    "lat": "\t28.5054",
+    "lat": "28.5054",
     "lng": "77.2778",
     "weight": 14.399999999999999,
     "radius": 0.1864113,
-    "crimeTag": "abduction",
+    "crimeTag": "Abduction",
     "intensity": "2"
   },
   {
-    "lat": "\t28.6481",
+    "lat": "28.6481",
     "lng": "77.2534",
     "weight": 14.399999999999999,
     "radius": 0.1242742,
-    "crimeTag": "abduction",
+    "crimeTag": "Abduction",
     "intensity": "2"
   },
   {
-    "lat": "\t28.5398",
+    "lat": "28.5398",
     "lng": "77.2788",
     "weight": 13.2,
     "radius": 0.1242742,
-    "crimeTag": "streetHarassment",
+    "crimeTag": "Street Harassment",
     "intensity": "2"
   },
   {
-    "lat": "\t28.6292",
-    "lng": "\t77.2753",
+    "lat": "28.6292",
+    "lng": "77.2753",
     "weight": 11.52,
     "radius": 0.1242742,
-    "crimeTag": "humanTrafficking",
+    "crimeTag": "Human Trafficking",
     "intensity": "2"
   },
   {
-    "lat": "\t28.6257",
-    "lng": "\t77.2027",
+    "lat": "28.6257",
+    "lng": "77.2027",
     "weight": 10.799999999999999,
     "radius": 0.1242742,
-    "crimeTag": "eveTeasing",
+    "crimeTag": "Eve-Teasing",
     "intensity": "2"
   },
   {
     "lat": "28.6728",
-    "lng": "\t77.128",
+    "lng": "77.128",
     "weight": 13.5,
     "radius": 0.1242742,
-    "crimeTag": "stalking",
+    "crimeTag": "Stalking",
     "intensity": "3"
   },
   {
@@ -310,7 +310,7 @@
     "lng": "77.293",
     "weight": 12,
     "radius": 0.1242742,
-    "crimeTag": "abduction",
+    "crimeTag": "Abduction",
     "intensity": "2"
   },
   {
@@ -318,7 +318,7 @@
     "lng": "28.659896850585938",
     "weight": 16.2,
     "radius": 0.1242742,
-    "crimeTag": "stalking",
+    "crimeTag": "Stalking",
     "intensity": "4"
   },
   {
@@ -326,7 +326,7 @@
     "lng": "77.2162",
     "weight": 21.599999999999998,
     "radius": 0.1242742,
-    "crimeTag": "humanTrafficking",
+    "crimeTag": "Human Trafficking",
     "intensity": "4"
   },
   {
@@ -334,7 +334,7 @@
     "lng": "77.0824",
     "weight": 16.2,
     "radius": 0.1242742,
-    "crimeTag": "eveTeasing",
+    "crimeTag": "Eve-Teasing",
     "intensity": "3"
   },
   {
@@ -342,7 +342,7 @@
     "lng": "77.1708",
     "weight": 19.8,
     "radius": 0.1242742,
-    "crimeTag": "streetHarassment",
+    "crimeTag": "Street Harassment",
     "intensity": "3"
   },
   {
@@ -350,7 +350,7 @@
     "lng": "77.2149",
     "weight": 18,
     "radius": 0.1242742,
-    "crimeTag": "humanTrafficking",
+    "crimeTag": "Human Trafficking",
     "intensity": "3"
   },
   {
@@ -358,7 +358,7 @@
     "lng": "77.1447",
     "weight": 19.439999999999998,
     "radius": 0.1242742,
-    "crimeTag": "eveTeasing",
+    "crimeTag": "Eve-Teasing",
     "intensity": "4"
   },
   {
@@ -366,23 +366,23 @@
     "lng": "77.111",
     "weight": 24,
     "radius": 0.1242742,
-    "crimeTag": "abduction",
+    "crimeTag": "Abduction",
     "intensity": "5"
   },
   {
     "lat": "28.7604",
-    "lng": "77.1491\t",
+    "lng": "77.1491",
     "weight": 16.5,
     "radius": 0.1242742,
-    "crimeTag": "assaultOnWomen",
+    "crimeTag": "Assault On Women",
     "intensity": "3"
   },
   {
     "lat": "28.6962",
-    "lng": "77.2577\t",
+    "lng": "77.2577",
     "weight": 16.2,
     "radius": 0.1242742,
-    "crimeTag": "eveTeasing",
+    "crimeTag": "Eve-Teasing",
     "intensity": "4"
   },
   {
@@ -390,7 +390,7 @@
     "lng": "77.2903",
     "weight": 30,
     "radius": 0.1242742,
-    "crimeTag": "rape",
+    "crimeTag": "Rape",
     "intensity": "5"
   },
   {
@@ -398,7 +398,7 @@
     "lng": "77.2871",
     "weight": 19.8,
     "radius": 0.1242742,
-    "crimeTag": "streetHarassment",
+    "crimeTag": "Street Harassment",
     "intensity": "4"
   },
   {
@@ -406,7 +406,7 @@
     "lng": "77.2342",
     "weight": 18,
     "radius": 0.1242742,
-    "crimeTag": "humanTrafficking",
+    "crimeTag": "Human Trafficking",
     "intensity": "3"
   },
   {
@@ -414,7 +414,7 @@
     "lng": "77.3147",
     "weight": 19.439999999999998,
     "radius": 0.1242742,
-    "crimeTag": "stalking",
+    "crimeTag": "Stalking",
     "intensity": "4"
   },
   {
@@ -422,7 +422,7 @@
     "lng": "77.2712",
     "weight": 36,
     "radius": 0.1242742,
-    "crimeTag": "rape",
+    "crimeTag": "Rape",
     "intensity": "5"
   },
   {
@@ -430,7 +430,7 @@
     "lng": "77.2169",
     "weight": 14.399999999999999,
     "radius": 0.1242742,
-    "crimeTag": "humanTrafficking",
+    "crimeTag": "Human Trafficking",
     "intensity": "3"
   }
 ]

@@ -20,6 +20,8 @@
     <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-routing.js?key=CWJAfJI3g4A97a1iL829ttj4PqwPPbws"></script>
     <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-geocoding.js?key=CWJAfJI3g4A97a1iL829ttj4PqwPPbws"></script>
 
+    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.s/mq-traffic.js?key=CWJAfJI3g4A97a1iL829ttj4PqwPPbws"></script>
+
     <!-- CSS and JS files for Search Box -->
     <script src="https://cdn-geoweb.s3.amazonaws.com/esri-leaflet/0.0.1-beta.5/esri-leaflet.js"></script>
     <script src="https://cdn-geoweb.s3.amazonaws.com/esri-leaflet-geocoder/0.0.1-beta.5/esri-leaflet-geocoder.js"></script>
@@ -89,463 +91,485 @@
   <!--<script src="js/find_route.js" type="text/javascript"></script> -->
 </html>
 <script>
-
-  var L, MQ, map, controlPointsData, rl, src, dst, inputClick, markerSrc, markerDst,circleOnCrimeZones,circleOnRecords;
+  var L,
+    MQ,
+    map,
+    controlPointsData,
+    rl,
+    src,
+    dst,
+    inputClick,
+    markerSrc,
+    markerDst,
+    circleOnCrimeZones,
+    circleOnRecords;
 
   var data = getData();
   data.then((data) => {
-  	console.log("######## Control Points Data ########");
-  	controlPointsData = data;
-  	console.log(controlPointsData);
-  
-  	console.log("#####################################");
+    console.log("######## Control Points Data ########");
+    controlPointsData = data;
+    console.log(controlPointsData);
 
+    console.log("#####################################");
   });
   var data_2 = getData_2();
   data_2.then((data_2) => {
-  	console.log("######## Records Data ########");
-  	records = data_2;
-  	console.log(records);
+    console.log("######## Records Data ########");
+    records = data_2;
+    console.log(records);
 
-  	console.log("#####################################");
-});
-
-  map = L.map('map', {
-  //layers: MQ.mapLayer(),
-  	center: [28.631494357545137, 77.11642742156982],
-  	zoom: 14
+    console.log("#####################################");
   });
+  var mapLayer = MQ.mapLayer(),
+    map = L.map("map", {
+      layers: mapLayer,
+      //layers: MQ.mapLayer(),
+      center: [28.631494357545137, 77.11642742156982],
+      zoom: 14,
+    });
 
-  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2hpdmFtZ2FyZ21hcGJveCIsImEiOiJjazZycm9uaDgwOGJ4M2VxaW5tYXp5ZGdzIn0.eORUyTlAxSmaXXP8j7o2zg', {
-  	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery Â© <a href="https://www.mapbox.com/">Mapbox</a>',
-  	maxZoom: 18,
-  	id: 'mapbox/streets-v11',
-  	tileSize: 512,
-  	zoomOffset: -1,
-  	accessToken: 'your.mapbox.access.token'
-  }).addTo(map);
+  L.tileLayer(
+    "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2hpdmFtZ2FyZ21hcGJveCIsImEiOiJjazZycm9uaDgwOGJ4M2VxaW5tYXp5ZGdzIn0.eORUyTlAxSmaXXP8j7o2zg",
+    {
+      attribution:
+        'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery Â© <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: "mapbox/streets-v11",
+
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: "your.mapbox.access.token",
+    }
+  ).addTo(map);
 
   // This adds a scale to the map
   L.control.scale().addTo(map);
 
   //function for src,dst input clicked
   function srcClicked() {
-  	inputClick = 1; //1 denotes src
-  	console.log("Value of inputClick set to: ",inputClick);
-  //    ele1 = document.getElementById("map");
-  //    console.log(ele1);
-  //    ele2 = ele1.getElementsByClassName("geocoder-control-input leaflet-bar")[0];
-  //    console.log(ele2);
-  //    ele2.focus();
-      document.getElementById("map").getElementsByClassName("geocoder-control-input leaflet-bar")[0].focus();
-      document.querySelector('#ipt').scrollIntoView({
-          behavior: 'smooth'
+    inputClick = 1; //1 denotes src
+    console.log("Value of inputClick set to: ", inputClick);
+    //    ele1 = document.getElementById("map");
+    //    console.log(ele1);
+    //    ele2 = ele1.getElementsByClassName("geocoder-control-input leaflet-bar")[0];
+    //    console.log(ele2);
+    //    ele2.focus();
+    document
+      .getElementById("map")
+      .getElementsByClassName("geocoder-control-input leaflet-bar")[0]
+      .focus();
+    document.querySelector("#ipt").scrollIntoView({
+      behavior: "smooth",
+    });
+    jQuery(".geocoder-control-input.leaflet-bar")
+      .addClass("emphasizeText")
+      .delay(1000)
+      .queue(function () {
+        jQuery(".geocoder-control-input.leaflet-bar")
+          .removeClass("emphasizeText")
+          .dequeue();
       });
-      jQuery(".geocoder-control-input.leaflet-bar").addClass("emphasizeText").delay(1000).queue(function() {
-          jQuery(".geocoder-control-input.leaflet-bar").removeClass("emphasizeText").dequeue();
-  	});
   }
   function dstClicked() {
-  	inputClick = 2; //2 denotes dst
-  	console.log("Value of inputClick set to: ", inputClick);
+    inputClick = 2; //2 denotes dst
+    console.log("Value of inputClick set to: ", inputClick);
 
-      document.getElementById("map").getElementsByClassName("geocoder-control-input leaflet-bar")[0].focus();
-      document.querySelector('#ipt').scrollIntoView({
-          behavior: 'smooth'
-      });
-      jQuery(".geocoder-control-input.leaflet-bar").addClass("emphasizeText").delay(1000).queue(function() {
-          jQuery(".geocoder-control-input.leaflet-bar").removeClass("emphasizeText").dequeue();
+    document
+      .getElementById("map")
+      .getElementsByClassName("geocoder-control-input leaflet-bar")[0]
+      .focus();
+    document.querySelector("#ipt").scrollIntoView({
+      behavior: "smooth",
+    });
+    jQuery(".geocoder-control-input.leaflet-bar")
+      .addClass("emphasizeText")
+      .delay(1000)
+      .queue(function () {
+        jQuery(".geocoder-control-input.leaflet-bar")
+          .removeClass("emphasizeText")
+          .dequeue();
       });
   }
 
   //This add a Search bar
   var searchControl = new L.esri.Controls.Geosearch({
-  	position: 'topright',
-  	//expanded: true,
-  	useMapBounds: true,
-  	//collapseAfterResult: false,
-  	placeholder: 'GTBIT',
-  	title: 'Search'
+    position: "topright",
+    //expanded: true,
+    useMapBounds: true,
+    //collapseAfterResult: false,
+    placeholder: "GTBIT",
+    title: "Search",
   }).addTo(map);
 
   var results = new L.LayerGroup().addTo(map);
 
   //get values of searched location
-  searchControl.on('results', function(data){
-  	results.clearLayers();
-  	//console.log(data);
-  	//console.log(data.results[0]);
+  searchControl.on("results", function (data) {
+    results.clearLayers();
+    //console.log(data);
+    //console.log(data.results[0]);
 
-  	var location = data.results[0];
+    var location = data.results[0];
 
-  	if(inputClick === 1) //source input box clicked
-  	{
-  		src = location.latlng;
-  		if(!map.hasLayer(markerSrc))
-  			markerSrc = L.marker(location.latlng).addTo(map);
-  		else
-  			markerSrc.setLatLng(location.latlng);
-  		document.getElementById('src').value = location.text;
-  	}
-  	else if(inputClick === 2) //destination input box clicked
-  	{
-  		dst = location.latlng;
-  		if(!map.hasLayer(markerDst))
-  			markerDst = L.marker(location.latlng).addTo(map);
-  		else
-  			markerDst.setLatLng(location.latlng);
-  		document.getElementById('dst').value = location.text;
-  	}
-  	//else normal search on map
-  	else
-  	{
-  		if(markerSrc)
-  			map.removeLayer(markerSrc);
-  		if(markerDst)
-  			map.removeLayer(markerDst);
+    if (inputClick === 1) {
+      //source input box clicked
+      src = location.latlng;
+      if (!map.hasLayer(markerSrc))
+        markerSrc = L.marker(location.latlng).addTo(map);
+      else markerSrc.setLatLng(location.latlng);
+      document.getElementById("src").value = location.text;
+    } else if (inputClick === 2) {
+      //destination input box clicked
+      dst = location.latlng;
+      if (!map.hasLayer(markerDst))
+        markerDst = L.marker(location.latlng).addTo(map);
+      else markerDst.setLatLng(location.latlng);
+      document.getElementById("dst").value = location.text;
+    }
+    //else normal search on map
+    else {
+      if (markerSrc) map.removeLayer(markerSrc);
+      if (markerDst) map.removeLayer(markerDst);
 
-  		for (var i = data.results.length - 1; i >= 0; i--) {
-  			results.addLayer(L.marker(data.results[i].latlng));
-  		}
-  	}
+      for (var i = data.results.length - 1; i >= 0; i--) {
+        results.addLayer(L.marker(data.results[i].latlng));
+      }
+    }
   });
 
   var popupSearch = L.popup();
   var popupOpen = false;
 
   //enable map clicking for exact location
-  map.on('click', function (e) {
-
-  	if(inputClick === 1){
-  		src = e.latlng; //update src location after clicking on map
-  		if(!map.hasLayer(markerSrc))
-  			markerSrc = L.marker(e.latlng).addTo(map);
-  		else
-  			markerSrc.setLatLng(e.latlng);
-  		document.getElementById('src').value = src;
-  		console.log('Source set to: ',src);
-  	}
-  	else if(inputClick === 2){
-  		dst = e.latlng; //update dst location after clicking on map
-  		if(!map.hasLayer(markerDst))
-  			markerDst = L.marker(e.latlng).addTo(map);
-  		else
-  			markerDst.setLatLng(e.latlng);
-  		document.getElementById('dst').value = dst;
-  		console.log('Destination set to: ',dst);
-  	}
-  	//normal click on map for information of place
-  	else
-  	{
-  		if(!popupOpen)
-  		{
-  			popupSearch
-  				.setLatLng(e.latlng)
-  				.setContent("You clicked the map at " + e.latlng.toString())
-  				.openOn(map);
-  			popupOpen = true;
-  		}
-
-
-  		else
-  		{
-  			map.closePopup();
-  			popupOpen = false;
-  		}
-  	}
+  map.on("click", function (e) {
+    if (inputClick === 1) {
+      src = e.latlng; //update src location after clicking on map
+      if (!map.hasLayer(markerSrc)) markerSrc = L.marker(e.latlng).addTo(map);
+      else markerSrc.setLatLng(e.latlng);
+      document.getElementById("src").value = src;
+      console.log("Source set to: ", src);
+    } else if (inputClick === 2) {
+      dst = e.latlng; //update dst location after clicking on map
+      if (!map.hasLayer(markerDst)) markerDst = L.marker(e.latlng).addTo(map);
+      else markerDst.setLatLng(e.latlng);
+      document.getElementById("dst").value = dst;
+      console.log("Destination set to: ", dst);
+    }
+    //normal click on map for information of place
+    else {
+      if (!popupOpen) {
+        popupSearch
+          .setLatLng(e.latlng)
+          .setContent("You clicked the map at " + e.latlng.toString())
+          .openOn(map);
+        popupOpen = true;
+      } else {
+        map.closePopup();
+        popupOpen = false;
+      }
+    }
   });
 
   //-- Define radius function used in middlePoint() function
-  if (typeof (Number.prototype.toRad) === "undefined") {
-      Number.prototype.toRad = function () {
-          return this * Math.PI / 180;
-      }
+  if (typeof Number.prototype.toRad === "undefined") {
+    Number.prototype.toRad = function () {
+      return (this * Math.PI) / 180;
+    };
   }
 
   //-- Define degrees function used in middlePoint() function
-  if (typeof (Number.prototype.toDeg) === "undefined") {
-      Number.prototype.toDeg = function () {
-          return this * (180 / Math.PI);
-      }
+  if (typeof Number.prototype.toDeg === "undefined") {
+    Number.prototype.toDeg = function () {
+      return this * (180 / Math.PI);
+    };
   }
 
   //find middle point from given coordinates
   function middlePoint(lat1, lng1, lat2, lng2) {
+    //-- Longitude difference
+    var dLng = (lng2 - lng1).toRad();
 
-      //-- Longitude difference
-      var dLng = (lng2 - lng1).toRad();
+    //-- Convert to radians
+    lat1 = lat1.toRad();
+    lat2 = lat2.toRad();
+    lng1 = lng1.toRad();
 
-      //-- Convert to radians
-      lat1 = lat1.toRad();
-      lat2 = lat2.toRad();
-      lng1 = lng1.toRad();
+    var bX = Math.cos(lat2) * Math.cos(dLng);
+    var bY = Math.cos(lat2) * Math.sin(dLng);
+    var lat3 = Math.atan2(
+      Math.sin(lat1) + Math.sin(lat2),
+      Math.sqrt((Math.cos(lat1) + bX) * (Math.cos(lat1) + bX) + bY * bY)
+    );
+    var lng3 = lng1 + Math.atan2(bY, Math.cos(lat1) + bX);
 
-      var bX = Math.cos(lat2) * Math.cos(dLng);
-      var bY = Math.cos(lat2) * Math.sin(dLng);
-      var lat3 = Math.atan2(Math.sin(lat1) + Math.sin(lat2), Math.sqrt((Math.cos(lat1) + bX) * (Math.cos(lat1) + bX) + bY * bY));
-      var lng3 = lng1 + Math.atan2(bY, Math.cos(lat1) + bX);
-
-      //-- Return result
-      return {"lat":lat3.toDeg(), "lng":lng3.toDeg()};
+    //-- Return result
+    return { lat: lat3.toDeg(), lng: lng3.toDeg() };
   }
 
   //find distance btw 2 points on map, used for marking red(crime) zones
   function distanceBetweenPoints(lat1, lon1, lat2, lon2, unit) {
-  	if ((lat1 == lat2) && (lon1 == lon2)) {
-  		return 0;
-  	}
-  	else {
-  		var radlat1 = Math.PI * lat1/180;
-  		var radlat2 = Math.PI * lat2/180;
-  		var theta = lon1-lon2;
-  		var radtheta = Math.PI * theta/180;
-  		var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
-  		if (dist > 1) {
-  			dist = 1;
-  		}
-  		dist = Math.acos(dist);
-  		dist = dist * 180/Math.PI;
-  		dist = dist * 60 * 1.1515;
-  		if (unit=="K") { dist = dist * 1.609344 }
-  		if (unit=="N") { dist = dist * 0.8684 }
-  		return dist;
-  	}
+    if (lat1 == lat2 && lon1 == lon2) {
+      return 0;
+    } else {
+      var radlat1 = (Math.PI * lat1) / 180;
+      var radlat2 = (Math.PI * lat2) / 180;
+      var theta = lon1 - lon2;
+      var radtheta = (Math.PI * theta) / 180;
+      var dist =
+        Math.sin(radlat1) * Math.sin(radlat2) +
+        Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+      if (dist > 1) {
+        dist = 1;
+      }
+      dist = Math.acos(dist);
+      dist = (dist * 180) / Math.PI;
+      dist = dist * 60 * 1.1515;
+      if (unit == "K") {
+        dist = dist * 1.609344;
+      }
+      if (unit == "N") {
+        dist = dist * 0.8684;
+      }
+      return dist;
+    }
   }
 
   //mark the red crime zones on the map
-  function showCrimeZones()
-  {
-  	const midPoint = middlePoint(src.lat,src.lng,dst.lat,dst.lng);
-  	//console.log('midPoint ',midPoint);
+  function showCrimeZones() {
+    L.control
+      .layers(
+        {
+          Map: mapLayer,
+          Satellite: MQ.satelliteLayer(),
+          Hybrid: MQ.hybridLayer(),
+        },
+        {
+          "Traffic Flow": MQ.trafficLayer({ layers: ["flow"] }),
+          "Traffic Incidents": MQ.trafficLayer({ layers: ["incidents"] }),
+        }
+      )
+      .addTo(map);
+    const midPoint = middlePoint(src.lat, src.lng, dst.lat, dst.lng);
+    //console.log('midPoint ',midPoint);
 
-  	//half dustance of the route
-  	const pathRadius = distanceBetweenPoints(src.lat,src.lng,dst.lat,dst.lng)/2 + 2;
-  	//console.log("path raidus ",pathRadius);
+    //half dustance of the route
+    const pathRadius =
+      distanceBetweenPoints(src.lat, src.lng, dst.lat, dst.lng) / 2 + 2;
+    //console.log("path raidus ",pathRadius);
 
+    for (var i = 0, len = controlPointsData.length; i < len; i++) {
+      var x = controlPointsData[i];
+      var y = records[i];
 
-  	for (var i = 0, len = controlPointsData.length; i < len; i++)
-  	{
-  		var x = controlPointsData[i];
-		var y = records[i];
-  		
-		console.log(x.weight+" Weightbaji_1 " + y.weight + " Weightbaji_2");
+      //check if current point is in path
+      if (
+        distanceBetweenPoints(midPoint.lat, midPoint.lng, y.lat, y.lng) <
+        pathRadius
+      ) {
+        //(x.radius * 1609.34)
 
-
-  		//check if current point is in path
-  		if(distanceBetweenPoints(midPoint.lat,midPoint.lng,y.lat,y.lng) < pathRadius)
-  		{
-  //(x.radius * 1609.34)
-  			
-  				const generatePulsatingMarker = function (radius, color,labelText)
-  			{
-    			const cssStyle = `
-
-      		width: ${radius}px;
-      		height: ${radius}px;
-      		box-shadow: 0 0 0 ${color};
-    		`
-    			return L.divIcon(
-  				  {
-      			html: `<span style="${cssStyle}" class="pulse"/>`,
-  				text : labelText,
-    				})
-  			}
-  				
-				const pulsatingIcon_Records = generatePulsatingMarker((y.radius * 200 ), 'blue');
-
-  				
-				circleOnRecords = L.marker([y.lat, y.lng], {icon: pulsatingIcon_Records}).addTo(map).on("mouseover", onMapClick_y);
-  				circleOnRecords.on("mouseout" , onMapOut_y );
-
-  				function onMapClick_y(e)
-  				{
-
-  				for (var i = 0, len = records.length; i < len; i++)
-  				{
-					
-		  			
-  					
-					var y = records[i]; 
-  					
-					  if(String(y.lat) == e.latlng.lat)
-  					{
-  						var currentradius = y.radius;
-						var currentcrimetag = y.crimeTag;
-						var currentweight = y.weight ;
-						var lt = String(e.latlng.lat),
-    					lg = String(e.latlng.lng);
-    					var popup = L.popup()
-      					.setLatLng(e.latlng)
-      					.setContent("SafePoint : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
-      					.openOn(map);
-
-  					}
-				}
-  
-  				}
-      			
-  				
-  			function onMapOut_y(e)
-  			{
-      			map.closePopup();
-  			}
-  			}
-  			if(distanceBetweenPoints(midPoint.lat,midPoint.lng,x.lat,x.lng) < pathRadius)
-  			{
-  				const generatePulsatingMarker = function (radius, color,labelText)
-  			{
-    			const cssStyle = `
+        const generatePulsatingMarker = function (radius, color, labelText) {
+          const cssStyle = `
 
       		width: ${radius}px;
       		height: ${radius}px;
       		box-shadow: 0 0 0 ${color};
-    `
-    			return L.divIcon(
-  				  {
-      			html: `<span style="${cssStyle}" class="pulse_2"/>`,
-  				text : labelText,
-    				})
-  			}
-  				const pulsatingIcon = generatePulsatingMarker((x.radius * 400 ), 'red');
-				
-  				circleOnCrimeZones = L.marker([x.lat, x.lng], {icon: pulsatingIcon}).addTo(map).on("mouseover", onMapClick);
-  				circleOnCrimeZones.on("mouseout" , onMapOut );
-				
-  				function onMapClick(e)
-  				{
-  				for (var i = 0, len = controlPointsData.length; i < len; i++)
-  				{
-  					var x = controlPointsData[i];
-  					console.log(x+" waheguru");
-  					if(String(x.lat) == e.latlng.lat)
-  					{
-  						var currentradius = x.radius;
-						var currentcrimetag = x.crimeTag;
-						var currentweight = x.weight ;
-						var lt = String(e.latlng.lat),
-    					lg = String(e.latlng.lng);
-    					var popup = L.popup()
-      					.setLatLng(e.latlng)
-      					.setContent("Mishappening : " + currentcrimetag + '<br>' + "Weight : " + currentweight)
-      					.openOn(map);
+    		`;
+          return L.divIcon({
+            html: `<span style="${cssStyle}" class="pulse"/>`,
+            text: labelText,
+          });
+        };
 
-  					}
-					  
-				}
-  	//check if current point is in path
-  				}
-      			
-      //'click' the new marker to show the ID when marker created
-  				}
-  				function onMapOut(e)
-  				{
-      			map.closePopup();
-      //'click' the new marker to show the ID when marker created
-  				}
-  			}
-  		}
-  	
-  
+        const pulsatingIcon_Records = generatePulsatingMarker(
+          y.radius * 150,
+          "blue"
+        );
+
+        circleOnRecords = L.marker([y.lat, y.lng], {
+          icon: pulsatingIcon_Records,
+        })
+          .addTo(map)
+          .on("mouseover", onMapClick_y);
+        circleOnRecords.on("mouseout", onMapOut_y);
+
+        function onMapClick_y(e) {
+          for (var i = 0, len = records.length; i < len; i++) {
+            var y = records[i];
+
+            if (String(y.lat) == e.latlng.lat) {
+              var currentradius = y.radius;
+              var currentcrimetag = y.crimeTag;
+              var currentweight = y.intensity;
+              var lt = String(e.latlng.lat),
+                lg = String(e.latlng.lng);
+              var popup = L.popup()
+                .setLatLng(e.latlng)
+                .setContent(
+                  "Safe Point : " +
+                    currentcrimetag +
+                    "<br>" +
+                    "Safety Index : " +
+                    currentweight
+                )
+                .openOn(map);
+            }
+          }
+        }
+
+        function onMapOut_y(e) {
+          map.closePopup();
+        }
+      }
+      if (
+        distanceBetweenPoints(midPoint.lat, midPoint.lng, x.lat, x.lng) <
+        pathRadius
+      ) {
+        const generatePulsatingMarker = function (radius, color, labelText) {
+          const cssStyle = `
+
+      		width: ${radius}px;
+      		height: ${radius}px;
+      		box-shadow: 0 0 0 ${color};
+    `;
+          return L.divIcon({
+            html: `<span style="${cssStyle}" class="pulse_2"/>`,
+            text: labelText,
+          });
+        };
+        const pulsatingIcon = generatePulsatingMarker(x.radius * 150, "red");
+
+        circleOnCrimeZones = L.marker([x.lat, x.lng], { icon: pulsatingIcon })
+          .addTo(map)
+          .on("mouseover", onMapClick);
+        circleOnCrimeZones.on("mouseout", onMapOut);
+
+        function onMapClick(e) {
+          for (var i = 0, len = controlPointsData.length; i < len; i++) {
+            var x = controlPointsData[i];
+            if (String(x.lat) == e.latlng.lat) {
+              var currentradius = x.radius;
+              var currentcrimetag = x.crimeTag;
+              var currentweight = x.intensity;
+              var lt = String(e.latlng.lat),
+                lg = String(e.latlng.lng);
+              var popup = L.popup()
+                .setLatLng(e.latlng)
+                .setContent(
+                  "Mishappening : " +
+                    currentcrimetag +
+                    "<br>" +
+                    "Rate of Occurance : " +
+                    currentweight
+                )
+                .openOn(map);
+            }
+          }
+          //check if current point is in path
+        }
+
+        //'click' the new marker to show the ID when marker created
+      }
+      function onMapOut(e) {
+        map.closePopup();
+        //'click' the new marker to show the ID when marker created
+      }
+    }
+  }
 
   //function to find route
   function routeIt() {
-  	//find narrative for route on success
-  	dir = MQ.routing.directions()
-  			.on('success', function(data) {
-  			console.log("reached directions");
-  			var legs = data.route.legs,  
-  				html = '',
-  				maneuvers,
-  				i  , time1 , num ; //= data.route.distance;
+    //find narrative for route on success
+    dir = MQ.routing.directions().on("success", function (data) {
+      console.log("reached directions");
+      var legs = data.route.legs,
+        html = "",
+        maneuvers,
+        i,
+        time1,
+        num; //= data.route.distance;
 
-		 //   console.log(legs[0].maneuver) ;
-  			if (legs && legs.length) {
-				  maneuvers = legs[0].maneuvers;
-		//   console.log( maneuvers.signs) ;
+      if (legs && legs.length) {
+        maneuvers = legs[0].maneuvers;
+        console.log(maneuvers.signs);
 
-  				for (i=0; i < maneuvers.length; i++) {
-  					html += '<br>' ;
-  					html += (i+1) + '. ';
-  					html += maneuvers[i].narrative + '<br>' ;
-					/* num = (maneuvers[i].signs) ;
-					console.log(num); */
+        for (i = 0; i < maneuvers.length; i++) {
+          html += "<br>";
+          html += i + 1 + ". ";
+          html += maneuvers[i].narrative + "<br>";
+          /* num = (maneuvers[i].signs) ;
+						console.log(num); */
+        }
+        //console.log("dis"+ time1 ) ;
+        var dir = "DIRECTIONS";
+        var res = dir;
+        L.DomUtil.get("route-narrative").innerHTML =
+          "<br>" + res + "<br>" + html + "<br>"; //+ time1;
+      }
+    });
 
-  				}
-				//console.log("dis"+ time1 ) ;
-  				var dir = "DIRECTIONS" ;
-  				var res = dir ; 
-  				L.DomUtil.get('route-narrative').innerHTML = '<br>' + res + '<br>' + html + '<br>'; //+ time1;
-  			}
-  		});
+    if (markerSrc) map.removeLayer(markerSrc);
+    if (markerDst) map.removeLayer(markerDst);
+    if (circleOnCrimeZones) map.removeLayer(circleOnCrimeZones);
+    if (circleOnRecords) map.removeLayer(circleOnRecords);
+    inputClick = undefined; //reset the input box click
 
-  	if(markerSrc)
-  		map.removeLayer(markerSrc);
-  	if(markerDst)
-  		map.removeLayer(markerDst);
-  	if(circleOnCrimeZones)
-  		map.removeLayer(circleOnCrimeZones);
-	if(circleOnRecords)
-	    map.removeLayer(circleOnRecords);
-  	inputClick = undefined; //reset the input box click
+    //add circles for crime zones lying in the visible path
+    showCrimeZones();
 
-  	//add circles for crime zones lying in the visible path
-  	showCrimeZones();
+    //if search bar is used to determine exact coordinates of src and dst
+    if (src && dst) {
+      dir.route({
+        locations: [
+          { latLng: { lat: src.lat, lng: src.lng } },
+          { latLng: { lat: dst.lat, lng: dst.lng } },
+          //'28.671023, 77.15017',
+          //'28.47978, 77.095177'
+          // 28.671023 ; 77.15017   ; Raghav
+          // 28.47978  ;Â 77.095177  ; Cheenu
+          // 28.673561 ; 77.140227  ; Punjabi Chowk Coordinates.
+        ],
+        options: {
+          routeControlPointCollection: controlPointsData,
+        },
+      });
+      console.log("routed");
+      //src = dst = undefined;
+    }
+    //else get src and dst values from input boxes of our page as names
+    //and lets its geocoder find coordinates by itself in finding route
+    else {
+      src = document.getElementById("src").value;
+      dst = document.getElementById("dst").value;
 
-  	//if search bar is used to determine exact coordinates of src and dst
-  	if(src && dst)
-  	{
-  		dir.route({
-  			locations: [
-  				{latLng: {lat: src.lat, lng: src.lng}},
-  				{latLng: {lat: dst.lat, lng: dst.lng}}
-  				//'28.671023, 77.15017',
-  				//'28.47978, 77.095177'
-  				// 28.671023 ; 77.15017   ; Raghav
-  				// 28.47978  ;Â 77.095177  ; Cheenu
-  				// 28.673561 ; 77.140227  ; Punjabi Chowk Coordinates.
-  			],
-  			options: {
-  				routeControlPointCollection: controlPointsData
-  			}
-  		});
-  		console.log("routed");
-  		//src = dst = undefined;
-  	}
-  	//else get src and dst values from input boxes of our page as names
-  	//and lets its geocoder find coordinates by itself in finding route
-  	else
-  	{
-  		src = document.getElementById('src').value;
-  		dst = document.getElementById('dst').value;
+      dir.route({
+        locations: [
+          src,
+          dst,
+          //{latLng: {lat: src.lat, lng: src.lng}},
+          //{latLng: {lat: dst.lat, lng: dst.lng}}
+          //'28.671023, 77.15017',
+          //'28.47978, 77.095177'
+          // 28.671023 ; 77.15017   ; Raghav
+          // 28.47978  ;Â 77.095177  ; Cheenu
+          // 28.673561 ; 77.140227  ; Punjabi Chowk Coordinates.
+        ],
+        options: {
+          routeControlPointCollection: controlPointsData,
+        },
+      });
+      //src = dst = undefined;
+    }
 
-  		dir.route({
-  			locations: [
-  				src,
-  				dst
-  				//{latLng: {lat: src.lat, lng: src.lng}},
-  				//{latLng: {lat: dst.lat, lng: dst.lng}}
-  				//'28.671023, 77.15017',
-  				//'28.47978, 77.095177'
-  				// 28.671023 ; 77.15017   ; Raghav
-  				// 28.47978  ;Â 77.095177  ; Cheenu
-  				// 28.673561 ; 77.140227  ; Punjabi Chowk Coordinates.
-  			],
-  			options: {
-  				routeControlPointCollection: controlPointsData
-  			}
-  		});
-  		//src = dst = undefined;
-  	}
+    if (rl) {
+      map.removeLayer(rl);
+    }
 
-  	if (rl) {
-  		map.removeLayer(rl);
-  	}
-
-  	rl = MQ.routing.routeLayer({
-  		directions: dir,
-  		fitBounds: true
-  	});
-  	map.addLayer(rl);
-  	console.log("Direction Set and layer added.");
+    rl = MQ.routing.routeLayer({
+      directions: dir,
+      fitBounds: true,
+    });
+    map.addLayer(rl);
+    console.log("Direction Set and layer added.");
   }
 </script>

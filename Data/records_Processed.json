@@ -3,258 +3,258 @@
   {
     "lat": "28.592946220641156",
     "lng": "77.06368446350098",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.2242742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "10"
   },
   {
     "lat": "28.695615682754877",
     "lng": "77.15286254882812",
-    "weight": -3,
+    "weight": -30,
     "radius": 0.1242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "10"
   },
   {
     "lat": "28.6680562043989",
     "lng": "77.2774887084961",
-    "weight": -3,
+    "weight": -30,
     "radius": 0.1242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "10"
   },
   {
     "lat": "28.579003152080872",
     "lng": "77.1229076385498",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1722742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "10"
   },
   {
     "lat": "28.622936390865902",
     "lng": "77.24255561828613",
-    "weight": -3,
+    "weight": -30,
     "radius": 0.3242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "10"
   },
   {
     "lat": "28.540857534348667",
     "lng": "77.28375434875488",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1142742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "10"
   },
   {
     "lat": "28.556615008593305",
     "lng": "77.17517852783203",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.2242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "10"
   },
   {
     "lat": "28.61659103810356",
     "lng": "77.10805892944336",
-    "weight": -1,
+    "weight": -10,
     "radius": 0.1242742,
-    "crimeTag": "wellLight",
+    "crimeTag": "Well Lit",
     "intensity": "10"
   },
   {
     "lat": "28.60905616954856",
     "lng": "77.24092483520508",
-    "weight": -1,
+    "weight": -10,
     "radius": 0.1242742,
-    "crimeTag": "shop",
+    "crimeTag": "Shop",
     "intensity": "10"
   },
   {
     "lat": "28.630755127433563",
     "lng": "77.31061935424805",
-    "weight": -1,
+    "weight": -10,
     "radius": 0.1242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "10"
   },
   {
     "lat": "28.474694264302155",
     "lng": "77.30134963989258",
-    "weight": -1,
+    "weight": -10,
     "radius": 0.3242742,
-    "crimeTag": "wellLight",
+    "crimeTag": "Well Lit",
     "intensity": "10"
   },
   {
     "lat": "28.713277747372057",
     "lng": "77.26341247558594",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1242742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "10"
   },
   {
     "lat": "28.74281960169326",
     "lng": "77.10123538970947",
-    "weight": -3,
+    "weight": -30,
     "radius": 0.1242742,
-    "crimeTag": "shop",
+    "crimeTag": "Shop",
     "intensity": "10"
   },
   {
     "lat": "28.721444929285617",
     "lng": "77.21466064453125",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1242742,
-    "crimeTag": "shop",
+    "crimeTag": "Shop",
     "intensity": "10"
   },
   {
     "lat": "28.664374234299316",
     "lng": "77.2699785232544",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1242742,
-    "crimeTag": "shop",
+    "crimeTag": "Shop",
     "intensity": "10"
   },
   {
     "lat": "28.646297874346835",
     "lng": "77.3157262802124",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "10"
   },
   {
     "lat": "28.564425723158845",
     "lng": "77.23320007324219",
-    "weight": -3,
+    "weight": -30,
     "radius": 0.1242742,
-    "crimeTag": "wellLight",
+    "crimeTag": "Well Lit",
     "intensity": "10"
   },
   {
     "lat": "28.702286800245677",
     "lng": "77.2833251953125",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1242742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "10"
   },
   {
     "lat": "28.502480066225502",
     "lng": "77.28594303131104",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1242742,
-    "crimeTag": "wellLight",
+    "crimeTag": "Well Lit",
     "intensity": "10"
   },
   {
     "lat": "28.758960602131214",
     "lng": "77.14942932128906",
-    "weight": -3,
+    "weight": -30,
     "radius": 0.1242742,
-    "crimeTag": "wellLight",
+    "crimeTag": "Well Lit",
     "intensity": "10"
   },
   {
     "lat": "28.512285212220586",
     "lng": "77.11003303527832",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1242742,
-    "crimeTag": "wellLight",
+    "crimeTag": "Well Lit",
     "intensity": "10"
   },
   {
     "lat": "28.726789007194945",
     "lng": "77.14277744293213",
-    "weight": -3,
+    "weight": -30,
     "radius": 0.1242742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "10"
   },
   {
     "lat": "28.71610057822557",
     "lng": "77.17050075531006",
-    "weight": -1,
+    "weight": -10,
     "radius": 0.1242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "10"
   },
   {
     "lat": "28.66588045694242",
     "lng": "77.21414566040039",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1242742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "10"
   },
   {
     "lat": "28.615108830889145",
     "lng": "77.08488464355469",
-    "weight": -1,
+    "weight": -10,
     "radius": 0.1242742,
-    "crimeTag": "wellLight",
+    "crimeTag": "Well Lit",
     "intensity": "10"
   },
   {
     "lat": "28.643209517873146",
     "lng": "77.21933841705322",
-    "weight": -1,
+    "weight": -10,
     "radius": 0.1242742,
-    "crimeTag": "wellLight",
+    "crimeTag": "Well Lit",
     "intensity": "10"
   },
   {
     "lat": "28.646486185824617",
     "lng": "77.2922945022583",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1242742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "10"
   },
   {
     "lat": "28.625543878277032",
     "lng": "77.20024108886719",
-    "weight": -2,
+    "weight": -20,
     "radius": 0.1242742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "10"
   },
   {
     "lat": "28.629800477022158",
     "lng": "77.27753162384033",
-    "weight": -3,
+    "weight": -30,
     "radius": 0.1242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "10"
   },
 
   {
     "lat": "28.647796118185838",
     "lng": "77.2514820098877",
-    "weight": -1.5,
+    "weight": -10.5,
     "radius": 0.1242742,
-    "crimeTag": "wellLit",
+    "crimeTag": "Well Lit",
     "intensity": "1"
   },
   {
     "lat": "28.569430353790718",
     "lng": "77.18822479248047",
-    "weight": -3.4,
+    "weight": -30.4,
     "radius": 0.1242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "1"
   },
   {
     "lat": "28.656759241473647",
     "lng": "77.26530075073242",
-    "weight": -5.4,
+    "weight": -50.4,
     "radius": 0.1242742,
-    "crimeTag": "WellPopulated",
+    "crimeTag": "Populated Area",
     "intensity": "1"
   },
   {
@@ -262,7 +262,7 @@
     "lng": "77.18101501464844",
     "weight": -5.4,
     "radius": 0.1242742,
-    "crimeTag": "WellPopulated",
+    "crimeTag": "Populated Area",
     "intensity": "1"
   },
   {
@@ -270,7 +270,7 @@
     "lng": "77.18101501464844",
     "weight": -5.4,
     "radius": 0.1242742,
-    "crimeTag": "WellPopulated",
+    "crimeTag": "Populated Area",
     "intensity": "1"
   },
   {
@@ -278,7 +278,7 @@
     "lng": "77.03604698181152",
     "weight": -5.4,
     "radius": 0.1242742,
-    "crimeTag": "WellPopulated",
+    "crimeTag": "Populated Area",
     "intensity": "1"
   },
   {
@@ -286,7 +286,7 @@
     "lng": "77.07158088684082",
     "weight": -3.3,
     "radius": 0.1242742,
-    "crimeTag": "wellLit",
+    "crimeTag": "Well Lit",
     "intensity": "1"
   },
   {
@@ -294,7 +294,7 @@
     "lng": "77.18238830566406",
     "weight": -5.5,
     "radius": 0.1242742,
-    "crimeTag": "WellPopulated",
+    "crimeTag": "Populated Area",
     "intensity": "1"
   },
   {
@@ -302,7 +302,7 @@
     "lng": "77.2829818725586",
     "weight": -2.5,
     "radius": 0.1242742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "1"
   },
 
@@ -311,7 +311,7 @@
     "lng": "77.11398124694824",
     "weight": -1.5,
     "radius": 0.01542742,
-    "crimeTag": "wellLit",
+    "crimeTag": "Well Lit",
     "intensity": "1"
   },
   {
@@ -319,7 +319,7 @@
     "lng": "77.12616920471191",
     "weight": -1.6,
     "radius": 0.3728226,
-    "crimeTag": "wellLit",
+    "crimeTag": "Well Lit",
     "intensity": "2"
   },
   {
@@ -327,7 +327,7 @@
     "lng": "77.13868975639342",
     "weight": -2.5,
     "radius": 0.1864113,
-    "crimeTag": "shop",
+    "crimeTag": "Shop",
     "intensity": "1"
   },
   {
@@ -343,7 +343,7 @@
     "lng": "77.18650817871094",
     "weight": -5.5,
     "radius": 0.1864113,
-    "crimeTag": "WellPopulated",
+    "crimeTag": "Populated Area",
     "intensity": "2"
   },
   {
@@ -351,7 +351,7 @@
     "lng": "77.04129338264465",
     "weight": -1.4,
     "radius": 0.2164113,
-    "crimeTag": "WellLit",
+    "crimeTag": "Well Lit",
     "intensity": "2"
   },
   {
@@ -359,7 +359,7 @@
     "lng": "77.15286254882812",
     "weight": -3.3,
     "radius": 0.1242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "1"
   },
   {
@@ -367,7 +367,7 @@
     "lng": "77.2774887084961",
     "weight": -3.4,
     "radius": 0.1242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "1"
   },
   {
@@ -375,7 +375,7 @@
     "lng": "77.1229076385498",
     "weight": -2.5,
     "radius": 0.1722742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "1"
   },
   {
@@ -383,7 +383,7 @@
     "lng": "77.24255561828613",
     "weight": -3.4,
     "radius": 0.3242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "1"
   },
   {
@@ -391,7 +391,7 @@
     "lng": "77.28375434875488",
     "weight": -2.4,
     "radius": 0.1142742,
-    "crimeTag": "hospital",
+    "crimeTag": "Hospital",
     "intensity": "1"
   },
   {
@@ -399,7 +399,7 @@
     "lng": "77.17517852783203",
     "weight": -2.4,
     "radius": 0.2242742,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "1"
   },
   {
@@ -415,7 +415,7 @@
     "lng": "77.21178531646729",
     "weight": -3.6,
     "radius": 0.1264113,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "2"
   },
   {
@@ -423,7 +423,7 @@
     "lng": "77.18543529510498",
     "weight": -3.5,
     "radius": 0.2164113,
-    "crimeTag": "metro",
+    "crimeTag": "Metro Station",
     "intensity": "2"
   },
   {
