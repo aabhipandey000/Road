@@ -43,5 +43,14 @@
       "intensity": "3",
       "place": "bahadur shah zafar marg",
       "time": "11:47:00AM"
+   },
+   {
+      "latitude": "28.62325000000004",
+      "longitude": "77.11682000000008",
+      "radius": "0.1",
+      "crimeTag": "humanTrafficking",
+      "intensity": "2",
+      "place": "Green View Apartments",
+      "time": "9:06:00PM"
    }
 ]
