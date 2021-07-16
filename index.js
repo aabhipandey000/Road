@@ -63,7 +63,7 @@ app.post('/handleFormSubmit', (req, res) => {
 	//path of json file
 	rawDataFilePath = path.join(__dirname, 'Data', 'crimeRecordsRaw.json');
 	processedDataFilePath = path.join(__dirname, 'Data', 'crimeRecordsProcessed.json');
-	recordsDataFilePath = path.join(__dirname, 'Data', 'records_Processed.json');
+	
 
 	//convert 24 hr time to 12 hr time
 	function tConvert (time) {
@@ -118,18 +118,8 @@ app.post('/handleFormSubmit', (req, res) => {
 			});
 		});
 
-		fs.readFile(recordsDataFilePath, (err, data) => {
-			if(err) throw err;
-			
-			var recordsDataJS = JSON.parse(data);
-			newDataRecords = controlPointRoutes.getControlPointsData(newData);
-			recordsDataJS.push(newDataProcessed);
-			fs.writeFile(recordsDataFilePath, JSON.stringify(recordsDataJS, null, 3), err => {
-				if(err) throw err;
-				
-				return res.send("Success! Your post has been saved.");
-			});
-		});
+		
+
 	});
 
 });

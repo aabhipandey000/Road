@@ -1,0 +1,92 @@
+[
+   {
+      "latitude": "28.611753",
+      "longitude": "77.038982",
+      "radius": "0.02",
+      "crimeTag": "attack",
+      "intensity": "1",
+      "place": "Front of clinic in NSIT because of aggressive dogs",
+      "time": "9:00:00PM"
+   },
+   {
+      "latitude": "28.60752",
+      "longitude": "77.036602",
+      "radius": "0.01",
+      "crimeTag": "theft",
+      "intensity": "1",
+      "place": "Crossway in staff quarters, NSIT",
+      "time": "12:00:00AM"
+   },
+   {
+      "latitude": "28.612876",
+      "longitude": "77.039192",
+      "radius": "0.03",
+      "crimeTag": "attack",
+      "intensity": "3",
+      "place": "Where Mayukh was attacked in NSIT",
+      "time": "1:00:00PM"
+   },
+   {
+      "latitude": "28.612072693437813",
+      "longitude": "77.0362937450409",
+      "radius": "0.1",
+      "crimeTag": "attack",
+      "intensity": "2",
+      "place": "mccain",
+      "time": "1:01:00PM"
+   },
+   {
+      "latitude": "28.613653445573668",
+      "longitude": "77.03677654266357",
+      "radius": "0.1",
+      "crimeTag": "murder",
+      "intensity": "2",
+      "place": "wkjdnwq",
+      "time": "1:03:00PM"
+   },
+   {
+      "latitude": "28.650524208715236",
+      "longitude": "77.1601152420044",
+      "radius": "5",
+      "crimeTag": "vehicleAccident",
+      "intensity": "4",
+      "place": "xyz",
+      "time": "10:35:00PM"
+   },
+   {
+      "latitude": "28.63768",
+      "longitude": "77.09913",
+      "radius": "0.5",
+      "crimeTag": "kidnapping",
+      "intensity": "3",
+      "place": "xyz",
+      "time": "4:40:00PM"
+   },
+   {
+      "latitude": "28.628672336250446",
+      "longitude": "77.11179256439209",
+      "radius": "0.1",
+      "crimeTag": "theft",
+      "intensity": "3",
+      "place": "dfawd",
+      "time": "9:15:00PM"
+   },
+   {
+      "latitude": "28.626902531327552",
+      "longitude": "77.10471153259277",
+      "radius": "0.2",
+      "crimeTag": "rape",
+      "intensity": "3",
+      "place": "Green View Apartments",
+      "time": "9:55:00PM"
+   },
+   {
+      "latitude": "28.62325000000004",
+      "longitude": "77.11682000000008",
+      "radius": "0.2",
+      "crimeTag": "assaultOnWomen",
+      "intensity": "2",
+      "place": "Green View Apartments",
+      "time": "10:56:00PM"
+   }
+]

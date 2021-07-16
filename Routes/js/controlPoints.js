@@ -113,6 +113,20 @@ function calculateWeight(tag, intensity, time) {
 
 	return weight;
 }
+module.exports = {
+    getControlPointsData: function(data){
 
+            // Preparing controlPoint record.
+            var controlPoint = {
+                "lat": data.latitude,
+                "lng": data.longitude,
+                "weight": calculateWeight(data.crimeTag, data.intensity, data.time),
+                "radius": (data.radius) * 0.621371,  // Mutilplying 0.621371 for miles
+                "crimeTag": data.crimeTag,
+                "intensity": data.intensity
+            }
+        return controlPoint;
+    }
+};
 
 
