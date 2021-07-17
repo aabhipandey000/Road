@@ -342,10 +342,6 @@
           Map: mapLayer,
           Satellite: MQ.satelliteLayer(),
           Hybrid: MQ.hybridLayer(),
-        },
-        {
-          "Traffic Flow": MQ.trafficLayer({ layers: ["flow"] }),
-          "Traffic Incidents": MQ.trafficLayer({ layers: ["incidents"] }),
         }
       )
       .addTo(map);

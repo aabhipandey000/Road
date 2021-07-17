@@ -106,5 +106,14 @@
       "intensity": "3",
       "place": "Bathla Apartments",
       "time": "12:48:00AM"
+   },
+   {
+      "latitude": "28.60526841833784",
+      "longitude": "77.11677074432373",
+      "radius": "0.1",
+      "crimeTag": "eveTeasing",
+      "intensity": "2",
+      "place": "Nangal Raya",
+      "time": "10:12:00AM"
    }
 ]

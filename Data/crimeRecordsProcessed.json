@@ -414,37 +414,5 @@
       "radius": 0.1242742,
       "crimeTag": "Stalking",
       "intensity": "4"
-   },
-   {
-      "lat": "28.664",
-      "lng": "77.2712",
-      "weight": 36,
-      "radius": 0.1242742,
-      "crimeTag": "Rape",
-      "intensity": "5"
-   },
-   {
-      "lat": "28.62325000000004",
-      "lng": "77.11682000000008",
-      "weight": 15.839999999999998,
-      "radius": 0.1242742,
-      "crimeTag": "assaultOnWomen",
-      "intensity": "2"
-   },
-   {
-      "lat": "28.62838000000005",
-      "lng": "77.30428000000006",
-      "weight": 22.5,
-      "radius": 0.1864113,
-      "crimeTag": "rape",
-      "intensity": "3"
-   },
-   {
-      "lat": "28.62838000000005",
-      "lng": "77.30428000000006",
-      "weight": 22.5,
-      "radius": 0.1864113,
-      "crimeTag": "rape",
-      "intensity": "3"
    }
 ]
