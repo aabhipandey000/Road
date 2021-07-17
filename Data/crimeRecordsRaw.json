@@ -88,5 +88,23 @@
       "intensity": "2",
       "place": "Green View Apartments",
       "time": "10:56:00PM"
+   },
+   {
+      "latitude": "28.62838000000005",
+      "longitude": "77.30428000000006",
+      "radius": "0.3",
+      "crimeTag": "rape",
+      "intensity": "3",
+      "place": "Bathla Apartments",
+      "time": "12:48:00AM"
+   },
+   {
+      "latitude": "28.62838000000005",
+      "longitude": "77.30428000000006",
+      "radius": "0.3",
+      "crimeTag": "rape",
+      "intensity": "3",
+      "place": "Bathla Apartments",
+      "time": "12:48:00AM"
    }
 ]

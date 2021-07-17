@@ -430,5 +430,21 @@
       "radius": 0.1242742,
       "crimeTag": "assaultOnWomen",
       "intensity": "2"
+   },
+   {
+      "lat": "28.62838000000005",
+      "lng": "77.30428000000006",
+      "weight": 22.5,
+      "radius": 0.1864113,
+      "crimeTag": "rape",
+      "intensity": "3"
+   },
+   {
+      "lat": "28.62838000000005",
+      "lng": "77.30428000000006",
+      "weight": 22.5,
+      "radius": 0.1864113,
+      "crimeTag": "rape",
+      "intensity": "3"
    }
 ]
